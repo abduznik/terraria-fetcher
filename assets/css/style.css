@@ -245,12 +245,12 @@ main {
 }
 
 .result-item .icon-slot {
-  width: 34px;
-  height: 34px;
+  width: 56px;
+  height: 56px;
   flex: 0 0 auto;
   background: var(--slot-bg);
   border: 2px solid var(--slot-border);
-  border-radius: 5px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -258,8 +258,8 @@ main {
 }
 
 .result-item .icon-slot img {
-  max-width: 26px;
-  max-height: 26px;
+  max-width: 46px;
+  max-height: 46px;
   image-rendering: pixelated;
 }
 
@@ -402,14 +402,32 @@ main {
   text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
 }
 
-.gear-col ul {
+.gear-col ul.gear-list {
   margin: 0;
-  padding-left: 18px;
+  padding-left: 0;
+  list-style: none;
   font-size: 0.94rem;
   color: var(--parchment);
 }
 
-.gear-col li { margin-bottom: 5px; }
+.gear-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.gear-icon {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+}
+
+.gear-icon img {
+  max-width: 38px;
+  max-height: 38px;
+  image-rendering: pixelated;
+}
 
 .notes {
   margin-top: 14px;
@@ -494,7 +512,7 @@ footer {
 
 .checklist-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   padding: 7px 6px;
   border-radius: 5px;
@@ -516,14 +534,22 @@ footer {
 }
 
 .checklist-icon {
-  width: 28px;
-  height: 28px;
+  width: 48px;
+  height: 48px;
   flex: 0 0 auto;
+  background: var(--slot-bg);
+  border: 2px solid var(--slot-border);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .checklist-icon img {
-  max-width: 22px;
-  max-height: 22px;
+  max-width: 38px;
+  max-height: 38px;
+  image-rendering: pixelated;
 }
 
 .checklist-text {

@@ -6,23 +6,23 @@
     "title": "Pre-Hardmode Melee",
     "summary": "High defense, close-range damage. Beat Skeletron and the Wall of Flesh with heavy hitters and strong armor.",
     "weapons": [
-      "Copper/Tin Shortsword → Muramasa or a Broadsword (world drop) early on",
-      "Fiery Greatsword (Underworld crate/drop) or Light's Bane / Blood Butcherer (crimson sword)",
-      "Bee Keeper (Queen Bee) or Terra Blade fragments not yet available here",
-      "Night's Edge (combine Muramasa, Fiery Greatsword, Blood Butcherer/Light's Bane, Blade of Grass at a Demon/Crimson Altar)",
-      "Flying weapon: Enchanted Sword / Starfury (Sky Crate, great AoE ranged-melee hybrid)",
-      "Boss finisher: Fiery Greatsword or Night's Edge into Wall of Flesh"
+      { "icon": "Muramasa", "label": "Copper/Tin Shortsword → Muramasa or a Broadsword (world drop) early on" },
+      { "icon": "Fiery Greatsword", "label": "Fiery Greatsword (Underworld crate/drop) or Light's Bane / Blood Butcherer (crimson sword)" },
+      { "icon": "Bee Keeper", "label": "Bee Keeper (Queen Bee) or Terra Blade fragments not yet available here" },
+      { "icon": "Night's Edge", "label": "Night's Edge (combine Muramasa, Fiery Greatsword, Blood Butcherer/Light's Bane, Blade of Grass at a Demon/Crimson Altar)" },
+      { "icon": "Starfury", "label": "Flying weapon: Enchanted Sword / Starfury (Sky Crate, great AoE ranged-melee hybrid)" },
+      { "icon": "Night's Edge", "label": "Boss finisher: Fiery Greatsword or Night's Edge into Wall of Flesh" }
     ],
     "armor": [
-      "Copper/Tin → Silver/Tungsten → Gold/Platinum starter sets",
-      "Shadow Armor (Corruption) or Crimson Armor (Crimson) - melee set bonus, huge early spike",
-      "Necro-adjacent alt: Molten Armor (Hellstone + Obsidian, crafted at Hellforge) - best pre-hardmode melee armor, +damage and crit"
+      { "icon": "Gold Helmet", "label": "Copper/Tin → Silver/Tungsten → Gold/Platinum starter sets" },
+      { "icon": "Shadow Helmet", "label": "Shadow Armor (Corruption) or Crimson Armor (Crimson) - melee set bonus, huge early spike" },
+      { "icon": "Molten Helmet", "label": "Necro-adjacent alt: Molten Armor (Hellstone + Obsidian, crafted at Hellforge) - best pre-hardmode melee armor, +damage and crit" }
     ],
     "accessories": [
-      "Any 2 of: Cloud in a Bottle / Shiny Red Balloon, Hermes Boots (or upgrades), Band of Regeneration",
-      "Obsidian Shield (no knockback + fire immunity, essential vs Wall of Flesh)",
-      "Feral Claws or Titan Glove (melee speed/knockback) if farmed early",
-      "Philosopher's Stone or Charm of Myths for potion cooldown"
+      { "icon": "Cloud in a Bottle", "label": "Any 2 of: Cloud in a Bottle / Shiny Red Balloon, Hermes Boots (or upgrades), Band of Regeneration" },
+      { "icon": "Obsidian Shield", "label": "Obsidian Shield (no knockback + fire immunity, essential vs Wall of Flesh)" },
+      { "icon": "Feral Claws", "label": "Feral Claws or Titan Glove (melee speed/knockback) if farmed early" },
+      { "icon": "Philosopher's Stone", "label": "Philosopher's Stone or Charm of Myths for potion cooldown" }
     ],
     "notes": "Molten Armor + Obsidian Shield + Fiery Greatsword or Night's Edge is the standard pre-hardmode melee power spike. Farm Hellstone with obsidian skull/potion + lava charm before engaging the Wall of Flesh. Use Obsidian Skin or Fireproof potions for lava safety."
   },
@@ -33,19 +33,18 @@
     "title": "Pre-Hardmode Ranged",
     "summary": "Strong single-target and crowd control from range; ammo economy matters early.",
     "weapons": [
-      "Wooden Bow → Shark Tooth Necklace + Minishark for early clear speed",
-      "Star Cannon (Sky Crate) or Minishark/Undertaker for boss fights",
-      "The Bee's Knees (Queen Bee drop) as a strong bow option",
-      "Harpoon (fishing) for a spear-like ranged option"
+      { "icon": "Minishark", "label": "Wooden Bow → Shark Tooth Necklace + Minishark for early clear speed" },
+      { "icon": "Star Cannon", "label": "Star Cannon (Sky Crate) or Minishark/Undertaker for boss fights" },
+      { "icon": "The Bee's Knees", "label": "The Bee's Knees (Queen Bee drop) as a strong bow option" },
+      { "icon": "Harpoon", "label": "Harpoon (fishing) for a spear-like ranged option" }
     ],
     "armor": [
-      "Ranger-focused: Necro Armor (Skeletron drops helmet/parts + Tabi/Ninja Gear pieces) for the classic ranged crit/damage set",
-      "Jungle/Meteor armor as filler if Necro isn't up yet"
+      { "icon": "Necro Helmet", "label": "Ranger-focused: Necro Armor (Skeletron drops helmet/parts + Tabi/Ninja Gear pieces) for the classic ranged crit/damage set" },
+      { "icon": "Jungle Hat", "label": "Jungle/Meteor armor as filler if Necro isn't up yet" }
     ],
     "accessories": [
-      "Magic Quiver equivalent not yet available; use Ammo Reservation via Musket Pouch progression later",
-      "Cloud in a Bottle, Hermes Boots, Band of Regeneration",
-      "Obsidian Shield for Wall of Flesh"
+      { "icon": "Cloud in a Bottle", "label": "Cloud in a Bottle, Hermes Boots, Band of Regeneration" },
+      { "icon": "Obsidian Shield", "label": "Obsidian Shield for Wall of Flesh" }
     ],
     "notes": "Necro Armor requires killing Skeletron (Headgear from Skeletron drop, other pieces from Shadow Orbs/Crimson Hearts). Stock Musket Balls or Meteor Shots and keep distance during boss fights."
   },
@@ -56,19 +55,19 @@
     "title": "Pre-Hardmode Mage",
     "summary": "Highest burst potential pre-hardmode but mana-hungry; strongest against Wall of Flesh with Water Bolt/Space Gun spam.",
     "weapons": [
-      "Water Bolt (Book, found underground) - cheap mana, strong dps",
-      "Space Gun (crafted or found) - infinite ammo, no mana cost",
-      "Demon Scythe (Corruption) or Vilethorn (Crimson) as an early magic weapon",
-      "Flamelash (Underworld) for strong hallway damage vs Wall of Flesh"
+      { "icon": "Water Bolt", "label": "Water Bolt (Book, found underground) - cheap mana, strong dps" },
+      { "icon": "Space Gun", "label": "Space Gun (crafted or found) - infinite ammo, no mana cost" },
+      { "icon": "Demon Scythe", "label": "Demon Scythe (Corruption) or Vilethorn (Crimson) as an early magic weapon" },
+      { "icon": "Flamelash", "label": "Flamelash (Underworld) for strong hallway damage vs Wall of Flesh" }
     ],
     "armor": [
-      "Jungle Armor (Jungle biome drops) for early mana/damage",
-      "Meteor Armor (Meteorite, post-meteor-crash) - iconic pre-hardmode mage set with Space Gun synergy"
+      { "icon": "Jungle Hat", "label": "Jungle Armor (Jungle biome drops) for early mana/damage" },
+      { "icon": "Meteor Helmet", "label": "Meteor Armor (Meteorite, post-meteor-crash) - iconic pre-hardmode mage set with Space Gun synergy" }
     ],
     "accessories": [
-      "Mana Flower (combine Mana regen band + Magic quiver-like items later)",
-      "Band of Regeneration, Celestial Magnet-line accessories once available",
-      "Obsidian Shield for Wall of Flesh"
+      { "icon": "Mana Flower", "label": "Mana Flower (combine Mana regen band + Magic quiver-like items later)" },
+      { "icon": "Band of Regeneration", "label": "Band of Regeneration, Celestial Magnet-line accessories once available" },
+      { "icon": "Obsidian Shield", "label": "Obsidian Shield for Wall of Flesh" }
     ],
     "notes": "Meteor Armor set bonus reduces Space Gun mana cost to 0, making it essentially free infinite damage - extremely strong vs Wall of Flesh with mana potions in reserve."
   },
@@ -79,16 +78,16 @@
     "title": "Pre-Hardmode Summoner",
     "summary": "Weakest pre-hardmode class but still viable with careful positioning; hybridize with another weapon type.",
     "weapons": [
-      "Slime Staff (Slime drop) - reliable early summon",
-      "Flinx Staff (Snow biome) as an early alternative",
-      "Optic Staff (Queen Bee drop) - strong pre-hardmode summon upgrade"
+      { "icon": "Slime Staff", "label": "Slime Staff (Slime drop) - reliable early summon" },
+      { "icon": "Flinx Staff", "label": "Flinx Staff (Snow biome) as an early alternative" },
+      { "icon": "Optic Staff", "label": "Optic Staff (Queen Bee drop) - strong pre-hardmode summon upgrade" }
     ],
     "armor": [
-      "Bee Armor (Queen Bee drops/Honey biome) - summon damage focused set"
+      { "icon": "Bee Headgear", "label": "Bee Armor (Queen Bee drops/Honey biome) - summon damage focused set" }
     ],
     "accessories": [
-      "Hermes Boots, Cloud in a Bottle, Band of Regeneration",
-      "Obsidian Shield for Wall of Flesh"
+      { "icon": "Hermes Boots", "label": "Hermes Boots, Cloud in a Bottle, Band of Regeneration" },
+      { "icon": "Obsidian Shield", "label": "Obsidian Shield for Wall of Flesh" }
     ],
     "notes": "Summoner is thin on pre-hardmode content - use a ranged or melee weapon as your main damage source and let the summon supplement. Keep moving during the Wall of Flesh fight; summons don't need direct line of sight."
   },
@@ -99,15 +98,15 @@
     "title": "Early Hardmode Melee",
     "summary": "Transition through ore tiers up to a Mechanical Boss kill.",
     "weapons": [
-      "Cobalt/Palladium Sword/Broadsword, then Mythril/Orichalcum tier",
-      "Adamantite/Titanium tier: Excalibur (Pumpkin Moon-adjacent / Hallowed Bar) or a Drax/Pickaxe-Axe for mobility+damage",
-      "Cobalt/Mythril/Adamantite Repeaters as hybrid options"
+      { "icon": "Cobalt Sword", "label": "Cobalt/Palladium Sword/Broadsword, then Mythril/Orichalcum tier" },
+      { "icon": "Excalibur", "label": "Adamantite/Titanium tier: Excalibur (Pumpkin Moon-adjacent / Hallowed Bar) or a Drax/Pickaxe-Axe for mobility+damage" },
+      { "icon": "Cobalt Repeater", "label": "Cobalt/Mythril/Adamantite Repeaters as hybrid options" }
     ],
     "armor": [
-      "Cobalt/Palladium → Mythril/Orichalcum → Adamantite/Titanium armor sets"
+      { "icon": "Cobalt Helmet", "label": "Cobalt/Palladium → Mythril/Orichalcum → Adamantite/Titanium armor sets" }
     ],
     "accessories": [
-      "Ankh Shield, Frostspark Boots (once Ice Feather/Frostburn arrow farmed), Warrior/Berserker Emblem"
+      { "icon": "Ankh Shield", "label": "Ankh Shield, Frostspark Boots (once Ice Feather/Frostburn arrow farmed), Warrior/Berserker Emblem" }
     ],
     "notes": "Priority order: pick one metal per tier consistently (don't mix, some set bonuses require full sets). Aim to fight a Mechanical Boss (Twins/Destroyer/Skeletron Prime) as early as possible to unlock Hallowed gear."
   },
@@ -118,15 +117,15 @@
     "title": "Early Hardmode Ranged",
     "summary": "Repeaters and early Hardmode guns carry you through the mechanical bosses.",
     "weapons": [
-      "Cobalt/Palladium/Mythril/Adamantite Repeaters",
-      "Shotgun (Golden Lock Box or found) once available",
-      "Venus Magnum / Uzi upgrades from ore tiers"
+      { "icon": "Cobalt Repeater", "label": "Cobalt/Palladium/Mythril/Adamantite Repeaters" },
+      { "icon": "Shotgun", "label": "Shotgun (Golden Lock Box or found) once available" },
+      { "icon": "Venus Magnum", "label": "Venus Magnum / Uzi upgrades from ore tiers" }
     ],
     "armor": [
-      "Cobalt/Palladium → Mythril/Orichalcum → Adamantite/Titanium ranged sets"
+      { "icon": "Cobalt Hat", "label": "Cobalt/Palladium → Mythril/Orichalcum → Adamantite/Titanium ranged sets" }
     ],
     "accessories": [
-      "Ankh Shield, Magic Quiver, Ranger Emblem"
+      { "icon": "Ankh Shield", "label": "Ankh Shield, Magic Quiver, Ranger Emblem" }
     ],
     "notes": "Ranged scales very well through Hardmode ore tiers - keep upgrading repeaters and pick up any craftable guns you can afford."
   },
@@ -137,15 +136,15 @@
     "title": "Early Hardmode Mage",
     "summary": "Meteor/Jungle into ore-tier magic sets; Water Bolt/Golden Shower carry until Mechanical Bosses drop better tools.",
     "weapons": [
-      "Golden Shower (Crimson, post-Hardmode) - strong DoT weapon",
-      "Crystal Storm / Cobalt-tier magic weapons",
-      "Rainbow Rod / Bat Scepter (Corruption/Crimson) once accessible"
+      { "icon": "Golden Shower", "label": "Golden Shower (Crimson, post-Hardmode) - strong DoT weapon" },
+      { "icon": "Crystal Storm", "label": "Crystal Storm / Cobalt-tier magic weapons" },
+      { "icon": "Rainbow Rod", "label": "Rainbow Rod / Bat Scepter (Corruption/Crimson) once accessible" }
     ],
     "armor": [
-      "Cobalt/Palladium → Mythril/Orichalcum → Adamantite/Titanium magic sets"
+      { "icon": "Cobalt Hat", "label": "Cobalt/Palladium → Mythril/Orichalcum → Adamantite/Titanium magic sets" }
     ],
     "accessories": [
-      "Ankh Shield, Mana Flower, Sorcerer Emblem"
+      { "icon": "Ankh Shield", "label": "Ankh Shield, Mana Flower, Sorcerer Emblem" }
     ],
     "notes": "Golden Shower is a standout early Hardmode weapon - its defense-reduction debuff makes mechanical boss fights much easier for your whole team."
   },
@@ -156,14 +155,14 @@
     "title": "Early Hardmode Summoner",
     "summary": "Summoner comes online hard in Hardmode - Spider armor and Pygmy/Sanguine staffs are a huge spike.",
     "weapons": [
-      "Spider Staff (Spider biome, Corruption/Crimson underground) - massive pre-Plantera summon upgrade",
-      "Optic Staff carries until Spider Staff is farmed"
+      { "icon": "Spider Staff", "label": "Spider Staff (Spider biome, Corruption/Crimson underground) - massive pre-Plantera summon upgrade" },
+      { "icon": "Optic Staff", "label": "Optic Staff carries until Spider Staff is farmed" }
     ],
     "armor": [
-      "Spider Armor (Black Fairy/Spider biome) - best pre-Plantera summoner set"
+      { "icon": "Spider Mask", "label": "Spider Armor (Black Fairy/Spider biome) - best pre-Plantera summoner set" }
     ],
     "accessories": [
-      "Ankh Shield, Necromantic Scroll, Summoner Emblem"
+      { "icon": "Ankh Shield", "label": "Ankh Shield, Necromantic Scroll, Summoner Emblem" }
     ],
     "notes": "Spider Armor + Spider Staff is considered one of the strongest single power spikes in the whole game for summoners - prioritize farming the Spider biome as soon as Hardmode starts."
   },
@@ -174,16 +173,16 @@
     "title": "Post-Mechanical Bosses → Plantera Melee",
     "summary": "Hallowed gear and yoyos/flails carry into Plantera.",
     "weapons": [
-      "Hallowed/Chlorophyte-tier swords, Yoyos (Amarok, Yoyo Bag)",
-      "True Excalibur / True Night's Edge",
-      "Flairon (post-Plantera, farmed from Dungeon/Plantera loop) as a goal weapon"
+      { "icon": "Amarok", "label": "Hallowed/Chlorophyte-tier swords, Yoyos (Amarok, Yoyo Bag)" },
+      { "icon": "True Excalibur", "label": "True Excalibur / True Night's Edge" },
+      { "icon": "Flairon", "label": "Flairon (post-Plantera, farmed from Dungeon/Plantera loop) as a goal weapon" }
     ],
     "armor": [
-      "Hallowed Armor (Mechanical Boss bars) for the melee set",
-      "Turtle Armor (post-Plantera, Chlorophyte + Turtle shells) as the follow-up"
+      { "icon": "Hallowed Helmet", "label": "Hallowed Armor (Mechanical Boss bars) for the melee set" },
+      { "icon": "Turtle Helmet", "label": "Turtle Armor (post-Plantera, Chlorophyte + Turtle shells) as the follow-up" }
     ],
     "accessories": [
-      "Ankh Shield, Fire Gauntlet, Warrior Emblem, Yoyo Bag"
+      { "icon": "Ankh Shield", "label": "Ankh Shield, Fire Gauntlet, Warrior Emblem, Yoyo Bag" }
     ],
     "notes": "Fight Plantera in the Jungle for Chlorophyte access first, then farm Turtle armor from the Jungle's Turtles once Chlorophyte ore is available."
   }

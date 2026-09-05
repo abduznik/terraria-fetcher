@@ -59,9 +59,22 @@
     });
   }
 
+  function wikiIconUrl(name) {
+    const file = name.trim().replace(/ /g, '_');
+    return `https://terraria.wiki.gg/images/${encodeURIComponent(file)}.png`;
+  }
+
   function renderList(items) {
     if (!items || !items.length) return '';
-    return '<ul>' + items.map(i => `<li>${escapeHtml(i)}</li>`).join('') + '</ul>';
+    return '<ul class="gear-list">' + items.map(item => {
+      const icon = item && item.icon;
+      const label = item && item.label !== undefined ? item.label : item;
+      return `
+        <li class="gear-item">
+          ${icon ? `<span class="icon-slot gear-icon"><img src="${wikiIconUrl(icon)}" alt="" loading="lazy" onerror="this.parentElement.style.visibility='hidden'"></span>` : ''}
+          <span>${escapeHtml(label)}</span>
+        </li>`;
+    }).join('') + '</ul>';
   }
 
   function renderBuilds() {
