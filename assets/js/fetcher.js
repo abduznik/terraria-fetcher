@@ -11,7 +11,9 @@
 //   recipes: [                // recipes that PRODUCE this item
 //     { station: string, ingredients: [{ name: string, qty: number }] }
 //   ],
-//   usedIn: [ "Item Name", ... ] // items that consume this item as an ingredient
+//   sources: [                // non-craft acquisition (drops), when no recipe exists
+//     { from: string, rate: string, quantity: string, modes: string[] }
+//   ]
 // }
 
 (function () {
@@ -60,6 +62,34 @@
       '</ul>';
   }
 
+  function mergeSources(sources) {
+    // Collapse duplicate rows that only differ by game-mode flag (Normal /
+    // Expert / Master) into one line with a combined mode list.
+    const byKey = new Map();
+    for (const s of sources) {
+      const key = `${s.from}|${s.rate}|${s.quantity}`;
+      if (!byKey.has(key)) {
+        byKey.set(key, { from: s.from, rate: s.rate, quantity: s.quantity, modes: new Set() });
+      }
+      const entry = byKey.get(key);
+      (s.modes || []).forEach(m => entry.modes.add(m));
+    }
+    return Array.from(byKey.values()).map(e => ({ ...e, modes: Array.from(e.modes) }));
+  }
+
+  function renderSources(sources) {
+    if (!sources || !sources.length) return '';
+    const merged = mergeSources(sources);
+    const rows = merged.map(s => {
+      const parts = [`Dropped by <strong>${escapeHtml(s.from)}</strong>`];
+      if (s.rate) parts.push(`(${escapeHtml(s.rate)} chance)`);
+      if (s.quantity && s.quantity !== '1') parts.push(`×${escapeHtml(s.quantity)}`);
+      if (s.modes.length && s.modes.length < 3) parts.push(`<span class="tag" style="margin-left:4px;">${escapeHtml(s.modes.join(' / '))}</span>`);
+      return `<li>${parts.join(' ')}</li>`;
+    }).join('');
+    return `<div class="recipe-detail"><span class="badge-station" style="background:var(--ranged);">Obtained from</span><ul class="ingredients">${rows}</ul></div>`;
+  }
+
   function escapeHtml(str) {
     return String(str).replace(/[&<>"']/g, c => ({
       '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -77,13 +107,18 @@
       return;
     }
     results.innerHTML = list.map(item => {
-      const recipesHtml = (item.recipes && item.recipes.length)
-        ? item.recipes.map(r => `
+      let acquisitionHtml;
+      if (item.recipes && item.recipes.length) {
+        acquisitionHtml = item.recipes.map(r => `
             <div class="recipe-detail">
               ${r.station ? `<span class="badge-station">${escapeHtml(r.station)}</span>` : ''}
               ${renderIngredients(r.ingredients)}
-            </div>`).join('')
-        : '<div class="recipe-detail">No known crafting recipe (may be found, dropped, purchased, or a starter item).</div>';
+            </div>`).join('');
+      } else if (item.sources && item.sources.length) {
+        acquisitionHtml = renderSources(item.sources);
+      } else {
+        acquisitionHtml = '<div class="recipe-detail">No known crafting recipe or drop source on record (may be purchased from an NPC, a starter item, or found in the world).</div>';
+      }
 
       return `
         <div class="result-item">
@@ -95,7 +130,7 @@
             <span class="tag">${escapeHtml(item.type || '')}</span>
           </div>
           ${item.tooltip ? `<div class="recipe-detail" style="border-top:none;padding-top:0;">${escapeHtml(item.tooltip)}</div>` : ''}
-          ${recipesHtml}
+          ${acquisitionHtml}
         </div>`;
     }).join('');
   }

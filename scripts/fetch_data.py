@@ -13,6 +13,9 @@ Cargo schema reference (terraria.wiki.gg):
   Items table:   itemid, name, type, tooltip, rare, sell, damage, damagetype, defense
   Recipes table: result, amount, station, ings (packed "name¦qty^name¦qty...")
   NPCs table:    npcid, nameraw, life, defense
+  Drops table:   item, quantity, rate (per source page = _pageName, i.e. the NPC/enemy)
+                 no separate shop/sell-price table exists in Cargo; that data only
+                 lives in per-page prose, so it's out of scope here.
 
 Wiki content is CC BY-NC-SA per wiki.gg licensing; this script only reads
 public data via the documented MediaWiki/Cargo API.
@@ -118,6 +121,19 @@ def fetch_npcs():
         return []
 
 
+def fetch_drops():
+    print("Fetching Drops table...", file=sys.stderr)
+    fields = (
+        "Drops._pageName=Page,Drops.item,Drops.quantity,Drops.rate,"
+        "Drops.isfromnpc,Drops.normal,Drops.expert,Drops.master"
+    )
+    try:
+        return cargo_query_all("Drops", fields)
+    except RuntimeError as e:
+        print(f"  Drops table fetch failed ({e}).", file=sys.stderr)
+        return []
+
+
 def parse_ings(ings_raw):
     """Parse the packed 'ings' field: pairs of name<0xA6>qty joined by '^',
     with a possible stray leading delimiter."""
@@ -155,7 +171,23 @@ def group_recipes_by_result(recipe_rows):
     return grouped
 
 
-def normalize_items(item_rows, recipes_by_result):
+def group_drops_by_item(drop_rows):
+    grouped = {}
+    for row in drop_rows:
+        item = row.get("item")
+        if not item:
+            continue
+        grouped.setdefault(item, []).append(row)
+    return grouped
+
+
+def parse_rate(rate_raw):
+    """Cargo's 'rate' field is Wikitext and sometimes wraps a Master Mode
+    link/abbr around the percentage; strip_markup handles both cases."""
+    return strip_markup(rate_raw or "")
+
+
+def normalize_items(item_rows, recipes_by_result, drops_by_item):
     items = []
     for row in item_rows:
         name = row.get("name") or row.get("Page")
@@ -171,6 +203,26 @@ def normalize_items(item_rows, recipes_by_result):
                 "ingredients": parse_ings(r.get("ings")),
             })
 
+        drop_rows = drops_by_item.get(name, [])
+        sources = []
+        for d in drop_rows:
+            source_name = d.get("Page")
+            if not source_name:
+                continue
+            rate = parse_rate(d.get("rate"))
+            qty = strip_markup(d.get("quantity") or "")
+            modes = [m for m, flag in (
+                ("Normal", d.get("normal")),
+                ("Expert", d.get("expert")),
+                ("Master", d.get("master")),
+            ) if str(flag) == "1"]
+            sources.append({
+                "from": strip_markup(source_name),
+                "rate": rate,
+                "quantity": qty,
+                "modes": modes,
+            })
+
         items.append({
             "id": row.get("itemid") or None,
             "name": strip_markup(name),
@@ -182,6 +234,7 @@ def normalize_items(item_rows, recipes_by_result):
             "damageType": row.get("damagetype") or "",
             "defense": strip_markup(row.get("defense") or ""),
             "recipes": recipes,
+            "sources": sources,
         })
     return items
 
@@ -207,9 +260,11 @@ def main():
     item_rows = fetch_items()
     recipe_rows = fetch_recipes()
     npc_rows = fetch_npcs()
+    drop_rows = fetch_drops()
 
     recipes_by_result = group_recipes_by_result(recipe_rows)
-    items = normalize_items(item_rows, recipes_by_result)
+    drops_by_item = group_drops_by_item(drop_rows)
+    items = normalize_items(item_rows, recipes_by_result, drops_by_item)
     npcs = normalize_npcs(npc_rows)
 
     if not items:
