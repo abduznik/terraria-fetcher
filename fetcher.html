@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Item & Recipe Fetcher - Terraria Fetcher</title>
+<meta name="description" content="Search Terraria items and crafting recipes instantly, offline.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <div class="brand">⚔️ Terraria Fetcher</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="fetcher.html" class="active">Item &amp; Recipe Fetcher</a>
+      <a href="builds/index.html">Builds</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>Item &amp; Recipe Fetcher</h1>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search items, e.g. 'Molten Hamaxe', 'Muramasa', 'Adamantite Bar'..." autofocus>
+  </div>
+  <div class="search-meta" id="meta">Loading item database…</div>
+  <div id="results"></div>
+</main>
+<footer>
+  Data sourced from public Terraria game data. Not affiliated with Re-Logic.
+</footer>
+<script src="assets/js/fetcher.js"></script>
+</body>
+</html>

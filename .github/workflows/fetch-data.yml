@@ -1,0 +1,38 @@
+name: Fetch Terraria Data
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Monthly refresh in case the wiki adds new items/recipes. Remove this
+    # trigger if you only want to run it manually.
+    - cron: '0 6 1 * *'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch Terraria data from wiki.gg
+        run: python scripts/fetch_data.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: refresh Terraria item/recipe data"
+            git push
+          fi
