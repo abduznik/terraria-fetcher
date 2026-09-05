@@ -446,6 +446,114 @@ footer {
 .hp-bar > span { display:block; height:100%; background: linear-gradient(180deg, var(--health), var(--health-dark)); }
 .mp-bar > span { display:block; height:100%; background: linear-gradient(180deg, var(--mana), var(--mana-dark)); }
 
+/* Checklist */
+.stage-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.checklist-progress {
+  margin-bottom: 20px;
+}
+
+.progress-label {
+  color: var(--parchment);
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.checklist-section {
+  background: rgba(0,0,0,0.18);
+  border-radius: 6px;
+  padding: 12px 14px;
+}
+
+.checklist-section h4 {
+  margin: 0 0 10px;
+  font-size: 0.92rem;
+  color: var(--rarity-yellow);
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+}
+
+.empty-inline {
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 7px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.checklist-item:hover {
+  background: rgba(255,255,255,0.06);
+}
+
+.checklist-item input[type="checkbox"] {
+  margin-top: 3px;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--rarity-yellow);
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.checklist-icon {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+}
+
+.checklist-icon img {
+  max-width: 22px;
+  max-height: 22px;
+}
+
+.checklist-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.checklist-name {
+  font-weight: 700;
+  color: var(--parchment);
+  font-size: 0.95rem;
+}
+
+.checklist-item.checked .checklist-name {
+  color: var(--summoner);
+  text-decoration: line-through;
+  opacity: 0.75;
+}
+
+.checklist-note {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
+.reset-row {
+  margin-top: 24px;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .hero h1 { font-size: 1.7rem; }
 }

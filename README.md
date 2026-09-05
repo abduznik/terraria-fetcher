@@ -5,10 +5,11 @@ A static, offline-first Terraria item/recipe fetcher plus curated class build gu
 
 ## Structure
 
-- `index.html`, `fetcher.html`, `builds/index.html` — the site pages (plain HTML/CSS/JS, no build step)
+- `index.html`, `fetcher.html`, `builds/index.html`, `checklist/index.html` — the site pages (plain HTML/CSS/JS, no build step)
 - `assets/` — CSS and client-side JS
 - `data/items.json`, `data/npcs.json`, `data/meta.json` — generated item/recipe/NPC database
 - `builds/builds.json` — hand-curated build guide content, grouped by class + stage
+- `checklist/checklist.json` — hand-curated progression checklist (bosses, NPCs, money goals, optional content) grouped by stage; check-state is saved per-stage in the browser's localStorage
 - `scripts/fetch_data.py` — one-off/periodic script that pulls item & recipe data from
   the [terraria.wiki.gg](https://terraria.wiki.gg) Cargo API and writes it into `data/`
 - `.github/workflows/fetch-data.yml` — runs `fetch_data.py` on demand (or monthly) and commits the result

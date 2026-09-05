@@ -1,0 +1,151 @@
+[
+  {
+    "id": "prehardmode",
+    "title": "Pre-Hardmode",
+    "summary": "From spawn to the Wall of Flesh. Build a base, gear up, clear early bosses, and prepare to enter Hardmode.",
+    "bosses": [
+      { "name": "King Slime", "note": "Optional but easy early loot (Slime Staff, Royal Gel)." },
+      { "name": "Eye of Cthulhu", "note": "Summon at night with a Suspicious Looking Eye." },
+      { "name": "Eater of Worlds / Brain of Cthulhu", "note": "Corruption or Crimson world-evil boss." },
+      { "name": "Queen Bee", "note": "Optional, found in Jungle Bee hives; great pre-Skeletron loot." },
+      { "name": "Skeletron", "note": "Required to enter the Dungeon. Talk to Old Man at night." },
+      { "name": "Deerclops", "note": "Optional, summon with Deer Thing in snow/ice biome (console/mobile origin boss, now on all platforms)." },
+      { "name": "Wall of Flesh", "note": "Summon in The Underworld with a Guide Voodoo Doll. Triggers Hardmode on kill!" }
+    ],
+    "npcs": [
+      "Guide", "Merchant", "Nurse", "Demolitionist", "Dye Trader",
+      "Angler (after fishing quest unlocked)", "Zoologist (after Bestiary progress)",
+      "Arms Dealer (after a gun is found)", "Tavernkeep (after finding Etherian Manaweave / DD2 items)",
+      "Dryad (after a boss is defeated)", "Nurse", "Painter (after 2+ other NPCs)",
+      "Golfer (after finding golf items)"
+    ],
+    "money": [
+      "Aim to have a few gold banked before Skeletron for Nurse healing / reforges",
+      "Sell unneeded ores, gems, and monster drops rather than hoarding",
+      "Fish up crates for early bonus loot and coins"
+    ],
+    "optional": [
+      "Build NPC housing early to unlock more shops sooner",
+      "Full Obsidian farm before Wall of Flesh (Obsidian Skull/Charm + lava)",
+      "Explore the Dungeon lightly before Skeletron dies (careful of strong enemies)",
+      "Fish for pre-Hardmode crates",
+      "Get a Life Fruit if by some fluke Jungle is already accessible (usually Hardmode-only in practice)"
+    ]
+  },
+  {
+    "id": "hardmode-early",
+    "title": "Early Hardmode",
+    "summary": "Immediately after the Wall of Flesh through the three Mechanical Bosses.",
+    "bosses": [
+      { "name": "Queen Slime", "note": "Optional, summon with Gelatin Crystal on the Hallow's surface at night." },
+      { "name": "The Twins", "note": "One of the three Mechanical Bosses; summon with Mechanical Eye." },
+      { "name": "The Destroyer", "note": "Summon with Mechanical Worm." },
+      { "name": "Skeletron Prime", "note": "Summon with Mechanical Skull." },
+      { "name": "(Any 1 Mech Boss)", "note": "Only one is strictly required to progress, but all three drop Hallowed Bars needed for a full set." }
+    ],
+    "npcs": [
+      "Steampunker (after a Mechanical Boss is defeated)",
+      "Goblin Tinkerer (after defeating a Goblin Army, can happen pre-Hardmode too)",
+      "Wizard (after a Mechanical Boss is defeated)",
+      "Witch Doctor (after defeating Queen Bee, may already be present)",
+      "Truffle (after a floating island Mushroom biome is created, post-Hardmode surface)"
+    ],
+    "money": [
+      "Reforge accessories at the Goblin Tinkerer once affordable",
+      "Sell Hardmode ore surplus once you've picked your armor tier",
+      "Start saving for Chlorophyte-tier reforges ahead of Plantera"
+    ],
+    "optional": [
+      "Kill a Goblin Army for the Goblin Tinkerer if not already done",
+      "Farm the Hallow/Underground Hallow for Hallowed Bars from all 3 mech bosses",
+      "Start a Hardmode fishing pass for new crates and the Angler's Hardmode rewards",
+      "Unlock Truffle by creating a floating Mushroom biome",
+      "Farm Souls of Light/Night for crafting (Ichor, Cursed Flame gear)"
+    ]
+  },
+  {
+    "id": "post-mech-plantera",
+    "title": "Post-Mech Bosses → Plantera",
+    "summary": "Gear up in Hallowed equipment, unlock Chlorophyte, and take on Plantera in the Jungle.",
+    "bosses": [
+      { "name": "Plantera", "note": "Break a Plantera's Bulb in the Underground Jungle after all 3 mech bosses are dead." }
+    ],
+    "npcs": [
+      "Cyborg (after Plantera is defeated)",
+      "Witch Doctor's Truffle housing (if not done already)"
+    ],
+    "money": [
+      "Chlorophyte is worth farming for both bars and Life Fruit access",
+      "Stock up on Hardmode potions (Ironskin, Regeneration, Swiftness) before the fight"
+    ],
+    "optional": [
+      "Eat all reachable Life Fruits in the Jungle for +max HP before this fight",
+      "Farm Plantera multiple times for Temple access materials and weapon drops",
+      "Unlock the Jungle Temple (requires a Plantera drop, the Temple Key)"
+    ]
+  },
+  {
+    "id": "post-plantera-golem",
+    "title": "Post-Plantera → Golem",
+    "summary": "Clear the Jungle Temple, farm Turtle gear, and defeat Golem.",
+    "bosses": [
+      { "name": "Golem", "note": "Fought inside the Lihzahrd Temple; needs a Lihzahrd Power Cell from the Temple's traps/chests." }
+    ],
+    "npcs": [
+      "(No new NPC tied directly to Golem, but Party Girl may appear if happiness conditions are met)"
+    ],
+    "money": [
+      "Sell surplus Temple trap materials and Lihzahrd Bricks farmed loot",
+      "Save for post-Golem reforges ahead of end-game gear"
+    ],
+    "optional": [
+      "Farm Turtle armor from Jungle Turtles once Chlorophyte armor is set",
+      "Start Duke Fishron farming (optional superboss, fishing in the Ocean with a Truffle Worm)",
+      "Farm Golem for Sun Stone / Eye of the Golem accessories"
+    ]
+  },
+  {
+    "id": "post-golem",
+    "title": "Post-Golem → Moon Lord",
+    "summary": "Unlock the final pre-Moon Lord content: Old One's Army, Martian Madness, Lunar Events, and the Celestial Towers.",
+    "bosses": [
+      { "name": "Duke Fishron", "note": "Optional superboss, strong loot including the Bubble Gun / Flairon materials." },
+      { "name": "Old One's Army (waves)", "note": "Optional Tavernkeep event, unlocks Betsy's Wings and DD2 gear." },
+      { "name": "Lunatic Cultist", "note": "Fought at the Dungeon entrance after all 3 mech bosses, Plantera, and Golem are dead." },
+      { "name": "Celestial Pillars (Solar/Vortex/Nebula/Stardust)", "note": "Defend during the Lunar Events after killing the Lunatic Cultist." },
+      { "name": "Moon Lord", "note": "Summon with Celestial Sigil after all 4 Pillars are destroyed." }
+    ],
+    "npcs": [
+      "Party Girl (happiness-based, may already be present)"
+    ],
+    "money": [
+      "Lunar Event fragments are valuable — bank a stock before crafting your endgame weapon",
+      "Buy Sniper Scope/other reforges before Moon Lord for QoL"
+    ],
+    "optional": [
+      "Martian Madness event (optional, unlocked after a Pillar event) for Xenopopper/Laser Machinegun",
+      "Frost Moon and Pumpkin Moon events for exclusive Halloween/Christmas seasonal loot",
+      "Farm Solar Eclipse for Deathbringer/Bladetongue-tier weapons",
+      "Full Ocean/ Dungeon post-Plantera loot cleanup before Moon Lord"
+    ]
+  },
+  {
+    "id": "post-moonlord",
+    "title": "Post-Moon Lord",
+    "summary": "Endgame content after defeating Moon Lord.",
+    "bosses": [
+      { "name": "Empress of Light", "note": "Optional superboss, summon with a Prismatic Lacewing near the Hallow in daytime." },
+      { "name": "Zenith / Best-in-slot farming", "note": "Farm remaining superbosses and events for full completion." }
+    ],
+    "npcs": [],
+    "money": [
+      "Economy mostly irrelevant at this point — focus on drop farming instead"
+    ],
+    "optional": [
+      "Farm the Empress of Light for Terraprisma / accessories",
+      "Complete the Bestiary and Fishing quest log for the Angler / Zoologist rewards",
+      "Chase full achievements / Journey Mode Research completion if playing that mode",
+      "Farm for cosmetic vanity sets and pets"
+    ]
+  }
+]
