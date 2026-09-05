@@ -108,16 +108,16 @@
     "class": "melee",
     "stage": "hardmode-early",
     "title": "Early Hardmode Melee",
-    "summary": "Transition through ore tiers up to a Mechanical Boss kill.",
+    "summary": "Push through Cobalt → Mythril → Adamantite/Titanium ore tiers to gear up for your first Mechanical Boss.",
     "weapons": [
       { "icon": "Cobalt Sword", "label": "Cobalt Sword — first Hardmode melee weapon tier" },
       { "icon": "Excalibur", "label": "Excalibur — Hallowed Bar sword, strong pre-Mech-Boss upgrade" },
-      { "icon": "Cobalt Repeater", "label": "Cobalt Repeater — ranged backup for hybrid fights" }
+      { "icon": "Adamantite Sword", "label": "Adamantite Sword (or Titanium Sword) — goal weapon before your first Mechanical Boss attempt" }
     ],
     "armor": [
-      { "icon": "Cobalt Helmet", "label": "Cobalt Helmet" },
-      { "icon": "Cobalt Breastplate", "label": "Cobalt Breastplate" },
-      { "icon": "Cobalt Greaves", "label": "Cobalt Greaves" }
+      { "icon": "Adamantite Helmet", "label": "Adamantite Helmet (or Titanium Helmet)" },
+      { "icon": "Adamantite Breastplate", "label": "Adamantite Breastplate (or Titanium Breastplate)" },
+      { "icon": "Adamantite Leggings", "label": "Adamantite Leggings (or Titanium Leggings)" }
     ],
     "accessories": [
       { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
@@ -126,23 +126,23 @@
       { "icon": "Titan Glove", "label": "Titan Glove — melee knockback" },
       { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
     ],
-    "notes": "Full loadout: Cobalt Armor set + Excalibur once Hallowed Bars are available, plus the 5 accessories above. Craft the Ankh Shield from the full Ankh Charm (requires farming several debuff-cure accessories first) — it's worth prioritizing before your first Mechanical Boss attempt. Stick to one metal type per armor tier since some set bonuses require a full matching set."
+    "notes": "Full loadout: Adamantite Armor (or Titanium, whichever ore your world generated) + Adamantite/Titanium Sword, plus the 5 accessories above. This is the practical gear ceiling before fighting your first Mechanical Boss — Cobalt/Palladium and Mythril/Orichalcum are just stepping stones through this tier, so don't over-invest time in them. Craft the Ankh Shield from the full Ankh Charm before your Mech Boss attempt. Stick to one metal type per armor tier since set bonuses require a full matching set."
   },
   {
     "id": "ranged-hardmode-early",
     "class": "ranged",
     "stage": "hardmode-early",
     "title": "Early Hardmode Ranged",
-    "summary": "Repeaters and early Hardmode guns carry you through the mechanical bosses.",
+    "summary": "Push through Cobalt → Mythril → Adamantite/Titanium ore tiers to gear up for your first Mechanical Boss.",
     "weapons": [
       { "icon": "Cobalt Repeater", "label": "Cobalt Repeater — first Hardmode bow-tier weapon" },
       { "icon": "Shotgun", "label": "Shotgun — strong short-range burst (Golden Lock Box)" },
-      { "icon": "Venus Magnum", "label": "Venus Magnum — high dps pistol upgrade" }
+      { "icon": "Adamantite Repeater", "label": "Adamantite Repeater (or Titanium Repeater) — goal weapon before your first Mechanical Boss attempt" }
     ],
     "armor": [
-      { "icon": "Cobalt Hat", "label": "Cobalt Hat" },
-      { "icon": "Cobalt Breastplate", "label": "Cobalt Breastplate" },
-      { "icon": "Cobalt Greaves", "label": "Cobalt Greaves" }
+      { "icon": "Adamantite Headgear", "label": "Adamantite Headgear (or Titanium Headgear) — ranged-focused helmet piece" },
+      { "icon": "Adamantite Breastplate", "label": "Adamantite Breastplate (or Titanium Breastplate)" },
+      { "icon": "Adamantite Leggings", "label": "Adamantite Leggings (or Titanium Leggings)" }
     ],
     "accessories": [
       { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
@@ -151,23 +151,23 @@
       { "icon": "Magic Quiver", "label": "Magic Quiver — arrow damage/velocity, ammo conservation" },
       { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
     ],
-    "notes": "Full loadout: Cobalt Armor set (ranged-focused helmet) + Venus Magnum or Shotgun, plus the 5 accessories above. Ranged scales cleanly through Hardmode ore tiers — keep upgrading repeaters and buy any craftable guns as soon as you can afford them."
+    "notes": "Full loadout: Adamantite Armor (or Titanium) with the ranged Headgear piece + Adamantite/Titanium Repeater, plus the 5 accessories above. Ranged scales cleanly through Hardmode ore tiers — keep upgrading repeaters and buy any craftable guns as soon as you can afford them, then push all the way to Adamantite/Titanium before your first Mech Boss."
   },
   {
     "id": "mage-hardmode-early",
     "class": "mage",
     "stage": "hardmode-early",
     "title": "Early Hardmode Mage",
-    "summary": "Ore-tier magic sets carry you until Mechanical Bosses drop better tools; Golden Shower is a standout weapon.",
+    "summary": "Push through Cobalt → Mythril → Adamantite/Titanium ore tiers to gear up for your first Mechanical Boss; Golden Shower is a standout weapon.",
     "weapons": [
-      { "icon": "Golden Shower", "label": "Golden Shower — strong DoT weapon with a defense-reducing debuff (Crimson, post-Hardmode)" },
+      { "icon": "Golden Shower", "label": "Golden Shower — strong DoT weapon with a defense-reducing debuff, your main goal weapon for this stage" },
       { "icon": "Crystal Storm", "label": "Crystal Storm — Cobalt-tier magic weapon" },
       { "icon": "Rainbow Rod", "label": "Rainbow Rod — Corruption alternative to Golden Shower" }
     ],
     "armor": [
-      { "icon": "Cobalt Hat", "label": "Cobalt Hat" },
-      { "icon": "Cobalt Breastplate", "label": "Cobalt Breastplate" },
-      { "icon": "Cobalt Greaves", "label": "Cobalt Greaves" }
+      { "icon": "Adamantite Headgear", "label": "Adamantite Headgear (or Titanium Headgear) — magic-focused hat piece" },
+      { "icon": "Adamantite Breastplate", "label": "Adamantite Breastplate (or Titanium Breastplate)" },
+      { "icon": "Adamantite Leggings", "label": "Adamantite Leggings (or Titanium Leggings)" }
     ],
     "accessories": [
       { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
@@ -176,7 +176,7 @@
       { "icon": "Mana Flower", "label": "Mana Flower — auto-drinks mana potions, +magic damage" },
       { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
     ],
-    "notes": "Full loadout: Cobalt Armor set (magic-focused hat) + Golden Shower, plus the 5 accessories above. Golden Shower's defense-reduction debuff makes Mechanical Boss fights noticeably easier for your whole team, not just you."
+    "notes": "Full loadout: Adamantite Armor (or Titanium) with the magic Headgear piece + Golden Shower as your main weapon, plus the 5 accessories above. Golden Shower's defense-reduction debuff makes Mechanical Boss fights noticeably easier for your whole team, not just you. Push all the way to Adamantite/Titanium gear before your first Mech Boss attempt."
   },
   {
     "id": "summoner-hardmode-early",
@@ -187,7 +187,7 @@
     "weapons": [
       { "icon": "Spider Staff", "label": "Spider Staff — massive pre-Plantera summon upgrade (Spider biome)" },
       { "icon": "Optic Staff", "label": "Optic Staff — carries until Spider Staff is farmed" },
-      { "icon": "Cobalt Repeater", "label": "Cobalt Repeater — secondary damage source" }
+      { "icon": "Adamantite Repeater", "label": "Adamantite Repeater (or Titanium Repeater) — secondary damage source" }
     ],
     "armor": [
       { "icon": "Spider Mask", "label": "Spider Mask" },
@@ -227,5 +227,80 @@
       { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" }
     ],
     "notes": "Full loadout: Hallowed Armor set + True Excalibur, plus the 5 accessories above. Fight Plantera in the Jungle for Chlorophyte access, then farm Turtle Armor from the Jungle's Turtles once Chlorophyte ore is available as your follow-up armor set."
+  },
+  {
+    "id": "ranged-post-mech-plantera",
+    "class": "ranged",
+    "stage": "post-mech-plantera",
+    "title": "Post-Mechanical Bosses → Plantera Ranged",
+    "summary": "Hallowed gear and Hardmode guns carry into Plantera.",
+    "weapons": [
+      { "icon": "Uzi", "label": "Uzi — strong Hallowed-tier automatic weapon" },
+      { "icon": "Tactical Shotgun", "label": "Tactical Shotgun — Mechanical Boss drop, top pre-Plantera shotgun" },
+      { "icon": "Sniper Rifle", "label": "Sniper Rifle — high single-target dps, good vs Plantera" }
+    ],
+    "armor": [
+      { "icon": "Hallowed Headgear", "label": "Hallowed Headgear — ranged-focused helmet piece" },
+      { "icon": "Hallowed Plate Mail", "label": "Hallowed Plate Mail" },
+      { "icon": "Hallowed Greaves", "label": "Hallowed Greaves" }
+    ],
+    "accessories": [
+      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
+      { "icon": "Ranger Emblem", "label": "Ranger Emblem — flat ranged damage boost" },
+      { "icon": "Magic Quiver", "label": "Magic Quiver — arrow damage/velocity, ammo conservation" },
+      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" },
+      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
+    ],
+    "notes": "Full loadout: Hallowed Armor (ranged Headgear) + Sniper Rifle or Tactical Shotgun, plus the 5 accessories above. Sniper Rifle's high single-shot damage handles Plantera's bulb and tanky phases well; keep Tactical Shotgun or Uzi for general clearing. Chlorophyte gear becomes your follow-up after Plantera drops Chlorophyte ore access."
+  },
+  {
+    "id": "mage-post-mech-plantera",
+    "class": "mage",
+    "stage": "post-mech-plantera",
+    "title": "Post-Mechanical Bosses → Plantera Mage",
+    "summary": "Hallowed gear and strong AoE/DoT spells carry into Plantera.",
+    "weapons": [
+      { "icon": "Bat Scepter", "label": "Bat Scepter — strong summon-hybrid magic weapon" },
+      { "icon": "Rainbow Rod", "label": "Rainbow Rod — long-range piercing projectile, good vs Plantera" },
+      { "icon": "Nimbus Rod", "label": "Nimbus Rod — passive AoE raincloud, strong crowd control" }
+    ],
+    "armor": [
+      { "icon": "Hallowed Headgear", "label": "Hallowed Headgear — magic-focused hat piece" },
+      { "icon": "Hallowed Plate Mail", "label": "Hallowed Plate Mail" },
+      { "icon": "Hallowed Greaves", "label": "Hallowed Greaves" }
+    ],
+    "accessories": [
+      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
+      { "icon": "Sorcerer Emblem", "label": "Sorcerer Emblem — flat magic damage boost" },
+      { "icon": "Mana Flower", "label": "Mana Flower — auto-drinks mana potions, +magic damage" },
+      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" },
+      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
+    ],
+    "notes": "Full loadout: Hallowed Armor (magic Headgear) + Rainbow Rod as your main damage dealer, plus the 5 accessories above. Nimbus Rod is excellent for passive damage during the Plantera chase phase since it doesn't require aiming. Chlorophyte gear becomes your follow-up after Plantera drops Chlorophyte ore access."
+  },
+  {
+    "id": "summoner-post-mech-plantera",
+    "class": "summoner",
+    "stage": "post-mech-plantera",
+    "title": "Post-Mechanical Bosses → Plantera Summoner",
+    "summary": "Hallowed gear and stronger minions carry into Plantera.",
+    "weapons": [
+      { "icon": "Blade Staff", "label": "Blade Staff — strong pre-Plantera summon (Hallowed biome)" },
+      { "icon": "Sanguine Staff", "label": "Sanguine Staff — Crimson alternative to Blade Staff" },
+      { "icon": "Pygmy Staff", "label": "Pygmy Staff — post-Plantera goal summon" }
+    ],
+    "armor": [
+      { "icon": "Hallowed Headgear", "label": "Hallowed Headgear" },
+      { "icon": "Hallowed Plate Mail", "label": "Hallowed Plate Mail" },
+      { "icon": "Hallowed Greaves", "label": "Hallowed Greaves" }
+    ],
+    "accessories": [
+      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
+      { "icon": "Summoner Emblem", "label": "Summoner Emblem — flat summon damage boost" },
+      { "icon": "Necromantic Scroll", "label": "Necromantic Scroll — extra summon damage" },
+      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" },
+      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
+    ],
+    "notes": "Full loadout: Hallowed Armor set + Blade Staff (or Sanguine Staff), plus the 5 accessories above. Spider Armor is still viable here if you haven't upgraded past it — Hallowed Armor's boost is smaller for summoners than for other classes, so don't feel pressured to rush the swap. Pygmy Staff and Spooky Armor become your follow-up goal after Plantera."
   }
 ]
