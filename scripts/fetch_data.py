@@ -10,12 +10,17 @@ a periodic schedule), not on every page load. Output:
   data/meta.json    - fetch timestamp + counts
 
 Cargo schema reference (terraria.wiki.gg):
-  Items table:   itemid, name, type, tooltip, rare, sell, damage, damagetype, defense
+  Items table:   itemid, name, type, tooltip, rare, sell, buy, damage, damagetype, defense
   Recipes table: result, amount, station, ings (packed "name¦qty^name¦qty...")
   NPCs table:    npcid, nameraw, life, defense
   Drops table:   item, quantity, rate (per source page = _pageName, i.e. the NPC/enemy)
-                 no separate shop/sell-price table exists in Cargo; that data only
-                 lives in per-page prose, so it's out of scope here.
+
+  There is no separate Cargo table for NPC shop inventories. Shop listings are
+  scraped from each NPC page's wikitext (action=parse&prop=wikitext), which
+  contains "{{shop row|Item Name|optional condition}}" template calls under
+  an "Items sold" section. The item's buy price then comes from the Items
+  table's `buy` field (a Wikitext string with a `data-sort-value="<copper>"`
+  attribute giving the exact price in copper).
 
 Wiki content is CC BY-NC-SA per wiki.gg licensing; this script only reads
 public data via the documented MediaWiki/Cargo API.
@@ -94,7 +99,7 @@ def fetch_items():
     print("Fetching Items table...", file=sys.stderr)
     fields = (
         "Items._pageName=Page,Items.itemid,Items.name,Items.type,"
-        "Items.tooltip,Items.rare,Items.sell,Items.damage,"
+        "Items.tooltip,Items.rare,Items.sell,Items.buy,Items.damage,"
         "Items.damagetype,Items.defense"
     )
     try:
@@ -135,6 +140,71 @@ def fetch_drops():
     except RuntimeError as e:
         print(f"  Drops table fetch failed ({e}).", file=sys.stderr)
         return []
+
+
+SHOP_ROW_RE = re.compile(r"\{\{[Ss]hop row\|([^|}]+)")
+COPPER_PER_UNIT = {"copper": 1, "silver": 100, "gold": 10000, "platinum": 1000000}
+SORT_VALUE_RE = re.compile(r'data-sort-value="(\d+)"')
+
+
+def fetch_npc_wikitext(npc_name):
+    try:
+        data = api_get({"action": "parse", "page": npc_name, "prop": "wikitext"})
+        return data.get("parse", {}).get("wikitext", {}).get("*", "")
+    except Exception as e:
+        print(f"  wikitext fetch failed for {npc_name}: {e}", file=sys.stderr)
+        return ""
+
+
+def fetch_shops(npc_names):
+    """Scrape each NPC's page wikitext for '{{shop row|Item Name|...}}'
+    entries, since there is no queryable Cargo table for shop inventories."""
+    print(f"Fetching shop listings for {len(npc_names)} NPCs...", file=sys.stderr)
+    shops_by_npc = {}
+    for i, npc_name in enumerate(npc_names):
+        wikitext = fetch_npc_wikitext(npc_name)
+        items_sold = [m.strip() for m in SHOP_ROW_RE.findall(wikitext)]
+        if items_sold:
+            shops_by_npc[npc_name] = items_sold
+        if (i + 1) % 20 == 0:
+            print(f"  processed {i + 1}/{len(npc_names)} NPCs", file=sys.stderr)
+        time.sleep(REQUEST_DELAY)
+    return shops_by_npc
+
+
+def invert_shops_to_items(shops_by_npc):
+    """NPC -> [item names] becomes item name -> [NPC names]."""
+    sold_by_item = {}
+    for npc_name, item_names in shops_by_npc.items():
+        for item_name in item_names:
+            sold_by_item.setdefault(item_name, []).append(npc_name)
+    return sold_by_item
+
+
+def parse_buy_price(buy_raw):
+    """Extract the copper-integer price from a Cargo 'buy' Wikitext field,
+    which wraps the price in a <span data-sort-value="<copper>">."""
+    if not buy_raw:
+        return None
+    match = SORT_VALUE_RE.search(str(buy_raw))
+    if not match:
+        return None
+    copper = int(match.group(1))
+    if copper <= 0:
+        return None
+    platinum, rem = divmod(copper, COPPER_PER_UNIT["platinum"])
+    gold, rem = divmod(rem, COPPER_PER_UNIT["gold"])
+    silver, copper_rem = divmod(rem, COPPER_PER_UNIT["silver"])
+    parts = []
+    if platinum:
+        parts.append(f"{platinum} Platinum")
+    if gold:
+        parts.append(f"{gold} Gold")
+    if silver:
+        parts.append(f"{silver} Silver")
+    if copper_rem:
+        parts.append(f"{copper_rem} Copper")
+    return " ".join(parts) if parts else None
 
 
 def parse_ings(ings_raw):
@@ -198,7 +268,7 @@ def parse_rate(rate_raw):
     return match.group(0) if match else cleaned
 
 
-def normalize_items(item_rows, recipes_by_result, drops_by_item):
+def normalize_items(item_rows, recipes_by_result, drops_by_item, sold_by_item):
     items = []
     for row in item_rows:
         name = row.get("name") or row.get("Page")
@@ -234,6 +304,10 @@ def normalize_items(item_rows, recipes_by_result, drops_by_item):
                 "modes": modes,
             })
 
+        buy_price = parse_buy_price(row.get("buy"))
+        shop_npcs = sold_by_item.get(name, [])
+        shops = [{"npc": npc, "price": buy_price} for npc in shop_npcs]
+
         items.append({
             "id": row.get("itemid") or None,
             "name": strip_markup(name),
@@ -246,6 +320,7 @@ def normalize_items(item_rows, recipes_by_result, drops_by_item):
             "defense": strip_markup(row.get("defense") or ""),
             "recipes": recipes,
             "sources": sources,
+            "shops": shops,
         })
     return items
 
@@ -273,9 +348,13 @@ def main():
     npc_rows = fetch_npcs()
     drop_rows = fetch_drops()
 
+    npc_names = sorted({strip_markup(r.get("nameraw") or r.get("Page") or "") for r in npc_rows} - {""})
+    shops_by_npc = fetch_shops(npc_names)
+    sold_by_item = invert_shops_to_items(shops_by_npc)
+
     recipes_by_result = group_recipes_by_result(recipe_rows)
     drops_by_item = group_drops_by_item(drop_rows)
-    items = normalize_items(item_rows, recipes_by_result, drops_by_item)
+    items = normalize_items(item_rows, recipes_by_result, drops_by_item, sold_by_item)
     npcs = normalize_npcs(npc_rows)
 
     if not items:

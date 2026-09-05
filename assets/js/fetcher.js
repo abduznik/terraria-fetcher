@@ -11,8 +11,11 @@
 //   recipes: [                // recipes that PRODUCE this item
 //     { station: string, ingredients: [{ name: string, qty: number }] }
 //   ],
-//   sources: [                // non-craft acquisition (drops), when no recipe exists
+//   sources: [                // drop acquisition, when no recipe exists
 //     { from: string, rate: string, quantity: string, modes: string[] }
+//   ],
+//   shops: [                  // NPC shop acquisition
+//     { npc: string, price: string|null }
 //   ]
 // }
 
@@ -90,6 +93,16 @@
     return `<div class="recipe-detail"><span class="badge-station" style="background:var(--ranged);">Obtained from</span><ul class="ingredients">${rows}</ul></div>`;
   }
 
+  function renderShops(shops) {
+    if (!shops || !shops.length) return '';
+    const rows = shops.map(s => {
+      const parts = [`Sold by <strong>${escapeHtml(s.npc)}</strong>`];
+      if (s.price) parts.push(`for ${escapeHtml(s.price)}`);
+      return `<li>${parts.join(' ')}</li>`;
+    }).join('');
+    return `<div class="recipe-detail"><span class="badge-station" style="background:var(--rarity-yellow);">Sold by</span><ul class="ingredients">${rows}</ul></div>`;
+  }
+
   function escapeHtml(str) {
     return String(str).replace(/[&<>"']/g, c => ({
       '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -107,18 +120,23 @@
       return;
     }
     results.innerHTML = list.map(item => {
-      let acquisitionHtml;
+      const acquisitionParts = [];
       if (item.recipes && item.recipes.length) {
-        acquisitionHtml = item.recipes.map(r => `
+        acquisitionParts.push(item.recipes.map(r => `
             <div class="recipe-detail">
               ${r.station ? `<span class="badge-station">${escapeHtml(r.station)}</span>` : ''}
               ${renderIngredients(r.ingredients)}
-            </div>`).join('');
-      } else if (item.sources && item.sources.length) {
-        acquisitionHtml = renderSources(item.sources);
-      } else {
-        acquisitionHtml = '<div class="recipe-detail">No known crafting recipe or drop source on record (may be purchased from an NPC, a starter item, or found in the world).</div>';
+            </div>`).join(''));
       }
+      if (item.sources && item.sources.length) {
+        acquisitionParts.push(renderSources(item.sources));
+      }
+      if (item.shops && item.shops.length) {
+        acquisitionParts.push(renderShops(item.shops));
+      }
+      const acquisitionHtml = acquisitionParts.length
+        ? acquisitionParts.join('')
+        : '<div class="recipe-detail">No known crafting recipe, drop, or shop source on record (may be a starter item, found in the world, or from a rotating vendor like the Traveling Merchant).</div>';
 
       return `
         <div class="result-item">
