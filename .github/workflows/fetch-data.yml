@@ -9,6 +9,9 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+  actions: write
 
 jobs:
   fetch:
@@ -26,13 +29,24 @@ jobs:
         run: python scripts/fetch_data.py
 
       - name: Commit updated data
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
             echo "No data changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore: refresh Terraria item/recipe data"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # Pushes made with GITHUB_TOKEN don't trigger other workflows (loop
+      # protection), so the Pages deploy has to be kicked off explicitly.
+      - name: Trigger Pages redeploy
+        if: steps.commit.outputs.changed == 'true'
+        run: gh workflow run pages.yml
+        env:
+          GH_TOKEN: ${{ github.token }}
