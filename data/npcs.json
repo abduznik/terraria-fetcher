@@ -1,1 +1,4622 @@
-[]
+[
+{
+"id": "427",
+"name": "Alien Hornet",
+"life": "500 / 1000 / 1500",
+"defense": "20"
+},
+{
+"id": "428",
+"name": "Alien Larva",
+"life": "200 / 400 / 600",
+"defense": "6"
+},
+{
+"id": "426",
+"name": "Alien Queen",
+"life": "1000 / 2000 / 3000",
+"defense": "44"
+},
+{
+"id": "523",
+"name": "Ancient Doom",
+"life": "750 / 956",
+"defense": "0"
+},
+{
+"id": "522",
+"name": "Ancient Light",
+"life": "400 / 800 / 1200",
+"defense": "0"
+},
+{
+"id": "521",
+"name": "Ancient Vision",
+"life": "2000 / 4000 / 6000",
+"defense": "30"
+},
+{
+"id": "369",
+"name": "Angler",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "376",
+"name": "Sleeping Angler",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "102",
+"name": "Angler Fish",
+"life": "90 / 180 / 270",
+"defense": "22"
+},
+{
+"id": "-14",
+"name": "Angry Bones",
+"life": "101 / 202 › 222 / 303 › 333",
+"defense": "9"
+},
+{
+"id": "-13",
+"name": "Angry Bones",
+"life": "72 / 144 › 158 / 216 › 237",
+"defense": "7"
+},
+{
+"id": "31",
+"name": "Angry Bones",
+"life": "80 / 160 › 176 / 240 › 264",
+"defense": "8"
+},
+{
+"id": "294",
+"name": "Angry Bones",
+"life": "70 / 140 › 154 / 210 › 231",
+"defense": "6"
+},
+{
+"id": "295",
+"name": "Angry Bones",
+"life": "70 / 140 › 154 / 210 › 231",
+"defense": "12"
+},
+{
+"id": "296",
+"name": "Angry Bones",
+"life": "120 / 240 › 264 / 360 › 396",
+"defense": "14"
+},
+{
+"id": "628",
+"name": "Angry Dandelion",
+"life": "50 / 100 › 220 › 330 / 150 › 330 › 495",
+"defense": "0"
+},
+{
+"id": "250",
+"name": "Angry Nimbus",
+"life": "300 / 600 / 900",
+"defense": "24"
+},
+{
+"id": "175",
+"name": "Angry Trapper",
+"life": "300 / 600 / 900",
+"defense": "30"
+},
+{
+"id": "546",
+"name": "Angry Tumbler",
+"life": "50 / 100 › 110 › 220 / 150 › 165 › 330",
+"defense": "6 / 6 › 6 › 12"
+},
+{
+"id": "257",
+"name": "Anomura Fungus",
+"life": "230 / 460 / 690",
+"defense": "24"
+},
+{
+"id": "69",
+"name": "Antlion",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "6 / 6 › 12 › 18"
+},
+{
+"id": "508",
+"name": "Giant Antlion Charger",
+"life": "110 / 220 › 220 › 242 / 330 › 330 › 363",
+"defense": "16"
+},
+{
+"id": "580",
+"name": "Antlion Charger",
+"life": "80 / 160 › 176 / 240 › 264",
+"defense": "10"
+},
+{
+"id": "582",
+"name": "Antlion Larva",
+"life": "30 / 60 › 264 › 330 / 90 › 396 › 495",
+"defense": "2 / 2 › 8 › 10"
+},
+{
+"id": "509",
+"name": "Giant Antlion Swarmer",
+"life": "90 / 180 › 198 / 270 › 297",
+"defense": "12"
+},
+{
+"id": "581",
+"name": "Antlion Swarmer",
+"life": "60 / 120 › 132 / 180 › 198",
+"defense": "8"
+},
+{
+"id": "157",
+"name": "Arapaima",
+"life": "200 / 400 / 600",
+"defense": "30"
+},
+{
+"id": "-15",
+"name": "Armored Skeleton",
+"life": "400",
+"defense": "32"
+},
+{
+"id": "77",
+"name": "Armored Skeleton",
+"life": "260 / 520 / 780",
+"defense": "28"
+},
+{
+"id": "197",
+"name": "Armored Viking",
+"life": "280 / 560 / 840",
+"defense": "28"
+},
+{
+"id": "19",
+"name": "Arms Dealer",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "-5",
+"name": "Baby Slime",
+"life": "30 / 60 › 198 › 264 / 90 › 297 › 396",
+"defense": "4 / 4 › 12 › 16"
+},
+{
+"id": "532",
+"name": "Basilisk",
+"life": "270 / 540 / 810",
+"defense": "34"
+},
+{
+"id": "210",
+"name": "Bee",
+"life": "20 / 24 › 53 › 79 / 36 › 79 › 119",
+"defense": "5 / 5 › 10 › 15"
+},
+{
+"id": "211",
+"name": "Bee",
+"life": "10 / 12 › 53 › 66 / 18 › 79 › 99",
+"defense": "2 / 2 › 8 › 10"
+},
+{
+"id": "551",
+"name": "Betsy",
+"life": "50000 / 75000 / 95625",
+"defense": "38"
+},
+{
+"id": "74",
+"name": "Bird",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "297",
+"name": "Blue Jay",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "298",
+"name": "Cardinal",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "163",
+"name": "Black Recluse",
+"life": "350 / 700 / 1050",
+"defense": "40"
+},
+{
+"id": "238",
+"name": "Black Recluse",
+"life": "350 / 700 / 1050",
+"defense": "40"
+},
+{
+"id": "-6",
+"name": "Black Slime",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "4 / 4 › 8 › 12"
+},
+{
+"id": "72",
+"name": "Blazing Wheel",
+"life": "100 / 200 / 300",
+"defense": "100"
+},
+{
+"id": "239",
+"name": "Blood Crawler",
+"life": "60 / 120 › 132 / 180 › 198",
+"defense": "8"
+},
+{
+"id": "240",
+"name": "Blood Crawler",
+"life": "60 / 120 › 132 / 180 › 198",
+"defense": "8"
+},
+{
+"id": "621",
+"name": "Blood Eel",
+"life": "6000 / 12000 / 18000",
+"defense": "0"
+},
+{
+"id": "622",
+"name": "Blood Eel",
+"life": "6000 / 12000 / 18000",
+"defense": "30"
+},
+{
+"id": "623",
+"name": "Blood Eel",
+"life": "6000 / 12000 / 18000",
+"defense": "40"
+},
+{
+"id": "241",
+"name": "Blood Feeder",
+"life": "150 / 300 / 450 (Desktop, Console and Mobile versions) / 20 (Old-gen console and 3DS versions)",
+"defense": "20 (Desktop, Console and Mobile versions) / 4 (Old-gen console and 3DS versions)"
+},
+{
+"id": "619",
+"name": "Blood Squid",
+"life": "750 / 1500 / 2250",
+"defense": "16"
+},
+{
+"id": "489",
+"name": "Blood Zombie",
+"life": "75 / 150 › 164 › 330 / 225 › 246 › 495",
+"defense": "8 / 8 › 8 › 16"
+},
+{
+"id": "273",
+"name": "Blue Armored Bones",
+"life": "500 / 1000 / 1500",
+"defense": "50"
+},
+{
+"id": "274",
+"name": "Blue Armored Bones",
+"life": "350 / 700 / 1050",
+"defense": "34"
+},
+{
+"id": "275",
+"name": "Blue Armored Bones",
+"life": "550 / 1100 / 1650",
+"defense": "50"
+},
+{
+"id": "276",
+"name": "Blue Armored Bones",
+"life": "500 / 1000 / 1500",
+"defense": "54"
+},
+{
+"id": "1",
+"name": "Blue Slime",
+"life": "25 / 50 › 274 › 330 / 75 › 411 › 495",
+"defense": "2 / 2 › 10 › 12"
+},
+{
+"id": "287",
+"name": "Bone Lee",
+"life": "1000 / 2000 / 3000",
+"defense": "42"
+},
+{
+"id": "39",
+"name": "Bone Serpent",
+"life": "300 / 600 / 900",
+"defense": "12"
+},
+{
+"id": "40",
+"name": "Bone Serpent",
+"life": "300 / 600 / 900",
+"defense": "18"
+},
+{
+"id": "41",
+"name": "Bone Serpent",
+"life": "300 / 600 / 900",
+"defense": "18"
+},
+{
+"id": "659",
+"name": "Bouncy Slime",
+"life": "150 / 225 / 287",
+"defense": "35"
+},
+{
+"id": "266",
+"name": "Brain of Cthulhu",
+"life": "1250 / 2125 / 2709 3250 [[Expert Mode| 5525 ]] [[Master Mode| 7049 ]] (with Creepers) [[Category:Pages with information based on outdated versions of Terraria's source code]][[Category:Pages with information based on outdated versions of Terraria's source code]]",
+"defense": "14"
+},
+{
+"id": "381",
+"name": "Brain Scrambler",
+"life": "350 / 700 / 1050",
+"defense": "25"
+},
+{
+"id": "421",
+"name": "Brain Suckler",
+"life": "330 / 660 / 990",
+"defense": "34"
+},
+{
+"id": "487",
+"name": "Buggy",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "46",
+"name": "Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "303",
+"name": "Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "337",
+"name": "Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "540",
+"name": "Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "25",
+"name": "Burning Sphere",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "460",
+"name": "Butcher",
+"life": "700 / 1400 / 2100",
+"defense": "30"
+},
+{
+"id": "356",
+"name": "Butterfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "444",
+"name": "Gold Butterfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "653",
+"name": "Hell Butterfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "695",
+"name": "Cattiva",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "49",
+"name": "Cave Bat",
+"life": "16 / 32 › 140 › 176 / 48 › 210 › 264",
+"defense": "2 / 2 › 8 › 10"
+},
+{
+"id": "422",
+"name": "Vortex Pillar",
+"life": "20000",
+"defense": "20"
+},
+{
+"id": "493",
+"name": "Stardust Pillar",
+"life": "20000",
+"defense": "20"
+},
+{
+"id": "507",
+"name": "Nebula Pillar",
+"life": "20000",
+"defense": "20"
+},
+{
+"id": "517",
+"name": "Solar Pillar",
+"life": "20000",
+"defense": "20"
+},
+{
+"id": "30",
+"name": "Chaos Ball",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "665",
+"name": "Chaos Ball",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "120",
+"name": "Chaos Elemental",
+"life": "370 / 740 / 1110",
+"defense": "30"
+},
+{
+"id": "378",
+"name": "Chattering Teeth Bomb",
+"life": "200 / 400 / 600",
+"defense": "30"
+},
+{
+"id": "101",
+"name": "Clinger",
+"life": "320 / 640 / 960",
+"defense": "30"
+},
+{
+"id": "54",
+"name": "Clothier",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "109",
+"name": "Clown",
+"life": "800 / 1600 / 2400",
+"defense": "25"
+},
+{
+"id": "686",
+"name": "Clumsy Balloon Slime",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "217",
+"name": "Cochineal Beetle",
+"life": "40 / 80 › 176 / 120 › 264",
+"defense": "10 / 10 › 20"
+},
+{
+"id": "674",
+"name": "Yellow Cockatiel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "675",
+"name": "Gray Cockatiel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "418",
+"name": "Corite",
+"life": "600 / 1200 / 1800",
+"defense": "26"
+},
+{
+"id": "47",
+"name": "Corrupt Bunny",
+"life": "70 / 140 › 154 › 308 / 210 › 231 › 462",
+"defense": "4 / 4 › 4 › 8"
+},
+{
+"id": "57",
+"name": "Corrupt Goldfish",
+"life": "100 / 200 › 220 / 300 › 330",
+"defense": "6"
+},
+{
+"id": "168",
+"name": "Corrupt Penguin",
+"life": "70 / 140 › 154 › 308 / 210 › 231 › 462",
+"defense": "4 / 4 › 4 › 8"
+},
+{
+"id": "81",
+"name": "Corrupt Slime",
+"life": "170 / 340 / 510",
+"defense": "20"
+},
+{
+"id": "94",
+"name": "Corruptor",
+"life": "230 / 460 / 690",
+"defense": "32"
+},
+{
+"id": "67",
+"name": "Crab",
+"life": "40 / 80 › 176 / 120 › 264",
+"defense": "10 / 10 › 20"
+},
+{
+"id": "494",
+"name": "Crawdad",
+"life": "50 / 100 › 110 › 220 / 150 › 165 › 330",
+"defense": "6 / 6 › 6 › 12"
+},
+{
+"id": "495",
+"name": "Crawdad",
+"life": "50 / 100 › 110 › 220 / 150 › 165 › 330",
+"defense": "6 / 6 › 6 › 12"
+},
+{
+"id": "412",
+"name": "Crawltipede",
+"life": "10000 / 20000 / 30000",
+"defense": "1000"
+},
+{
+"id": "413",
+"name": "Crawltipede",
+"life": "10000 / 20000 / 30000",
+"defense": "1000"
+},
+{
+"id": "414",
+"name": "Crawltipede",
+"life": "10000 / 20000 / 30000",
+"defense": "0"
+},
+{
+"id": "461",
+"name": "Creature from the Deep",
+"life": "400 / 800 / 1200",
+"defense": "22"
+},
+{
+"id": "267",
+"name": "Creeper",
+"life": "100 / 170 / 217",
+"defense": "10"
+},
+{
+"id": "-23",
+"name": "Crimera",
+"life": "46 / 92 › 202 / 138 › 303",
+"defense": "9 / 9 › 18"
+},
+{
+"id": "-22",
+"name": "Crimera",
+"life": "34 / 68 › 149 / 102 › 224",
+"defense": "6 / 6 › 13"
+},
+{
+"id": "173",
+"name": "Crimera",
+"life": "40 / 80 › 176 / 120 › 264",
+"defense": "8 / 8 › 16"
+},
+{
+"id": "-25",
+"name": "Crimslime",
+"life": "229 / 459 / 690",
+"defense": "29"
+},
+{
+"id": "-24",
+"name": "Crimslime",
+"life": "170 / 340 / 510",
+"defense": "22"
+},
+{
+"id": "183",
+"name": "Crimslime",
+"life": "200 / 400 / 600",
+"defense": "26"
+},
+{
+"id": "179",
+"name": "Crimson Axe",
+"life": "200 / 400 / 600",
+"defense": "18"
+},
+{
+"id": "658",
+"name": "Crystal Slime",
+"life": "150 / 225 / 287",
+"defense": "35"
+},
+{
+"id": "379",
+"name": "Cultist Archer",
+"life": "210 / 420 / 630",
+"defense": "14"
+},
+{
+"id": "438",
+"name": "Lunatic Devotee",
+"life": "400",
+"defense": "0"
+},
+{
+"id": "83",
+"name": "Cursed Hammer",
+"life": "200 / 400 / 600",
+"defense": "18"
+},
+{
+"id": "34",
+"name": "Cursed Skull",
+"life": "40 / 80 › 88 / 120 › 132",
+"defense": "6"
+},
+{
+"id": "218",
+"name": "Cyan Beetle",
+"life": "40 / 80 › 176 / 120 › 264",
+"defense": "10 / 10 › 20"
+},
+{
+"id": "209",
+"name": "Cyborg",
+"life": "500",
+"defense": "30"
+},
+{
+"id": "32",
+"name": "Dark Caster",
+"life": "50 / 100 › 220 / 150 › 330",
+"defense": "2 / 2 › 4"
+},
+{
+"id": "564",
+"name": "Dark Mage",
+"life": "800 / 1600 / 2040",
+"defense": "18"
+},
+{
+"id": "565",
+"name": "Dark Mage",
+"life": "4000 / 8000 / 10200",
+"defense": "38"
+},
+{
+"id": "467",
+"name": "Deadly Sphere",
+"life": "350 / 700 / 1050",
+"defense": "80"
+},
+{
+"id": "668",
+"name": "Deerclops",
+"life": "7000 / 11900 / 15172",
+"defense": "10"
+},
+{
+"id": "38",
+"name": "Demolitionist",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "62",
+"name": "Demon",
+"life": "120 / 240 › 264 / 360 › 396",
+"defense": "8"
+},
+{
+"id": "-43",
+"name": "Demon Eye",
+"life": "69 / 138 › 303 / 206 › 455",
+"defense": "2 / 2 › 4"
+},
+{
+"id": "-42",
+"name": "Demon Eye",
+"life": "66 / 132 › 290 › 435 / 198 › 435 › 653",
+"defense": "4 / 4 › 8 › 13"
+},
+{
+"id": "-41",
+"name": "Demon Eye",
+"life": "51 / 102 › 224 / 153 › 336",
+"defense": "0"
+},
+{
+"id": "-40",
+"name": "Demon Eye",
+"life": "45 / 90 › 198 › 297 / 135 › 297 › 445",
+"defense": "1 / 1 › 3 › 5"
+},
+{
+"id": "-39",
+"name": "Demon Eye",
+"life": "66 / 132 › 290 › 435 / 198 › 435 › 653",
+"defense": "2 / 2 › 4 › 6"
+},
+{
+"id": "-38",
+"name": "Demon Eye",
+"life": "74 / 149 › 328 / 224 › 493",
+"defense": "4 / 4 › 9"
+},
+{
+"id": "2",
+"name": "Demon Eye",
+"life": "60 / 120 › 264 / 180 › 396",
+"defense": "2 / 2 › 4"
+},
+{
+"id": "190",
+"name": "Demon Eye",
+"life": "65 / 130 › 286 / 195 › 429",
+"defense": "4 / 4 › 8"
+},
+{
+"id": "191",
+"name": "Demon Eye",
+"life": "60 / 120 › 264 › 396 / 180 › 396 › 594",
+"defense": "2 / 2 › 4 › 6"
+},
+{
+"id": "192",
+"name": "Demon Eye",
+"life": "50 / 100 › 220 › 330 / 150 › 330 › 495",
+"defense": "2 / 2 › 4 › 6"
+},
+{
+"id": "193",
+"name": "Demon Eye",
+"life": "60 / 120 › 264 / 180 › 396",
+"defense": "0"
+},
+{
+"id": "194",
+"name": "Demon Eye",
+"life": "60 / 120 › 264 › 396 / 180 › 396 › 594",
+"defense": "4 / 4 › 8 › 12"
+},
+{
+"id": "317",
+"name": "Demon Eye",
+"life": "75 / 150 › 330 / 225 › 495",
+"defense": "6 / 6 › 12"
+},
+{
+"id": "318",
+"name": "Demon Eye",
+"life": "60 / 120 › 264 / 180 › 396",
+"defense": "4 / 4 › 8"
+},
+{
+"id": "177",
+"name": "Derpling",
+"life": "300 / 600 / 900",
+"defense": "26"
+},
+{
+"id": "533",
+"name": "Desert Spirit",
+"life": "220 / 440 / 660",
+"defense": "20"
+},
+{
+"id": "371",
+"name": "Detonating Bubble",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "7",
+"name": "Devourer",
+"life": "100 / 200 › 220 / 300 › 330",
+"defense": "2"
+},
+{
+"id": "8",
+"name": "Devourer",
+"life": "100 / 200 › 220 › 440 / 300 › 330 › 660",
+"defense": "6 / 6 › 6 › 12"
+},
+{
+"id": "9",
+"name": "Devourer",
+"life": "100 / 200 › 220 › 440 / 300 › 330 › 660",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "285",
+"name": "Diabolist",
+"life": "200 / 400 / 600",
+"defense": "12"
+},
+{
+"id": "286",
+"name": "Diabolist",
+"life": "250 / 500 / 750",
+"defense": "10"
+},
+{
+"id": "95",
+"name": "Digger",
+"life": "200 / 400 / 600",
+"defense": "10"
+},
+{
+"id": "96",
+"name": "Digger",
+"life": "200 / 400 › 400 › 440 / 600 › 600 › 660",
+"defense": "20"
+},
+{
+"id": "97",
+"name": "Digger",
+"life": "200 / 400 / 600",
+"defense": "30"
+},
+{
+"id": "52",
+"name": "Doctor Bones",
+"life": "500 / 1000 / 1500",
+"defense": "10"
+},
+{
+"id": "615",
+"name": "Dolphin",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "468",
+"name": "Dr. Man Fly",
+"life": "500 / 1000 / 1500",
+"defense": "24"
+},
+{
+"id": "595",
+"name": "Black Dragonfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "596",
+"name": "Blue Dragonfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "597",
+"name": "Green Dragonfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "598",
+"name": "Orange Dragonfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "599",
+"name": "Red Dragonfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "600",
+"name": "Yellow Dragonfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "518",
+"name": "Drakanian",
+"life": "1000 / 2000 / 3000",
+"defense": "28"
+},
+{
+"id": "570",
+"name": "Drakin",
+"life": "900 / 1800 / 2295",
+"defense": "30"
+},
+{
+"id": "571",
+"name": "Drakin",
+"life": "3000 / 6000 / 7650",
+"defense": "40"
+},
+{
+"id": "415",
+"name": "Drakomire",
+"life": "800 / 1600 / 2400",
+"defense": "32"
+},
+{
+"id": "416",
+"name": "Drakomire Rider",
+"life": "800 / 1600 / 2400",
+"defense": "28"
+},
+{
+"id": "618",
+"name": "Dreadnautilus",
+"life": "7000 / 14000 / 21000",
+"defense": "24"
+},
+{
+"id": "490",
+"name": "Drippler",
+"life": "50 / 100 › 110 / 150 › 165",
+"defense": "14"
+},
+{
+"id": "20",
+"name": "Dryad",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "362",
+"name": "Duck",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "363",
+"name": "Duck",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "364",
+"name": "Duck",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "365",
+"name": "Duck",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "370",
+"name": "Duke Fishron",
+"life": "60000 / 78000 / 99450",
+"defense": "50 100 (when enraged)"
+},
+{
+"id": "510",
+"name": "Dune Splicer",
+"life": "500 / 1000 / 1500",
+"defense": "18"
+},
+{
+"id": "511",
+"name": "Dune Splicer",
+"life": "500 / 1000 / 1500",
+"defense": "28"
+},
+{
+"id": "512",
+"name": "Dune Splicer",
+"life": "500 / 1000 / 1500",
+"defense": "34"
+},
+{
+"id": "68",
+"name": "Dungeon Guardian",
+"life": "9999 / 19998 / 29997",
+"defense": "9999"
+},
+{
+"id": "71",
+"name": "Dungeon Slime",
+"life": "150 / 300 › 330 / 450 › 495",
+"defense": "7"
+},
+{
+"id": "288",
+"name": "Dungeon Spirit",
+"life": "200 / 400 / 600",
+"defense": "30"
+},
+{
+"id": "207",
+"name": "Dye Trader",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "-12",
+"name": "Eater of Souls",
+"life": "46 / 92 › 202 / 138 › 303",
+"defense": "9 / 9 › 18"
+},
+{
+"id": "-11",
+"name": "Eater of Souls",
+"life": "34 / 68 › 149 / 102 › 224",
+"defense": "6 / 6 › 13"
+},
+{
+"id": "6",
+"name": "Eater of Souls",
+"life": "40 / 80 › 176 / 120 › 264",
+"defense": "8 / 8 › 16"
+},
+{
+"id": "13",
+"name": "Eater of Worlds",
+"life": "150 / 210 / 268",
+"defense": "2 / 4"
+},
+{
+"id": "14",
+"name": "Eater of Worlds",
+"life": "150 / 210 / 268",
+"defense": "4 / 6"
+},
+{
+"id": "15",
+"name": "Eater of Worlds",
+"life": "150 / 210 / 268",
+"defense": "8 / 10"
+},
+{
+"id": "350",
+"name": "Elf Archer",
+"life": "900 / 1350 / 2025",
+"defense": "30"
+},
+{
+"id": "347",
+"name": "Elf Copter",
+"life": "1200 / 1800 / 2700",
+"defense": "28"
+},
+{
+"id": "636",
+"name": "Empress of Light",
+"life": "70000 / 98000 / 124950",
+"defense": "50"
+},
+{
+"id": "484",
+"name": "Enchanted Nightcrawler",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "84",
+"name": "Enchanted Sword",
+"life": "200 / 400 / 600",
+"defense": "18"
+},
+{
+"id": "548",
+"name": "Eternia Crystal",
+"life": "1000 [[Expert Mode| 2000 ]] [[Master Mode| 3000 ]] (T1) 3000 [[Expert Mode| 6000 ]] [[Master Mode| 9000 ]] (T2) 5000 [[Expert Mode| 10000 ]] [[Master Mode| 15000 ]] (T3)",
+"defense": "14 (T1) 18 (T2) 20 (T3)"
+},
+{
+"id": "552",
+"name": "Etherian Goblin",
+"life": "30 / 60 › 132 / 76 › 168",
+"defense": "14 / 14 › 28"
+},
+{
+"id": "553",
+"name": "Etherian Goblin",
+"life": "170 / 340 / 434",
+"defense": "20"
+},
+{
+"id": "554",
+"name": "Etherian Goblin",
+"life": "560 / 1120 / 1428",
+"defense": "28"
+},
+{
+"id": "555",
+"name": "Etherian Goblin Bomber",
+"life": "50 / 100 › 110 / 128 › 140",
+"defense": "16"
+},
+{
+"id": "556",
+"name": "Etherian Goblin Bomber",
+"life": "200 / 400 / 510",
+"defense": "26"
+},
+{
+"id": "557",
+"name": "Etherian Goblin Bomber",
+"life": "700 / 1400 / 1785",
+"defense": "34"
+},
+{
+"id": "561",
+"name": "Etherian Javelin Thrower",
+"life": "60 / 120 › 132 / 153 › 168",
+"defense": "18"
+},
+{
+"id": "562",
+"name": "Etherian Javelin Thrower",
+"life": "300 / 600 / 765",
+"defense": "28"
+},
+{
+"id": "563",
+"name": "Etherian Javelin Thrower",
+"life": "1000 / 2000 / 2550",
+"defense": "38"
+},
+{
+"id": "578",
+"name": "Etherian Lightning Bug",
+"life": "500 / 1000 / 1275",
+"defense": "36"
+},
+{
+"id": "558",
+"name": "Etherian Wyvern",
+"life": "60 / 120 › 132 › 264 / 153 › 168 › 337",
+"defense": "4 / 4 › 4 › 8"
+},
+{
+"id": "559",
+"name": "Etherian Wyvern",
+"life": "180 / 360 / 459",
+"defense": "16"
+},
+{
+"id": "560",
+"name": "Etherian Wyvern",
+"life": "600 / 1200 / 1530",
+"defense": "30"
+},
+{
+"id": "344",
+"name": "Everscream",
+"life": "13000 / 16900 / 21548",
+"defense": "38"
+},
+{
+"id": "423",
+"name": "Evolution Beast",
+"life": "850 / 1700 / 2550",
+"defense": "46"
+},
+{
+"id": "614",
+"name": "Explosive Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "4",
+"name": "Eye of Cthulhu",
+"life": "2800 / 3640 / 4641",
+"defense": "12"
+},
+{
+"id": "251",
+"name": "Eyezor",
+"life": "1000 / 2000 / 3000",
+"defense": "30"
+},
+{
+"id": "181",
+"name": "Face Monster",
+"life": "70 / 140 › 154 / 210 › 231",
+"defense": "10"
+},
+{
+"id": "677",
+"name": "Faeling",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "583",
+"name": "Pink Fairy",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "584",
+"name": "Green Fairy",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "585",
+"name": "Blue Fairy",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "24",
+"name": "Fire Imp",
+"life": "70 / 140 › 154 / 210 › 231",
+"defense": "16"
+},
+{
+"id": "355",
+"name": "Firefly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "182",
+"name": "Floaty Gross",
+"life": "240 / 480 / 720",
+"defense": "18"
+},
+{
+"id": "352",
+"name": "Flocko",
+"life": "450 / 675 / 1012",
+"defense": "8"
+},
+{
+"id": "407",
+"name": "Flow Invader",
+"life": "1500 / 3000 / 4500",
+"defense": "38"
+},
+{
+"id": "491",
+"name": "Flying Dutchman",
+"life": "8000 [[Expert Mode| 13600 ]] [[Master Mode| 20400 ]] (4 cannons)",
+"defense": "100"
+},
+{
+"id": "492",
+"name": "Dutchman Cannon",
+"life": "2000 / 3400 / 5100",
+"defense": "20"
+},
+{
+"id": "224",
+"name": "Flying Fish",
+"life": "20 / 40 › 176 › 220 / 60 › 264 › 330",
+"defense": "4 / 4 › 16 › 20"
+},
+{
+"id": "226",
+"name": "Flying Snake",
+"life": "260 / 520 / 780",
+"defense": "28"
+},
+{
+"id": "696",
+"name": "Foxparks",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "162",
+"name": "Frankenstein",
+"life": "350 / 700 / 1050",
+"defense": "18"
+},
+{
+"id": "462",
+"name": "Fritz",
+"life": "270 / 540 / 810",
+"defense": "14"
+},
+{
+"id": "361",
+"name": "Frog",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "161",
+"name": "Frozen Zombie",
+"life": "50 / 100 › 220 / 150 › 330",
+"defense": "8 / 8 › 16"
+},
+{
+"id": "431",
+"name": "Frozen Zombie",
+"life": "100 › 220 / 150 › 330",
+"defense": "8 › 16"
+},
+{
+"id": "259",
+"name": "Fungi Bulb",
+"life": "90 / 180 › 198 › 396 / 270 › 297 › 594",
+"defense": "4 / 4 › 4 › 8"
+},
+{
+"id": "122",
+"name": "Gastropod",
+"life": "220 / 440 / 660",
+"defense": "22"
+},
+{
+"id": "646",
+"name": "Amethyst Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "647",
+"name": "Topaz Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "648",
+"name": "Sapphire Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "649",
+"name": "Emerald Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "650",
+"name": "Ruby Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "651",
+"name": "Diamond Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "652",
+"name": "Amber Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "639",
+"name": "Amethyst Squirrel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "640",
+"name": "Topaz Squirrel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "641",
+"name": "Sapphire Squirrel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "642",
+"name": "Emerald Squirrel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "643",
+"name": "Ruby Squirrel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "644",
+"name": "Diamond Squirrel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "645",
+"name": "Amber Squirrel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "316",
+"name": "Ghost",
+"life": "50 / 100 › 220 › 330 / 150 › 330 › 495",
+"defense": "4 / 4 › 8 › 12"
+},
+{
+"id": "524",
+"name": "Ghoul",
+"life": "180 / 360 / 540",
+"defense": "26"
+},
+{
+"id": "525",
+"name": "Vile Ghoul",
+"life": "250 / 500 / 750",
+"defense": "30"
+},
+{
+"id": "526",
+"name": "Tainted Ghoul",
+"life": "220 / 440 / 660",
+"defense": "32"
+},
+{
+"id": "527",
+"name": "Dreamer Ghoul",
+"life": "300 / 600 / 900",
+"defense": "32"
+},
+{
+"id": "93",
+"name": "Giant Bat",
+"life": "100 / 200 › 220 / 300 › 330",
+"defense": "16"
+},
+{
+"id": "289",
+"name": "Giant Cursed Skull",
+"life": "400 / 800 / 1200",
+"defense": "20"
+},
+{
+"id": "152",
+"name": "Giant Flying Fox",
+"life": "220 / 440 / 660",
+"defense": "24"
+},
+{
+"id": "260",
+"name": "Giant Fungi Bulb",
+"life": "300 / 600 / 900",
+"defense": "20"
+},
+{
+"id": "261",
+"name": "Fungi Spore",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "496",
+"name": "Giant Shelly",
+"life": "50 / 100 › 220 / 150 › 330",
+"defense": "12 / 12 › 24 / 24 (while spinning)"
+},
+{
+"id": "497",
+"name": "Giant Shelly",
+"life": "50 / 100 › 220 / 150 › 330",
+"defense": "12 / 12 › 24 / 24 (while spinning)"
+},
+{
+"id": "153",
+"name": "Giant Tortoise",
+"life": "470 / 940 / 1410",
+"defense": "30 / 60 (while spinning)"
+},
+{
+"id": "10",
+"name": "Giant Worm",
+"life": "30 / 60 › 330 › 396 / 90 › 495 › 594",
+"defense": "0"
+},
+{
+"id": "11",
+"name": "Giant Worm",
+"life": "30 / 60 › 330 › 396 / 90 › 495 › 594",
+"defense": "4 / 4 › 20 › 24"
+},
+{
+"id": "12",
+"name": "Giant Worm",
+"life": "30 / 60 › 264 › 330 / 90 › 396 › 495",
+"defense": "6 / 6 › 24 › 30"
+},
+{
+"id": "389",
+"name": "Gigazapper",
+"life": "600 / 1200 / 1800",
+"defense": "38"
+},
+{
+"id": "342",
+"name": "Gingerbread Man",
+"life": "750 / 1125 / 1688",
+"defense": "26"
+},
+{
+"id": "360",
+"name": "Glowing Snail",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "624",
+"name": "Gnome",
+"life": "25 / 50 › 274 › 330 / 75 › 411 › 495",
+"defense": "0"
+},
+{
+"id": "111",
+"name": "Goblin Archer",
+"life": "80 / 160 › 176 › 352 / 240 › 264 › 528",
+"defense": "6 / 6 › 6 › 12"
+},
+{
+"id": "26",
+"name": "Goblin Peon",
+"life": "60 / 120 › 264 › 396 / 180 › 396 › 594",
+"defense": "4 / 4 › 8 › 12"
+},
+{
+"id": "73",
+"name": "Goblin Scout",
+"life": "80 / 160 › 176 › 352 / 240 › 264 › 528",
+"defense": "6 / 6 › 6 › 12"
+},
+{
+"id": "29",
+"name": "Goblin Sorcerer",
+"life": "40 / 80 › 176 › 264 / 120 › 264 › 396",
+"defense": "2 / 2 › 4 › 6"
+},
+{
+"id": "27",
+"name": "Goblin Thief",
+"life": "80 / 160 › 176 › 352 / 240 › 264 › 528",
+"defense": "6 / 6 › 6 › 12"
+},
+{
+"id": "105",
+"name": "Bound Goblin",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "107",
+"name": "Goblin Tinkerer",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "471",
+"name": "Goblin Warlock",
+"life": "2000 / 3400 / 5100",
+"defense": "26"
+},
+{
+"id": "28",
+"name": "Goblin Warrior",
+"life": "110 / 220 › 242 / 330 › 363",
+"defense": "8"
+},
+{
+"id": "442",
+"name": "Gold Bird",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "443",
+"name": "Gold Bunny",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "444",
+"name": "Gold Butterfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "601",
+"name": "Gold Dragonfly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "445",
+"name": "Gold Frog",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "592",
+"name": "Gold Goldfish",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "593",
+"name": "Gold Goldfish",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "446",
+"name": "Gold Grasshopper",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "605",
+"name": "Gold Ladybug",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "447",
+"name": "Gold Mouse",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "627",
+"name": "Gold Seahorse",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "539",
+"name": "Gold Squirrel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "613",
+"name": "Gold Water Strider",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "448",
+"name": "Gold Worm",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "667",
+"name": "Golden Slime",
+"life": "300 / 600 › 600 › 660 / 900 › 900 › 990",
+"defense": "5"
+},
+{
+"id": "55",
+"name": "Goldfish",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "230",
+"name": "Goldfish",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "245",
+"name": "Golem",
+"life": "15000 / 22500 / 28687",
+"defense": "26"
+},
+{
+"id": "246",
+"name": "Golem Head",
+"life": "25000 / 37500 / 47812",
+"defense": "20"
+},
+{
+"id": "247",
+"name": "Golem Fist",
+"life": "10000 / 15000 / 19125",
+"defense": "28"
+},
+{
+"id": "248",
+"name": "Golem Fist",
+"life": "10000 / 15000 / 19125",
+"defense": "28"
+},
+{
+"id": "249",
+"name": "Golem Head",
+"life": "16000 / 24000 / 30600",
+"defense": "32"
+},
+{
+"id": "588",
+"name": "Golfer",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "589",
+"name": "Golfer",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "483",
+"name": "Granite Elemental",
+"life": "40 / 80 › 88 › 176 / 120 › 132 › 264",
+"defense": "8 / 8 › 8 › 16"
+},
+{
+"id": "482",
+"name": "Granite Golem",
+"life": "110 / 220 › 242 / 330 › 363",
+"defense": "18"
+},
+{
+"id": "377",
+"name": "Grasshopper",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "385",
+"name": "Gray Grunt",
+"life": "750 / 1500 / 2250",
+"defense": "30"
+},
+{
+"id": "608",
+"name": "Grebe",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "609",
+"name": "Grebe",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "-3",
+"name": "Green Slime",
+"life": "14 / 28 › 246 › 338 / 42 › 369 › 507",
+"defense": "0"
+},
+{
+"id": "485",
+"name": "Grubby",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "22",
+"name": "Guide",
+"life": "250",
+"defense": "30"
+},
+{
+"id": "48",
+"name": "Harpy",
+"life": "100 / 200 › 220 / 300 › 330",
+"defense": "8"
+},
+{
+"id": "315",
+"name": "Headless Horseman",
+"life": "5000 (Desktop, Console and Mobile versions) / 10000 (Old-gen console and 3DS versions) [[Expert Mode| 6500 ]] [[Master Mode| 8287 ]]",
+"defense": "40"
+},
+{
+"id": "660",
+"name": "Heavenly Slime",
+"life": "120 / 180 / 229",
+"defense": "30"
+},
+{
+"id": "277",
+"name": "Hell Armored Bones",
+"life": "400 / 800 / 1200",
+"defense": "32"
+},
+{
+"id": "278",
+"name": "Hell Armored Bones",
+"life": "450 / 900 / 1350",
+"defense": "48"
+},
+{
+"id": "279",
+"name": "Hell Armored Bones",
+"life": "500 / 1000 / 1500",
+"defense": "54"
+},
+{
+"id": "280",
+"name": "Hell Armored Bones",
+"life": "500 / 1000 / 1500",
+"defense": "34"
+},
+{
+"id": "60",
+"name": "Hellbat",
+"life": "46 / 92 › 100 / 138 › 150",
+"defense": "8"
+},
+{
+"id": "329",
+"name": "Hellhound",
+"life": "1800 (Desktop, Console and Mobile versions) / 1200 (Old-gen console and 3DS versions) [[Expert Mode| 2700 ]] [[Master Mode| 4050 ]]",
+"defense": "38"
+},
+{
+"id": "620",
+"name": "Hemogoblin Shark",
+"life": "5000 / 10000 / 15000",
+"defense": "30"
+},
+{
+"id": "174",
+"name": "Herpling",
+"life": "220 / 440 / 660",
+"defense": "26"
+},
+{
+"id": "481",
+"name": "Hoplite",
+"life": "70 / 140 › 154 › 308 / 210 › 231 › 462",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "304",
+"name": "Hoppin' Jack",
+"life": "175 / 350 / 525",
+"defense": "20"
+},
+{
+"id": "-65",
+"name": "Hornet",
+"life": "45 / 91 › 99 › 200 / 137 › 148 › 301",
+"defense": "4 / 4 › 4 › 9"
+},
+{
+"id": "-64",
+"name": "Hornet",
+"life": "33 / 66 › 71 › 144 / 99 › 107 › 216",
+"defense": "3 / 3 › 3 › 6"
+},
+{
+"id": "-63",
+"name": "Hornet",
+"life": "48 / 97 › 106 › 213 / 146 › 160 › 320",
+"defense": "6 / 6 › 6 › 13"
+},
+{
+"id": "-62",
+"name": "Hornet",
+"life": "32 / 65 › 71 › 143 / 98 › 107 › 215",
+"defense": "4 / 4 › 4 › 9"
+},
+{
+"id": "-61",
+"name": "Hornet",
+"life": "41 / 83 › 90 / 125 › 135",
+"defense": "15"
+},
+{
+"id": "-60",
+"name": "Hornet",
+"life": "34 / 69 › 75 / 104 › 113",
+"defense": "12"
+},
+{
+"id": "-59",
+"name": "Hornet",
+"life": "48 / 96 › 105 › 211 / 144 › 158 › 317",
+"defense": "13 / 13 › 13 › 27"
+},
+{
+"id": "-58",
+"name": "Hornet",
+"life": "33 / 67 › 73 › 147 / 100 › 110 › 220",
+"defense": "9 / 9 › 9 › 19"
+},
+{
+"id": "-57",
+"name": "Hornet",
+"life": "62 / 125 › 137 › 275 / 187 › 206 › 412",
+"defense": "20 / 20 › 20 › 40"
+},
+{
+"id": "-56",
+"name": "Hornet",
+"life": "42 / 85 › 93 › 187 / 127 › 140 › 280",
+"defense": "13 / 13 › 13 › 27"
+},
+{
+"id": "-17",
+"name": "Hornet",
+"life": "57 / 115 › 124 › 252 / 172 › 187 › 378",
+"defense": "14 / 14 › 14 › 28"
+},
+{
+"id": "-16",
+"name": "Hornet",
+"life": "40 / 81 › 88 › 178 / 122 › 132 › 267",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "42",
+"name": "Hornet",
+"life": "48 / 96 › 104 › 210 / 144 › 156 › 315",
+"defense": "12 / 12 › 12 › 24"
+},
+{
+"id": "231",
+"name": "Hornet",
+"life": "50 / 100 › 110 › 220 / 150 › 165 › 330",
+"defense": "16 / 16 › 16 › 32"
+},
+{
+"id": "232",
+"name": "Hornet",
+"life": "42 / 84 › 92 › 184 / 126 › 138 › 276",
+"defense": "12 / 12 › 12 › 24"
+},
+{
+"id": "233",
+"name": "Hornet",
+"life": "38 / 76 › 82 / 114 › 123",
+"defense": "14"
+},
+{
+"id": "234",
+"name": "Hornet",
+"life": "42 / 84 › 92 › 184 / 126 › 138 › 276",
+"defense": "6 / 6 › 6 › 12"
+},
+{
+"id": "235",
+"name": "Hornet",
+"life": "38 / 76 › 82 › 166 / 114 › 123 › 249",
+"defense": "4 / 4 › 4 › 8"
+},
+{
+"id": "150",
+"name": "Ice Bat",
+"life": "30 / 60 › 132 › 198 / 90 › 198 › 297",
+"defense": "6 / 6 › 12 › 18"
+},
+{
+"id": "169",
+"name": "Ice Elemental",
+"life": "200 / 400 / 600",
+"defense": "20"
+},
+{
+"id": "243",
+"name": "Ice Golem",
+"life": "4000 / 8000 / 12000",
+"defense": "32"
+},
+{
+"id": "345",
+"name": "Ice Queen",
+"life": "34000 / 44200 / 56355",
+"defense": "38"
+},
+{
+"id": "147",
+"name": "Ice Slime",
+"life": "30 / 60 › 264 › 330 / 90 › 396 › 495",
+"defense": "4 / 4 › 16 › 20"
+},
+{
+"id": "154",
+"name": "Ice Tortoise",
+"life": "400 / 800 / 1200",
+"defense": "28 / 56 (while spinning)"
+},
+{
+"id": "268",
+"name": "Ichor Sticker",
+"life": "340 / 680 / 1020",
+"defense": "20"
+},
+{
+"id": "206",
+"name": "Icy Merman",
+"life": "280 / 560 / 840",
+"defense": "30"
+},
+{
+"id": "137",
+"name": "Illuminant Bat",
+"life": "200 / 400 / 600",
+"defense": "30"
+},
+{
+"id": "138",
+"name": "Illuminant Slime",
+"life": "180 / 360 / 540",
+"defense": "30"
+},
+{
+"id": "63",
+"name": "Blue Jellyfish",
+"life": "34 / 68 › 148 / 102 › 222",
+"defense": "4 / 4 › 8"
+},
+{
+"id": "64",
+"name": "Pink Jellyfish",
+"life": "70 / 140 › 154 / 210 › 231",
+"defense": "6"
+},
+{
+"id": "103",
+"name": "Green Jellyfish",
+"life": "120 / 240 / 360",
+"defense": "30"
+},
+{
+"id": "242",
+"name": "Blood Jelly",
+"life": "150 / 300 / 450",
+"defense": "20"
+},
+{
+"id": "256",
+"name": "Fungo Fish",
+"life": "140 / 280 / 420",
+"defense": "20"
+},
+{
+"id": "51",
+"name": "Jungle Bat",
+"life": "34 / 68 › 148 › 224 / 102 › 222 › 336",
+"defense": "4 / 4 › 8 › 12"
+},
+{
+"id": "236",
+"name": "Jungle Creeper",
+"life": "400 / 800 / 1200",
+"defense": "28"
+},
+{
+"id": "237",
+"name": "Jungle Creeper",
+"life": "400 / 800 / 1200",
+"defense": "28"
+},
+{
+"id": "-10",
+"name": "Jungle Slime",
+"life": "60 / 120 › 264 / 180 › 396",
+"defense": "6 / 6 › 12"
+},
+{
+"id": "617",
+"name": "Jungle Turtle",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "50",
+"name": "King Slime",
+"life": "2000 / 2800 / 3570",
+"defense": "10"
+},
+{
+"id": "572",
+"name": "Kobold",
+"life": "260 / 520 / 663",
+"defense": "26"
+},
+{
+"id": "573",
+"name": "Kobold",
+"life": "800 / 1600 / 2040",
+"defense": "32"
+},
+{
+"id": "574",
+"name": "Kobold Glider",
+"life": "170 / 340 / 434",
+"defense": "16"
+},
+{
+"id": "575",
+"name": "Kobold Glider",
+"life": "580 / 1160 / 1479",
+"defense": "32"
+},
+{
+"id": "351",
+"name": "Krampus",
+"life": "2500 / 3750 / 5625",
+"defense": "40"
+},
+{
+"id": "219",
+"name": "Lac Beetle",
+"life": "40 / 80 › 176 / 120 › 264",
+"defense": "10 / 10 › 20"
+},
+{
+"id": "604",
+"name": "Ladybug",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "528",
+"name": "Lamia",
+"life": "350 / 700 / 1050",
+"defense": "28"
+},
+{
+"id": "529",
+"name": "Lamia",
+"life": "350 / 700 / 1050",
+"defense": "28"
+},
+{
+"id": "151",
+"name": "Lava Bat",
+"life": "160 / 320 / 480",
+"defense": "16"
+},
+{
+"id": "59",
+"name": "Lava Slime",
+"life": "50 / 100 › 220 / 150 › 330",
+"defense": "10 / 10 › 20"
+},
+{
+"id": "654",
+"name": "Lavafly",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "117",
+"name": "Leech",
+"life": "60 / 96 / 144",
+"defense": "2"
+},
+{
+"id": "118",
+"name": "Leech",
+"life": "60 / 96 / 144",
+"defense": "6"
+},
+{
+"id": "119",
+"name": "Leech",
+"life": "60 / 96 / 144",
+"defense": "10"
+},
+{
+"id": "693",
+"name": "Librarian Skeleton",
+"life": "70 / 140 › 308 / 210 › 462",
+"defense": "2 / 2 › 4"
+},
+{
+"id": "358",
+"name": "Lightning Bug",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "198",
+"name": "Lihzahrd",
+"life": "400 / 800 / 1200",
+"defense": "20"
+},
+{
+"id": "199",
+"name": "Lihzahrd",
+"life": "220 [[Expert Mode| 440 ]] [[Master Mode| 660 ]] / 400 [[Expert Mode| 800 ]] [[Master Mode| 1200 ]]",
+"defense": "30"
+},
+{
+"id": "439",
+"name": "Lunatic Cultist",
+"life": "32000 / 48000 / 61200",
+"defense": "42 / 27 (≤50% health)"
+},
+{
+"id": "440",
+"name": "Lunatic Cultist",
+"life": "10000",
+"defense": "35 / 22 (≤50% health)"
+},
+{
+"id": "671",
+"name": "Scarlet Macaw",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "672",
+"name": "Blue Macaw",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "606",
+"name": "Maggot",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "632",
+"name": "Maggot Zombie",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "6 / 6 › 12 › 18"
+},
+{
+"id": "655",
+"name": "Magma Snail",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "43",
+"name": "Man Eater",
+"life": "110 / 220 › 242 / 330 › 363",
+"defense": "10"
+},
+{
+"id": "388",
+"name": "Martian Drone",
+"life": "300 / 600 / 900",
+"defense": "16"
+},
+{
+"id": "386",
+"name": "Martian Engineer",
+"life": "400 / 800 / 1200",
+"defense": "34"
+},
+{
+"id": "383",
+"name": "Martian Officer",
+"life": "300 / 600 / 900",
+"defense": "50"
+},
+{
+"id": "384",
+"name": "Bubble Shield",
+"life": "1000",
+"defense": "20"
+},
+{
+"id": "399",
+"name": "Martian Probe",
+"life": "500 / 1000 / 1500",
+"defense": "5"
+},
+{
+"id": "392",
+"name": "Martian Saucer",
+"life": "17000 [[Expert Mode| 45900 ]] [[Master Mode| 68850 ]] (all parts)",
+"defense": "100"
+},
+{
+"id": "393",
+"name": "Martian Saucer Turret",
+"life": "5000 / 8500 / 12750",
+"defense": "20"
+},
+{
+"id": "394",
+"name": "Martian Saucer Cannon",
+"life": "3500 / 5950 / 8925",
+"defense": "20"
+},
+{
+"id": "395",
+"name": "Martian Saucer",
+"life": "17000 / 25500",
+"defense": "0"
+},
+{
+"id": "520",
+"name": "Martian Walker",
+"life": "2000 / 4000 / 6000",
+"defense": "40"
+},
+{
+"id": "1028",
+"name": "Mc MoneyPants",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "123",
+"name": "Bound Mechanic",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "124",
+"name": "Mechanic",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "480",
+"name": "Medusa",
+"life": "400 / 800 / 1200",
+"defense": "20"
+},
+{
+"id": "17",
+"name": "Merchant",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "23",
+"name": "Meteor Head",
+"life": "26 / 52 › 56 / 78 › 84",
+"defense": "6"
+},
+{
+"id": "402",
+"name": "Milkyway Weaver",
+"life": "1200 / 2400 / 3600",
+"defense": "10"
+},
+{
+"id": "403",
+"name": "Milkyway Weaver",
+"life": "0",
+"defense": "0"
+},
+{
+"id": "404",
+"name": "Milkyway Weaver",
+"life": "0",
+"defense": "0"
+},
+{
+"id": "85",
+"name": "Mimic",
+"life": "500 / 1000 / 1500",
+"defense": "30"
+},
+{
+"id": "473",
+"name": "Corrupt Mimic",
+"life": "3500 / 7000 / 10500",
+"defense": "34"
+},
+{
+"id": "474",
+"name": "Crimson Mimic",
+"life": "3500 / 7000 / 10500",
+"defense": "34"
+},
+{
+"id": "475",
+"name": "Hallowed Mimic",
+"life": "3500 / 7000 / 10500",
+"defense": "34"
+},
+{
+"id": "476",
+"name": "Jungle Mimic",
+"life": "3500 / 7000 / 10500",
+"defense": "34"
+},
+{
+"id": "629",
+"name": "Ice Mimic",
+"life": "500 / 1000 / 1500",
+"defense": "30"
+},
+{
+"id": "144",
+"name": "Mister Stabby",
+"life": "240 / 480 / 720",
+"defense": "26"
+},
+{
+"id": "401",
+"name": "Moon Leech Clot",
+"life": "400",
+"defense": "0"
+},
+{
+"id": "396",
+"name": "Moon Lord",
+"life": "45000 / 67500 / 86062",
+"defense": "50"
+},
+{
+"id": "397",
+"name": "Moon Lord's Hand",
+"life": "25000 / 37500 / 47812",
+"defense": "40"
+},
+{
+"id": "398",
+"name": "Moon Lord's Core",
+"life": "50000 / 75000 / 95625",
+"defense": "70"
+},
+{
+"id": "-21",
+"name": "Moss Hornet",
+"life": "264 / 528 / 792",
+"defense": "26"
+},
+{
+"id": "-20",
+"name": "Moss Hornet",
+"life": "242 / 484 / 726",
+"defense": "24"
+},
+{
+"id": "-19",
+"name": "Moss Hornet",
+"life": "198 / 396 / 594",
+"defense": "19"
+},
+{
+"id": "-18",
+"name": "Moss Hornet",
+"life": "176 / 352 / 528",
+"defense": "17"
+},
+{
+"id": "176",
+"name": "Moss Hornet",
+"life": "220 / 440 / 660",
+"defense": "22"
+},
+{
+"id": "691",
+"name": "Moss Zombie",
+"life": "60 / 120 › 132 › 264 / 180 › 198 › 396",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "205",
+"name": "Moth",
+"life": "1000 / 2000 / 3000",
+"defense": "28"
+},
+{
+"id": "16",
+"name": "Mother Slime",
+"life": "90 / 180 › 198 › 396 / 270 › 297 › 594",
+"defense": "7 / 7 › 7 › 14"
+},
+{
+"id": "477",
+"name": "Mothron",
+"life": "6000 / 12000 / 18000",
+"defense": "30"
+},
+{
+"id": "478",
+"name": "Mothron Egg",
+"life": "200",
+"defense": "30"
+},
+{
+"id": "479",
+"name": "Baby Mothron",
+"life": "700 / 1400 / 2100",
+"defense": "14"
+},
+{
+"id": "325",
+"name": "Mourning Wood",
+"life": "14000 / 18200 / 23205",
+"defense": "34"
+},
+{
+"id": "300",
+"name": "Mouse",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "78",
+"name": "Mummy",
+"life": "130 / 260 › 286 / 390 › 429",
+"defense": "16"
+},
+{
+"id": "79",
+"name": "Dark Mummy",
+"life": "180 / 360 / 540",
+"defense": "18"
+},
+{
+"id": "80",
+"name": "Light Mummy",
+"life": "200 / 400 / 600",
+"defense": "18"
+},
+{
+"id": "630",
+"name": "Blood Mummy",
+"life": "180 / 360 / 540",
+"defense": "18"
+},
+{
+"id": "258",
+"name": "Mushi Ladybug",
+"life": "220 / 440 / 660",
+"defense": "16"
+},
+{
+"id": "549",
+"name": "Mysterious Portal",
+"life": "5",
+"defense": "20"
+},
+{
+"id": "437",
+"name": "Mysterious Tablet",
+"life": "400",
+"defense": "0"
+},
+{
+"id": "687",
+"name": "Mystic Frog",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "1029",
+"name": "Mythical Wyvern Head",
+"life": "",
+"defense": "35"
+},
+{
+"id": "463",
+"name": "Nailhead",
+"life": "4000 / 8000 / 12000",
+"defense": "34"
+},
+{
+"id": "420",
+"name": "Nebula Floater",
+"life": "1300 / 2600 / 3900",
+"defense": "20"
+},
+{
+"id": "283",
+"name": "Necromancer",
+"life": "300 / 600 / 900",
+"defense": "18"
+},
+{
+"id": "284",
+"name": "Necromancer",
+"life": "450 / 900 / 1350",
+"defense": "24"
+},
+{
+"id": "670",
+"name": "Nerdy Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "678",
+"name": "Cool Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "679",
+"name": "Elder Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "680",
+"name": "Clumsy Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "681",
+"name": "Diva Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "682",
+"name": "Surly Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "683",
+"name": "Mystic Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "684",
+"name": "Squire Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "18",
+"name": "Nurse",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "348",
+"name": "Nutcracker",
+"life": "1800 / 2700 / 4050",
+"defense": "26"
+},
+{
+"id": "349",
+"name": "Nutcracker",
+"life": "990 [[Expert Mode| 1485 ]] [[Master Mode| 2227 ]] / 1800 [[Expert Mode| 2700 ]] [[Master Mode| 4050 ]]",
+"defense": "42"
+},
+{
+"id": "195",
+"name": "Lost Girl",
+"life": "250 / 500 / 750",
+"defense": "30"
+},
+{
+"id": "196",
+"name": "Nymph",
+"life": "300 / 600 / 900",
+"defense": "16"
+},
+{
+"id": "576",
+"name": "Ogre",
+"life": "5000 / 10000 / 12750",
+"defense": "34"
+},
+{
+"id": "577",
+"name": "Ogre",
+"life": "13000 / 26000 / 33150",
+"defense": "40"
+},
+{
+"id": "37",
+"name": "Old Man",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "566",
+"name": "Old One's Skeleton",
+"life": "25 / 50 › 110 / 64 › 140",
+"defense": "12 / 12 › 24"
+},
+{
+"id": "567",
+"name": "Old One's Skeleton",
+"life": "480 / 960 / 1224",
+"defense": "22"
+},
+{
+"id": "685",
+"name": "Old Shaking Chest",
+"life": "250",
+"defense": "10"
+},
+{
+"id": "692",
+"name": "Orca",
+"life": "400 / 800 / 1200",
+"defense": "20"
+},
+{
+"id": "611",
+"name": "Owl",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "689",
+"name": "Owl",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "227",
+"name": "Painter",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "290",
+"name": "Paladin",
+"life": "5000 / 10000 / 15000",
+"defense": "50"
+},
+{
+"id": "252",
+"name": "Parrot",
+"life": "100 / 200 / 300",
+"defense": "12"
+},
+{
+"id": "208",
+"name": "Party Girl",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "148",
+"name": "Penguin",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "149",
+"name": "Penguin",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "454",
+"name": "Phantasm Dragon",
+"life": "10000 / 15000 / 19125",
+"defense": "15"
+},
+{
+"id": "455",
+"name": "Phantasm Dragon",
+"life": "10000 / 15000 / 19125",
+"defense": "30"
+},
+{
+"id": "456",
+"name": "Phantasm Dragon",
+"life": "10000 / 15000 / 19125",
+"defense": "30"
+},
+{
+"id": "457",
+"name": "Phantasm Dragon",
+"life": "10000 / 15000 / 19125",
+"defense": "30"
+},
+{
+"id": "458",
+"name": "Phantasm Dragon",
+"life": "10000 / 15000 / 19125",
+"defense": "30"
+},
+{
+"id": "459",
+"name": "Phantasm Dragon",
+"life": "10000 / 15000 / 19125",
+"defense": "30"
+},
+{
+"id": "170",
+"name": "Pigron",
+"life": "210 / 420 / 630",
+"defense": "16"
+},
+{
+"id": "171",
+"name": "Pigron",
+"life": "210 / 420 / 630",
+"defense": "16"
+},
+{
+"id": "180",
+"name": "Pigron",
+"life": "210 / 420 / 630",
+"defense": "16"
+},
+{
+"id": "-4",
+"name": "Pinky",
+"life": "150 / 300 › 330 › 660 / 450 › 495 › 990",
+"defense": "5 / 5 › 5 › 10"
+},
+{
+"id": "58",
+"name": "Piranha",
+"life": "30 / 60 › 132 / 90 › 198",
+"defense": "2 / 2 › 4"
+},
+{
+"id": "229",
+"name": "Pirate",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "216",
+"name": "Pirate Captain",
+"life": "3000 / 6000 / 9000",
+"defense": "30"
+},
+{
+"id": "213",
+"name": "Pirate Corsair",
+"life": "450 / 900 / 1350",
+"defense": "22"
+},
+{
+"id": "215",
+"name": "Pirate Crossbower",
+"life": "350 / 700 / 1050",
+"defense": "20"
+},
+{
+"id": "214",
+"name": "Pirate Deadeye",
+"life": "225 / 450 / 675",
+"defense": "14"
+},
+{
+"id": "212",
+"name": "Pirate Deckhand",
+"life": "300 / 600 / 900",
+"defense": "17"
+},
+{
+"id": "662",
+"name": "Pirate's Curse",
+"life": "500 / 1000 / 1500",
+"defense": "22"
+},
+{
+"id": "75",
+"name": "Pixie",
+"life": "150 / 300 / 450",
+"defense": "20"
+},
+{
+"id": "262",
+"name": "Plantera",
+"life": "30000 [[Expert Mode| 42000 ]] [[Master Mode| 53550 ]]",
+"defense": "36"
+},
+{
+"id": "263",
+"name": "Plantera's Hook",
+"life": "4000 / 8000 / 12000",
+"defense": "24"
+},
+{
+"id": "264",
+"name": "Plantera's Tentacle",
+"life": "1000 / 2000 / 2550",
+"defense": "20"
+},
+{
+"id": "265",
+"name": "Spore",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "330",
+"name": "Poltergeist",
+"life": "1250 / 1875 / 2812 (Desktop, Console and Mobile versions) / 2000 (Old-gen console and 3DS versions)",
+"defense": "44"
+},
+{
+"id": "140",
+"name": "Possessed Armor",
+"life": "260 / 520 / 780",
+"defense": "28"
+},
+{
+"id": "424",
+"name": "Predictor",
+"life": "700 / 1400 / 2100",
+"defense": "30"
+},
+{
+"id": "341",
+"name": "Present Mimic",
+"life": "900 / 1350 / 2025",
+"defense": "32"
+},
+{
+"id": "663",
+"name": "Princess",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "661",
+"name": "Prismatic Lacewing",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "139",
+"name": "Probe",
+"life": "200 / 300 / 450",
+"defense": "20"
+},
+{
+"id": "466",
+"name": "Psycho",
+"life": "550 / 1100 / 1650",
+"defense": "40"
+},
+{
+"id": "688",
+"name": "Pufferfish",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "327",
+"name": "Pumpking",
+"life": "26000 / 33800 / 43095",
+"defense": "40"
+},
+{
+"id": "328",
+"name": "Pumpking",
+"life": "5000 / 10000 / 15000",
+"defense": "14"
+},
+{
+"id": "607",
+"name": "Pupfish",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "-7",
+"name": "Purple Slime",
+"life": "40 / 80 › 176 › 264 / 120 › 264 › 396",
+"defense": "6 / 6 › 12 › 18"
+},
+{
+"id": "222",
+"name": "Queen Bee",
+"life": "3400 / 4760 / 6069",
+"defense": "8 [[Expert Mode| 8–28 ]] (depending on health)"
+},
+{
+"id": "657",
+"name": "Queen Slime",
+"life": "18000 / 28800 / 36720",
+"defense": "26"
+},
+{
+"id": "281",
+"name": "Ragged Caster",
+"life": "400 / 800 / 1200",
+"defense": "20"
+},
+{
+"id": "282",
+"name": "Ragged Caster",
+"life": "450 / 900 / 1350",
+"defense": "28"
+},
+{
+"id": "244",
+"name": "Rainbow Slime",
+"life": "400 / 800 / 1200",
+"defense": "26"
+},
+{
+"id": "-55",
+"name": "Zombie",
+"life": "55 / 110 › 242 / 165 › 363",
+"defense": "8 / 8 › 17"
+},
+{
+"id": "-54",
+"name": "Zombie",
+"life": "45 / 90 › 198 / 135 › 297",
+"defense": "7 / 7 › 14"
+},
+{
+"id": "223",
+"name": "Raincoat Zombie",
+"life": "50 / 100 › 220 / 150 › 330",
+"defense": "8 / 8 › 16"
+},
+{
+"id": "610",
+"name": "Rat",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "301",
+"name": "Raven",
+"life": "35 / 70 › 230 › 308 / 105 › 345 › 462",
+"defense": "2 / 2 › 6 › 8"
+},
+{
+"id": "382",
+"name": "Ray Gunner",
+"life": "350 / 700 / 1050",
+"defense": "25"
+},
+{
+"id": "253",
+"name": "Reaper",
+"life": "700 / 1400 / 2100",
+"defense": "22"
+},
+{
+"id": "156",
+"name": "Red Devil",
+"life": "600 / 1200 / 1800",
+"defense": "40"
+},
+{
+"id": "-8",
+"name": "Red Slime",
+"life": "35 / 70 › 230 › 308 / 105 › 345 › 462",
+"defense": "4 / 4 › 12 › 16"
+},
+{
+"id": "631",
+"name": "Rock Golem",
+"life": "1000 / 2000 / 3000",
+"defense": "35"
+},
+{
+"id": "172",
+"name": "Rune Wizard",
+"life": "600 / 1200 / 1800",
+"defense": "30"
+},
+{
+"id": "269",
+"name": "Rusty Armored Bones",
+"life": "550 / 1100 / 1650",
+"defense": "34"
+},
+{
+"id": "270",
+"name": "Rusty Armored Bones",
+"life": "400 / 800 / 1200",
+"defense": "50"
+},
+{
+"id": "271",
+"name": "Rusty Armored Bones",
+"life": "450 / 900 / 1350",
+"defense": "40"
+},
+{
+"id": "272",
+"name": "Rusty Armored Bones",
+"life": "400 / 800 / 1200",
+"defense": "28"
+},
+{
+"id": "498",
+"name": "Salamander",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "499",
+"name": "Salamander",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "500",
+"name": "Salamander",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "501",
+"name": "Salamander",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "502",
+"name": "Salamander",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "503",
+"name": "Salamander",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "504",
+"name": "Salamander",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "505",
+"name": "Salamander",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "506",
+"name": "Salamander",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "541",
+"name": "Sand Elemental",
+"life": "5000 / 10000 / 15000",
+"defense": "30"
+},
+{
+"id": "530",
+"name": "Sand Poacher",
+"life": "320 / 640 / 960",
+"defense": "24"
+},
+{
+"id": "531",
+"name": "Sand Poacher",
+"life": "320 / 640 / 960",
+"defense": "24"
+},
+{
+"id": "542",
+"name": "Sand Shark",
+"life": "360 / 720 / 1080",
+"defense": "20"
+},
+{
+"id": "543",
+"name": "Bone Biter",
+"life": "380 / 760 / 1140",
+"defense": "24"
+},
+{
+"id": "544",
+"name": "Flesh Reaver",
+"life": "400 / 800 / 1200",
+"defense": "22"
+},
+{
+"id": "545",
+"name": "Crystal Thresher",
+"life": "450 / 900 / 1350",
+"defense": "26"
+},
+{
+"id": "537",
+"name": "Sand Slime",
+"life": "50 / 100 › 220 › 330 / 150 › 330 › 495",
+"defense": "5 / 5 › 10 › 15"
+},
+{
+"id": "142",
+"name": "Santa Claus",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "346",
+"name": "Santa-NK1",
+"life": "18000 / 23400 / 29835",
+"defense": "56"
+},
+{
+"id": "305",
+"name": "Scarecrow",
+"life": "500 / 750 / 1125",
+"defense": "18"
+},
+{
+"id": "306",
+"name": "Scarecrow",
+"life": "400 / 600 / 900",
+"defense": "14"
+},
+{
+"id": "307",
+"name": "Scarecrow",
+"life": "600 / 900 / 1350",
+"defense": "16"
+},
+{
+"id": "308",
+"name": "Scarecrow",
+"life": "650 / 975 / 1462",
+"defense": "14"
+},
+{
+"id": "309",
+"name": "Scarecrow",
+"life": "450 / 675 / 1012",
+"defense": "26"
+},
+{
+"id": "310",
+"name": "Scarecrow",
+"life": "500 / 750 / 1125",
+"defense": "18"
+},
+{
+"id": "311",
+"name": "Scarecrow",
+"life": "400 / 600 / 900",
+"defense": "14"
+},
+{
+"id": "312",
+"name": "Scarecrow",
+"life": "600 / 900 / 1350",
+"defense": "16"
+},
+{
+"id": "313",
+"name": "Scarecrow",
+"life": "650 / 975 / 1462",
+"defense": "14"
+},
+{
+"id": "314",
+"name": "Scarecrow",
+"life": "450 / 675 / 1012",
+"defense": "26"
+},
+{
+"id": "366",
+"name": "Scorpion",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "367",
+"name": "Scorpion",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "390",
+"name": "Scutlix Gunner",
+"life": "350 / 700 / 1050",
+"defense": "30"
+},
+{
+"id": "391",
+"name": "Scutlix",
+"life": "600 / 1200 / 1800",
+"defense": "30"
+},
+{
+"id": "220",
+"name": "Sea Snail",
+"life": "40 / 80 › 176 / 120 › 264",
+"defense": "10 / 10 › 20"
+},
+{
+"id": "625",
+"name": "Sea Turtle",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "602",
+"name": "Seagull",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "603",
+"name": "Seagull",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "626",
+"name": "Seahorse",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "419",
+"name": "Selenian",
+"life": "800 / 1600 / 2400",
+"defense": "30"
+},
+{
+"id": "5",
+"name": "Servant of Cthulhu",
+"life": "8 / 12 / 15",
+"defense": "0"
+},
+{
+"id": "1005",
+"name": "Shadow Hammer",
+"life": "200",
+"defense": "30"
+},
+{
+"id": "472",
+"name": "Shadowflame Apparition",
+"life": "180 / 306 / 459",
+"defense": "18"
+},
+{
+"id": "65",
+"name": "Shark",
+"life": "300 / 600 / 900",
+"defense": "2"
+},
+{
+"id": "372",
+"name": "Sharkron",
+"life": "100 / 150 / 225",
+"defense": "100"
+},
+{
+"id": "373",
+"name": "Sharkron",
+"life": "100 / 150 / 225",
+"defense": "100"
+},
+{
+"id": "676",
+"name": "Shimmer Slime",
+"life": "80 / 160 › 176 › 352 / 240 › 264 › 528",
+"defense": "5 / 5 › 5 › 10"
+},
+{
+"id": "-53",
+"name": "Skeleton",
+"life": "69 / 138 › 151 › 303 / 206 › 227 › 455",
+"defense": "9 / 9 › 9 › 18"
+},
+{
+"id": "-52",
+"name": "Skeleton",
+"life": "51 / 102 › 112 › 224 / 153 › 168 › 336",
+"defense": "6 / 6 › 6 › 13"
+},
+{
+"id": "-51",
+"name": "Skeleton",
+"life": "73 / 146 › 160 › 323 / 220 › 240 › 484",
+"defense": "9 / 9 › 9 › 18"
+},
+{
+"id": "-50",
+"name": "Skeleton",
+"life": "56 / 113 › 123 › 248 / 169 › 185 › 373",
+"defense": "6 / 6 › 6 › 13"
+},
+{
+"id": "-49",
+"name": "Skeleton",
+"life": "58 / 117 › 128 › 258 / 176 › 192 › 388",
+"defense": "12 / 12 › 12 › 25"
+},
+{
+"id": "-48",
+"name": "Skeleton",
+"life": "51 / 102 › 111 › 225 / 153 › 167 › 337",
+"defense": "11 / 11 › 11 › 22"
+},
+{
+"id": "-47",
+"name": "Skeleton",
+"life": "66 / 132 › 145 › 290 / 198 › 217 › 435",
+"defense": "8 / 8 › 8 › 17"
+},
+{
+"id": "-46",
+"name": "Skeleton",
+"life": "54 / 108 › 118 › 237 / 162 › 178 › 356",
+"defense": "7 / 7 › 7 › 14"
+},
+{
+"id": "21",
+"name": "Skeleton",
+"life": "60 / 120 › 132 › 264 / 180 › 198 › 396",
+"defense": "8 / 8 › 8 › 16"
+},
+{
+"id": "201",
+"name": "Skeleton",
+"life": "55 / 110 › 120 › 242 / 165 › 180 › 363",
+"defense": "12 / 12 › 12 › 24"
+},
+{
+"id": "202",
+"name": "Skeleton",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "8 / 8 › 8 › 16"
+},
+{
+"id": "203",
+"name": "Skeleton",
+"life": "60 / 120 › 132 › 264 / 180 › 198 › 396",
+"defense": "8 / 8 › 8 › 16"
+},
+{
+"id": "322",
+"name": "Skeleton",
+"life": "115 / 230 › 252 / 345 › 378",
+"defense": "0"
+},
+{
+"id": "323",
+"name": "Skeleton",
+"life": "65 / 130 › 142 › 286 / 195 › 213 › 429",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "324",
+"name": "Skeleton",
+"life": "70 / 140 › 154 › 308 / 210 › 231 › 462",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "449",
+"name": "Skeleton",
+"life": "60 / 120 › 132 › 264 / 180 › 198 › 396",
+"defense": "8 / 8 › 8 › 16"
+},
+{
+"id": "450",
+"name": "Skeleton",
+"life": "110 › 120 › 242 / 165 › 180 › 363",
+"defense": "12 › 12 › 24"
+},
+{
+"id": "451",
+"name": "Skeleton",
+"life": "130 › 142 › 286 / 195 › 213 › 429",
+"defense": "8 › 8 › 16"
+},
+{
+"id": "452",
+"name": "Skeleton",
+"life": "120 › 132 › 264 / 180 › 198 › 396",
+"defense": "8 › 8 › 16"
+},
+{
+"id": "110",
+"name": "Skeleton Archer",
+"life": "210 / 420 / 630",
+"defense": "14"
+},
+{
+"id": "293",
+"name": "Skeleton Commando",
+"life": "400 / 800 / 1200",
+"defense": "28"
+},
+{
+"id": "453",
+"name": "Skeleton Merchant",
+"life": "250",
+"defense": "30"
+},
+{
+"id": "291",
+"name": "Skeleton Sniper",
+"life": "400 / 800 / 1200",
+"defense": "28"
+},
+{
+"id": "35",
+"name": "Skeletron",
+"life": "4400 / 8800 / 11220",
+"defense": "10 [[Expert Mode| 10+25 per hand alive ]] 0 [[Expert Mode| 0+25 per hand alive ]] (while spinning) 9999 (during day)"
+},
+{
+"id": "36",
+"name": "Skeletron",
+"life": "600 / 1560 / 1989",
+"defense": "14"
+},
+{
+"id": "127",
+"name": "Skeletron Prime",
+"life": "28000 / 42000 / 53550",
+"defense": "24 48 (while spinning) 9999 (during [[day]])"
+},
+{
+"id": "128",
+"name": "Prime Cannon",
+"life": "7000 / 10500 / 13387",
+"defense": "23"
+},
+{
+"id": "129",
+"name": "Prime Saw",
+"life": "9000 / 13500 / 17212",
+"defense": "38"
+},
+{
+"id": "130",
+"name": "Prime Vice",
+"life": "9000 / 13500 / 17212",
+"defense": "34"
+},
+{
+"id": "131",
+"name": "Prime Laser",
+"life": "6000 / 9000 / 11475",
+"defense": "20"
+},
+{
+"id": "-1",
+"name": "Slimeling",
+"life": "90 / 198 / 297",
+"defense": "10"
+},
+{
+"id": "-2",
+"name": "Slimer",
+"life": "90 / 180 › 198 / 270 › 297",
+"defense": "20"
+},
+{
+"id": "121",
+"name": "Slimer",
+"life": "60 / 120 › 132 / 180 › 198",
+"defense": "20"
+},
+{
+"id": "302",
+"name": "Slime",
+"life": "25 / 50 › 274 › 330 / 75 › 411 › 495",
+"defense": "2 / 2 › 10 › 12"
+},
+{
+"id": "333",
+"name": "Slime",
+"life": "25 / 50 › 274 › 330 / 75 › 411 › 495",
+"defense": "2 / 2 › 10 › 12"
+},
+{
+"id": "334",
+"name": "Slime",
+"life": "23 / 46 › 302 › 354 / 69 › 453 › 531",
+"defense": "2 / 2 › 12 › 14"
+},
+{
+"id": "335",
+"name": "Slime",
+"life": "29 / 58 › 254 › 318 / 87 › 381 › 477",
+"defense": "3 / 3 › 12 › 15"
+},
+{
+"id": "336",
+"name": "Slime",
+"life": "22 / 44 › 338 › 434 / 66 › 507 › 651",
+"defense": "1 / 1 › 7 › 9"
+},
+{
+"id": "486",
+"name": "Sluggy",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "359",
+"name": "Snail",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "56",
+"name": "Snatcher",
+"life": "60 / 120 › 132 › 264 / 180 › 198 › 396",
+"defense": "10 / 10 › 10 › 20"
+},
+{
+"id": "145",
+"name": "Snow Balla",
+"life": "220 / 440 / 660",
+"defense": "22"
+},
+{
+"id": "185",
+"name": "Snow Flinx",
+"life": "70 / 140 › 154 / 210 › 231",
+"defense": "12"
+},
+{
+"id": "143",
+"name": "Snowman Gangsta",
+"life": "200 / 400 / 600",
+"defense": "20"
+},
+{
+"id": "516",
+"name": "Solar Flare",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "519",
+"name": "Solar Fragment",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "70",
+"name": "Spike Ball",
+"life": "100 / 200 / 300",
+"defense": "100"
+},
+{
+"id": "184",
+"name": "Spiked Ice Slime",
+"life": "60 / 120 › 264 / 180 › 396",
+"defense": "8 / 8 › 16"
+},
+{
+"id": "204",
+"name": "Spiked Jungle Slime",
+"life": "65 / 130 › 142 / 195 › 213",
+"defense": "8"
+},
+{
+"id": "535",
+"name": "Spiked Slime",
+"life": "100 › 220 › 330 / 150 › 330 › 495",
+"defense": "5 › 10 › 15"
+},
+{
+"id": "326",
+"name": "Splinterling",
+"life": "1200 / 1800 / 2700",
+"defense": "32"
+},
+{
+"id": "634",
+"name": "Spore Bat",
+"life": "16 / 32 › 140 › 176 / 48 › 210 › 264",
+"defense": "2 / 2 › 8 › 10"
+},
+{
+"id": "635",
+"name": "Spore Skeleton",
+"life": "60 / 120 › 132 › 264 / 180 › 198 › 396",
+"defense": "8 / 8 › 8 › 16"
+},
+{
+"id": "254",
+"name": "Spore Zombie",
+"life": "180 / 360 › 360 › 396 / 540 › 540 › 594",
+"defense": "10"
+},
+{
+"id": "255",
+"name": "Spore Zombie",
+"life": "220 / 440 / 660",
+"defense": "16"
+},
+{
+"id": "221",
+"name": "Squid",
+"life": "30 / 60 › 132 › 198 / 90 › 198 › 297",
+"defense": "2 / 2 › 4 › 6"
+},
+{
+"id": "299",
+"name": "Squirrel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "538",
+"name": "Red Squirrel",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "417",
+"name": "Sroller",
+"life": "700 / 1400 / 2100",
+"defense": "34 / 68 (while spinning)"
+},
+{
+"id": "405",
+"name": "Star Cell",
+"life": "300 / 600 / 900",
+"defense": "50"
+},
+{
+"id": "406",
+"name": "Mini Star Cell",
+"life": "300 / 600 / 900",
+"defense": "0"
+},
+{
+"id": "411",
+"name": "Stargazer",
+"life": "700 / 1400 / 2100",
+"defense": "34"
+},
+{
+"id": "690",
+"name": "Statue",
+"life": "400 / 800 / 1200",
+"defense": "10"
+},
+{
+"id": "178",
+"name": "Steampunker",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "669",
+"name": "Stinkbug",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "425",
+"name": "Storm Diver",
+"life": "800 / 1600 / 2400",
+"defense": "40"
+},
+{
+"id": "353",
+"name": "Stylist",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "354",
+"name": "Webbed Stylist",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "166",
+"name": "Swamp Thing",
+"life": "450 / 900 / 1350",
+"defense": "26"
+},
+{
+"id": "292",
+"name": "Tactical Skeleton",
+"life": "400 / 800 / 1200",
+"defense": "28"
+},
+{
+"id": "488",
+"name": "Target Dummy",
+"life": "1000",
+"defense": "0"
+},
+{
+"id": "550",
+"name": "Tavernkeep",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "579",
+"name": "Unconscious Man",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "441",
+"name": "Tax Collector",
+"life": "250",
+"defense": "15 200 (Only when named Andrew) [[Category:Pages with information based on outdated versions of Terraria's source code]]"
+},
+{
+"id": "387",
+"name": "Tesla Turret",
+"life": "200 / 400 / 600",
+"defense": "40"
+},
+{
+"id": "536",
+"name": "The Bride",
+"life": "200 / 400 › 440 / 600 › 660",
+"defense": "8"
+},
+{
+"id": "134",
+"name": "The Destroyer",
+"life": "80000 / 120000 / 153000",
+"defense": "0"
+},
+{
+"id": "135",
+"name": "The Destroyer",
+"life": "80000 / 120000 / 153000",
+"defense": "30"
+},
+{
+"id": "136",
+"name": "The Destroyer",
+"life": "80000 / 120000 / 153000",
+"defense": "35"
+},
+{
+"id": "53",
+"name": "The Groom",
+"life": "200 / 400 › 440 / 600 › 660",
+"defense": "8"
+},
+{
+"id": "469",
+"name": "The Possessed",
+"life": "600 / 1200 / 1800",
+"defense": "28"
+},
+{
+"id": "664",
+"name": "The Torch God",
+"life": "20",
+"defense": "0"
+},
+{
+"id": "125",
+"name": "Retinazer",
+"life": "20000 / 30000 / 38250",
+"defense": "10"
+},
+{
+"id": "126",
+"name": "Spazmatism",
+"life": "23000 / 34500 / 43988",
+"defense": "10"
+},
+{
+"id": "45",
+"name": "Tim",
+"life": "200 / 400 › 440 / 600 › 660",
+"defense": "4"
+},
+{
+"id": "513",
+"name": "Tomb Crawler",
+"life": "60 / 120 › 264 › 396 / 180 › 396 › 594",
+"defense": "0"
+},
+{
+"id": "514",
+"name": "Tomb Crawler",
+"life": "60 / 120 › 264 / 180 › 396",
+"defense": "12 / 12 › 24"
+},
+{
+"id": "515",
+"name": "Tomb Crawler",
+"life": "60 / 120 › 264 / 180 › 396",
+"defense": "14 / 14 › 28"
+},
+{
+"id": "534",
+"name": "Tortured Soul",
+"life": "400 / 800 / 1200",
+"defense": "20"
+},
+{
+"id": "673",
+"name": "Toucan",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "656",
+"name": "Town Bunny",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "637",
+"name": "Town Cat",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "638",
+"name": "Town Dog",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "670",
+"name": "Nerdy Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "678",
+"name": "Cool Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "679",
+"name": "Elder Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "680",
+"name": "Clumsy Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "681",
+"name": "Diva Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "682",
+"name": "Surly Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "683",
+"name": "Mystic Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "684",
+"name": "Squire Slime",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "141",
+"name": "Toxic Sludge",
+"life": "150 / 300 / 450",
+"defense": "18"
+},
+{
+"id": "368",
+"name": "Traveling Merchant",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "400",
+"name": "True Eye of Cthulhu",
+"life": "100 / 200 / 300",
+"defense": "0"
+},
+{
+"id": "160",
+"name": "Truffle",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "374",
+"name": "Truffle Worm",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "375",
+"name": "Truffle Worm",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "616",
+"name": "Turtle",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "409",
+"name": "Twinkle Popper",
+"life": "800 / 1600 / 2400",
+"defense": "40"
+},
+{
+"id": "410",
+"name": "Twinkle",
+"life": "200 / 400 / 600",
+"defense": "10"
+},
+{
+"id": "225",
+"name": "Umbrella Slime",
+"life": "35 / 70 › 230 › 308 / 105 › 345 › 462",
+"defense": "5 / 5 › 15 › 20"
+},
+{
+"id": "44",
+"name": "Undead Miner",
+"life": "70 / 140 › 154 › 308 / 210 › 231 › 462",
+"defense": "9 / 9 › 9 › 18"
+},
+{
+"id": "167",
+"name": "Undead Viking",
+"life": "70 / 140 › 154 / 210 › 231",
+"defense": "10"
+},
+{
+"id": "86",
+"name": "Unicorn",
+"life": "400 / 800 / 1200",
+"defense": "30"
+},
+{
+"id": "158",
+"name": "Vampire",
+"life": "750 / 1500 / 2250",
+"defense": "32"
+},
+{
+"id": "159",
+"name": "Vampire",
+"life": "750 / 1500 / 2250",
+"defense": "24"
+},
+{
+"id": "464",
+"name": "Vicious Bunny",
+"life": "75 / 150 › 164 › 330 / 225 › 246 › 495",
+"defense": "5 / 5 › 5 › 10"
+},
+{
+"id": "465",
+"name": "Vicious Goldfish",
+"life": "110 / 220 › 242 / 330 › 363",
+"defense": "7"
+},
+{
+"id": "470",
+"name": "Vicious Penguin",
+"life": "75 / 150 › 164 › 330 / 225 › 246 › 495",
+"defense": "5 / 5 › 5 › 10"
+},
+{
+"id": "112",
+"name": "Vile Spit",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "666",
+"name": "Vile Spit",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "66",
+"name": "Voodoo Demon",
+"life": "140 / 280 › 308 / 420 › 462",
+"defense": "8"
+},
+{
+"id": "429",
+"name": "Vortexian",
+"life": "700 / 1400 / 2100",
+"defense": "34"
+},
+{
+"id": "61",
+"name": "Vulture",
+"life": "40 / 80 › 176 › 264 / 120 › 264 › 396",
+"defense": "4 / 4 › 8 › 12"
+},
+{
+"id": "164",
+"name": "Wall Creeper",
+"life": "80 / 160 › 176 / 240 › 264",
+"defense": "10"
+},
+{
+"id": "165",
+"name": "Wall Creeper",
+"life": "80 / 160 › 176 / 240 › 264",
+"defense": "10"
+},
+{
+"id": "113",
+"name": "Wall of Flesh",
+"life": "8000 / 11200 / 14280",
+"defense": ""
+},
+{
+"id": "113",
+"name": "Wall of Flesh",
+"life": "8000 / 11200 / 14280",
+"defense": "12 / 18"
+},
+{
+"id": "114",
+"name": "Wall of Flesh",
+"life": "8000 / 11200 / 14280",
+"defense": "0 / 6"
+},
+{
+"id": "115",
+"name": "The Hungry",
+"life": "240 / 336 / 504",
+"defense": "10 / 16 ( WoF health >75%) 20 ( WoF health 75–50%) 30 ( WoF health"
+},
+{
+"id": "116",
+"name": "The Hungry",
+"life": "80 / 112 / 168",
+"defense": "6"
+},
+{
+"id": "133",
+"name": "Wandering Eye",
+"life": "300 / 600 / 900",
+"defense": "20"
+},
+{
+"id": "587",
+"name": "Wandering Eye Fish",
+"life": "300 / 600 / 900",
+"defense": "18"
+},
+{
+"id": "694",
+"name": "Water Bolt Mimic",
+"life": "60 / 120 › 264 / 180 › 396",
+"defense": "4 / 4 › 8"
+},
+{
+"id": "33",
+"name": "Water Sphere",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "612",
+"name": "Water Strider",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "104",
+"name": "Werewolf",
+"life": "350 / 700 / 1050",
+"defense": "38"
+},
+{
+"id": "380",
+"name": "Cultist Archer",
+"life": "210 / 420 / 630",
+"defense": "14"
+},
+{
+"id": "594",
+"name": "Windy Balloon",
+"life": "1",
+"defense": "0"
+},
+{
+"id": "228",
+"name": "Witch Doctor",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "568",
+"name": "Wither Beast",
+"life": "500 / 1000 / 1275",
+"defense": "30"
+},
+{
+"id": "569",
+"name": "Wither Beast",
+"life": "1400 / 2800 / 3570",
+"defense": "40"
+},
+{
+"id": "106",
+"name": "Bound Wizard",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "108",
+"name": "Wizard",
+"life": "250",
+"defense": "15"
+},
+{
+"id": "155",
+"name": "Wolf",
+"life": "300 / 600 / 900",
+"defense": "30"
+},
+{
+"id": "98",
+"name": "World Feeder",
+"life": "500 / 1000 / 1500",
+"defense": "36"
+},
+{
+"id": "99",
+"name": "World Feeder",
+"life": "500 / 1000 / 1500",
+"defense": "40"
+},
+{
+"id": "100",
+"name": "World Feeder",
+"life": "500 / 1000 / 1500",
+"defense": "44"
+},
+{
+"id": "357",
+"name": "Worm",
+"life": "5",
+"defense": "0"
+},
+{
+"id": "82",
+"name": "Wraith",
+"life": "160 / 320 / 480",
+"defense": "16"
+},
+{
+"id": "87",
+"name": "Wyvern",
+"life": "4000 / 8000 / 12000",
+"defense": "10"
+},
+{
+"id": "88",
+"name": "Wyvern",
+"life": "4000 / 8000 / 12000",
+"defense": "20"
+},
+{
+"id": "89",
+"name": "Wyvern",
+"life": "4000 / 8000 / 12000",
+"defense": "20"
+},
+{
+"id": "90",
+"name": "Wyvern",
+"life": "4000 / 8000 / 12000",
+"defense": "20"
+},
+{
+"id": "91",
+"name": "Wyvern",
+"life": "4000 / 8000 / 12000",
+"defense": "20"
+},
+{
+"id": "92",
+"name": "Wyvern",
+"life": "4000 / 8000 / 12000",
+"defense": "20"
+},
+{
+"id": "-9",
+"name": "Yellow Slime",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "7 / 7 › 14 › 21"
+},
+{
+"id": "343",
+"name": "Yeti",
+"life": "3500 / 5250 / 7875",
+"defense": "50"
+},
+{
+"id": "-45",
+"name": "Zombie",
+"life": "39 / 79 › 262 › 350 / 119 › 393 › 526",
+"defense": "4 / 4 › 12 › 16"
+},
+{
+"id": "-44",
+"name": "Zombie",
+"life": "33 / 66 › 217 › 290 / 99 › 326 › 435",
+"defense": "3 / 3 › 10 › 13"
+},
+{
+"id": "-37",
+"name": "Zombie",
+"life": "48 / 97 › 213 › 319 / 145 › 320 › 479",
+"defense": "4 / 4 › 8 › 12"
+},
+{
+"id": "-36",
+"name": "Zombie",
+"life": "41 / 82 › 182 › 272 / 124 › 273 › 408",
+"defense": "3 / 3 › 7 › 11"
+},
+{
+"id": "-35",
+"name": "Zombie",
+"life": "50 / 101 › 223 › 334 / 152 › 335 › 501",
+"defense": "9 / 9 › 18 › 27"
+},
+{
+"id": "-34",
+"name": "Zombie",
+"life": "39 / 78 › 172 › 257 / 117 › 258 › 386",
+"defense": "6 / 6 › 13 › 20"
+},
+{
+"id": "-33",
+"name": "Zombie",
+"life": "44 / 88 › 195 › 293 / 133 › 293 › 439",
+"defense": "6 / 6 › 13 › 19"
+},
+{
+"id": "-32",
+"name": "Zombie",
+"life": "35 / 71 › 156 › 234 / 106 › 234 › 352",
+"defense": "5 / 5 › 10 › 16"
+},
+{
+"id": "-31",
+"name": "Zombie",
+"life": "56 / 112 › 248 / 169 › 372",
+"defense": "9 / 9 › 18"
+},
+{
+"id": "-30",
+"name": "Zombie",
+"life": "46 / 93 › 204 / 139 › 306",
+"defense": "7 / 7 › 14"
+},
+{
+"id": "-29",
+"name": "Zombie",
+"life": "46 / 92 › 202 › 303 / 138 › 303 › 455",
+"defense": "5 / 5 › 11 › 17"
+},
+{
+"id": "-28",
+"name": "Zombie",
+"life": "34 / 68 › 149 › 224 / 102 › 224 › 336",
+"defense": "4 / 4 › 8 › 12"
+},
+{
+"id": "-27",
+"name": "Zombie",
+"life": "49 / 99 › 217 › 325 / 148 › 326 › 488",
+"defense": "6 / 6 › 13 › 19"
+},
+{
+"id": "-26",
+"name": "Zombie",
+"life": "40 / 81 › 178 › 266 / 121 › 267 › 399",
+"defense": "5 / 5 › 10 › 16"
+},
+{
+"id": "3",
+"name": "Zombie",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "6 / 6 › 12 › 18"
+},
+{
+"id": "132",
+"name": "Zombie",
+"life": "40 / 80 › 176 › 264 / 120 › 264 › 396",
+"defense": "5 / 5 › 10 › 15"
+},
+{
+"id": "186",
+"name": "Zombie",
+"life": "50 / 100 › 220 / 150 › 330",
+"defense": "8 / 8 › 16"
+},
+{
+"id": "187",
+"name": "Zombie",
+"life": "40 / 80 › 176 › 264 / 120 › 264 › 396",
+"defense": "6 / 6 › 12 › 18"
+},
+{
+"id": "188",
+"name": "Zombie",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "8 / 8 › 16 › 24"
+},
+{
+"id": "189",
+"name": "Zombie",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "4 / 4 › 8 › 12"
+},
+{
+"id": "200",
+"name": "Zombie",
+"life": "38 / 76 › 250 › 334 / 114 › 375 › 501",
+"defense": "4 / 4 › 12 › 16"
+},
+{
+"id": "319",
+"name": "Zombie",
+"life": "40 / 80 › 176 / 120 › 264",
+"defense": "6 / 6 › 12"
+},
+{
+"id": "320",
+"name": "Zombie",
+"life": "60 / 120 › 264 / 180 › 396",
+"defense": "8 / 8 › 16"
+},
+{
+"id": "321",
+"name": "Zombie",
+"life": "34 / 68 › 74 › 148 / 102 › 111 › 222",
+"defense": "14 / 14 › 14 › 28"
+},
+{
+"id": "331",
+"name": "Zombie",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "6 / 6 › 12 › 18"
+},
+{
+"id": "332",
+"name": "Zombie",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "6 / 6 › 12 › 18"
+},
+{
+"id": "430",
+"name": "Zombie",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "6 / 6 › 12 › 18"
+},
+{
+"id": "432",
+"name": "Zombie",
+"life": "100 › 220 / 150 › 330",
+"defense": "8 › 16"
+},
+{
+"id": "433",
+"name": "Zombie",
+"life": "80 › 176 › 264 / 120 › 264 › 396",
+"defense": "6 › 12 › 18"
+},
+{
+"id": "434",
+"name": "Zombie",
+"life": "90 › 198 › 296 / 135 › 297 › 444",
+"defense": "8 › 16 › 24"
+},
+{
+"id": "435",
+"name": "Zombie",
+"life": "90 › 198 › 296 / 135 › 297 › 444",
+"defense": "4 › 8 › 12"
+},
+{
+"id": "436",
+"name": "Zombie",
+"life": "76 › 250 › 334 / 114 › 375 › 501",
+"defense": "4 › 12 › 16"
+},
+{
+"id": "590",
+"name": "Zombie",
+"life": "45 / 90 › 198 › 296 / 135 › 297 › 444",
+"defense": "6 / 6 › 12 › 18"
+},
+{
+"id": "591",
+"name": "Zombie",
+"life": "90 › 198 › 296 / 135 › 297 › 444",
+"defense": "6 › 12 › 18"
+},
+{
+"id": "338",
+"name": "Zombie Elf",
+"life": "600 / 900 / 1350",
+"defense": "18"
+},
+{
+"id": "339",
+"name": "Zombie Elf",
+"life": "700 / 1050 / 1575",
+"defense": "24"
+},
+{
+"id": "340",
+"name": "Zombie Elf",
+"life": "500 / 750 / 1125",
+"defense": "14"
+},
+{
+"id": "586",
+"name": "Zombie Merman",
+"life": "400 / 800 / 1200",
+"defense": "20"
+},
+{
+"id": "633",
+"name": "Zoologist",
+"life": "250",
+"defense": "15"
+}
+]
