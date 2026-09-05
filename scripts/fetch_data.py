@@ -35,15 +35,18 @@ OUT_DIR = Path(__file__).resolve().parent.parent / "data"
 REQUEST_DELAY = 0.5  # seconds between requests, be polite to the wiki API
 
 TAG_RE = re.compile(r"<[^>]+>")
+WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
 
 
 def strip_markup(value):
-    """Strip embedded HTML spans (coin icons, mode-variant stats) from a
-    Cargo Wikitext field and collapse whitespace."""
+    """Strip embedded HTML spans (coin icons, mode-variant stats) and
+    MediaWiki [[link|display]] wikilinks from a Cargo Wikitext field, and
+    collapse whitespace."""
     if not value:
         return ""
     text = unescape(str(value))
     text = TAG_RE.sub(" ", text)
+    text = WIKILINK_RE.sub(lambda m: m.group(2) if m.group(2) is not None else m.group(1), text)
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -181,10 +184,18 @@ def group_drops_by_item(drop_rows):
     return grouped
 
 
+RATE_TOKEN_RE = re.compile(r"[\d.]+%|\d+/\d+")
+
+
 def parse_rate(rate_raw):
-    """Cargo's 'rate' field is Wikitext and sometimes wraps a Master Mode
-    link/abbr around the percentage; strip_markup handles both cases."""
-    return strip_markup(rate_raw or "")
+    """Cargo's 'rate' field is Wikitext and sometimes has a Normal-Mode rate
+    followed by a wikilinked Expert/Master variant (e.g. "0.01% [[Expert
+    Mode| 0.014% ]]"). Since drop rows are already split out per game mode
+    via the normal/expert/master flags, just take the first rate token so
+    the two modes don't get concatenated into one confusing string."""
+    cleaned = strip_markup(rate_raw or "")
+    match = RATE_TOKEN_RE.search(cleaned)
+    return match.group(0) if match else cleaned
 
 
 def normalize_items(item_rows, recipes_by_result, drops_by_item):
