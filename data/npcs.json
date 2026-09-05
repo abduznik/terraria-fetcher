@@ -368,7 +368,7 @@
 {
 "id": "266",
 "name": "Brain of Cthulhu",
-"life": "1250 / 2125 / 2709 3250 [[Expert Mode| 5525 ]] [[Master Mode| 7049 ]] (with Creepers) [[Category:Pages with information based on outdated versions of Terraria's source code]][[Category:Pages with information based on outdated versions of Terraria's source code]]",
+"life": "1250 / 2125 / 2709 3250 5525 7049 (with Creepers) Category:Pages with information based on outdated versions of Terraria's source codeCategory:Pages with information based on outdated versions of Terraria's source code",
 "defense": "14"
 },
 {
@@ -1148,7 +1148,7 @@
 {
 "id": "548",
 "name": "Eternia Crystal",
-"life": "1000 [[Expert Mode| 2000 ]] [[Master Mode| 3000 ]] (T1) 3000 [[Expert Mode| 6000 ]] [[Master Mode| 9000 ]] (T2) 5000 [[Expert Mode| 10000 ]] [[Master Mode| 15000 ]] (T3)",
+"life": "1000 2000 3000 (T1) 3000 6000 9000 (T2) 5000 10000 15000 (T3)",
 "defense": "14 (T1) 18 (T2) 20 (T3)"
 },
 {
@@ -1322,7 +1322,7 @@
 {
 "id": "491",
 "name": "Flying Dutchman",
-"life": "8000 [[Expert Mode| 13600 ]] [[Master Mode| 20400 ]] (4 cannons)",
+"life": "8000 13600 20400 (4 cannons)",
 "defense": "100"
 },
 {
@@ -1856,7 +1856,7 @@
 {
 "id": "315",
 "name": "Headless Horseman",
-"life": "5000 (Desktop, Console and Mobile versions) / 10000 (Old-gen console and 3DS versions) [[Expert Mode| 6500 ]] [[Master Mode| 8287 ]]",
+"life": "5000 (Desktop, Console and Mobile versions) / 10000 (Old-gen console and 3DS versions) 6500 8287",
 "defense": "40"
 },
 {
@@ -1898,7 +1898,7 @@
 {
 "id": "329",
 "name": "Hellhound",
-"life": "1800 (Desktop, Console and Mobile versions) / 1200 (Old-gen console and 3DS versions) [[Expert Mode| 2700 ]] [[Master Mode| 4050 ]]",
+"life": "1800 (Desktop, Console and Mobile versions) / 1200 (Old-gen console and 3DS versions) 2700 4050",
 "defense": "38"
 },
 {
@@ -2270,7 +2270,7 @@
 {
 "id": "199",
 "name": "Lihzahrd",
-"life": "220 [[Expert Mode| 440 ]] [[Master Mode| 660 ]] / 400 [[Expert Mode| 800 ]] [[Master Mode| 1200 ]]",
+"life": "220 440 660 / 400 800 1200",
 "defense": "30"
 },
 {
@@ -2354,7 +2354,7 @@
 {
 "id": "392",
 "name": "Martian Saucer",
-"life": "17000 [[Expert Mode| 45900 ]] [[Master Mode| 68850 ]] (all parts)",
+"life": "17000 45900 68850 (all parts)",
 "defense": "100"
 },
 {
@@ -2720,7 +2720,7 @@
 {
 "id": "349",
 "name": "Nutcracker",
-"life": "990 [[Expert Mode| 1485 ]] [[Master Mode| 2227 ]] / 1800 [[Expert Mode| 2700 ]] [[Master Mode| 4050 ]]",
+"life": "990 1485 2227 / 1800 2700 4050",
 "defense": "42"
 },
 {
@@ -2942,7 +2942,7 @@
 {
 "id": "262",
 "name": "Plantera",
-"life": "30000 [[Expert Mode| 42000 ]] [[Master Mode| 53550 ]]",
+"life": "30000 42000 53550",
 "defense": "36"
 },
 {
@@ -3045,7 +3045,7 @@
 "id": "222",
 "name": "Queen Bee",
 "life": "3400 / 4760 / 6069",
-"defense": "8 [[Expert Mode| 8–28 ]] (depending on health)"
+"defense": "8 8–28 (depending on health)"
 },
 {
 "id": "657",
@@ -3579,7 +3579,7 @@
 "id": "35",
 "name": "Skeletron",
 "life": "4400 / 8800 / 11220",
-"defense": "10 [[Expert Mode| 10+25 per hand alive ]] 0 [[Expert Mode| 0+25 per hand alive ]] (while spinning) 9999 (during day)"
+"defense": "10 10+25 per hand alive 0 0+25 per hand alive (while spinning) 9999 (during day)"
 },
 {
 "id": "36",
@@ -3591,7 +3591,7 @@
 "id": "127",
 "name": "Skeletron Prime",
 "life": "28000 / 42000 / 53550",
-"defense": "24 48 (while spinning) 9999 (during [[day]])"
+"defense": "24 48 (while spinning) 9999 (during day)"
 },
 {
 "id": "128",
@@ -3879,7 +3879,7 @@
 "id": "441",
 "name": "Tax Collector",
 "life": "250",
-"defense": "15 200 (Only when named Andrew) [[Category:Pages with information based on outdated versions of Terraria's source code]]"
+"defense": "15 200 (Only when named Andrew) Category:Pages with information based on outdated versions of Terraria's source code"
 },
 {
 "id": "387",
