@@ -174,7 +174,7 @@ def normalize_items(item_rows, recipes_by_result):
         items.append({
             "id": row.get("itemid") or None,
             "name": strip_markup(name),
-            "type": strip_markup(row.get("type") or ""),
+            "type": ", ".join(t for t in strip_markup(row.get("type") or "").split("^") if t),
             "tooltip": strip_markup(row.get("tooltip") or ""),
             "rarity": strip_markup(row.get("rare") or ""),
             "sellValue": strip_markup(row.get("sell") or ""),

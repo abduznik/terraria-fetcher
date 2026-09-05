@@ -66,6 +66,11 @@
     }[c]));
   }
 
+  function wikiIconUrl(name) {
+    const file = name.trim().replace(/ /g, '_');
+    return `https://terraria.wiki.gg/images/${encodeURIComponent(file)}.png`;
+  }
+
   function renderResults(list) {
     if (!list.length) {
       results.innerHTML = '<div class="empty">No items found.</div>';
@@ -83,7 +88,10 @@
       return `
         <div class="result-item">
           <div class="row">
-            <span class="name">${escapeHtml(item.name)}</span>
+            <div class="name-wrap">
+              <span class="icon-slot"><img src="${wikiIconUrl(item.name)}" alt="" loading="lazy" onerror="this.parentElement.style.visibility='hidden'"></span>
+              <span class="name">${escapeHtml(item.name)}</span>
+            </div>
             <span class="tag">${escapeHtml(item.type || '')}</span>
           </div>
           ${item.tooltip ? `<div class="recipe-detail" style="border-top:none;padding-top:0;">${escapeHtml(item.tooltip)}</div>` : ''}
