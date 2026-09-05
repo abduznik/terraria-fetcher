@@ -310,6 +310,71 @@ main {
   padding: 2px 8px;
 }
 
+/* Crafting chain */
+.chain-details {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 2px dashed var(--wood-border);
+}
+
+.chain-details summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--rarity-yellow);
+  font-size: 0.9rem;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+.chain-details summary:hover {
+  color: var(--text-bright);
+}
+
+.chain-list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding-left: 18px;
+  font-size: 0.9rem;
+  color: var(--parchment);
+}
+
+.chain-list.chain-root {
+  padding-left: 0;
+}
+
+.chain-list li {
+  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.chain-list .chain-list {
+  flex-basis: 100%;
+  margin-top: 6px;
+  padding-left: 26px;
+  border-left: 2px solid var(--wood-border);
+}
+
+.chain-icon-slot {
+  width: 26px;
+  height: 26px;
+  flex: 0 0 auto;
+  background: var(--slot-bg);
+  border: 2px solid var(--slot-border);
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.chain-icon-slot img {
+  max-width: 20px;
+  max-height: 20px;
+  image-rendering: pixelated;
+}
+
 /* Builds */
 .class-filter, .stage-filter {
   display: flex;

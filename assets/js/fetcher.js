@@ -26,6 +26,7 @@
 
   let items = [];
   let index = [];
+  let itemsByName = new Map();
 
   function normalize(str) {
     return (str || '').toLowerCase();
@@ -36,6 +37,12 @@
       i,
       n: normalize(item.name),
     }));
+  }
+
+  function buildNameMap(data) {
+    const map = new Map();
+    for (const item of data) map.set(item.name, item);
+    return map;
   }
 
   function score(query, name) {
@@ -103,6 +110,55 @@
     return `<div class="recipe-detail"><span class="badge-station" style="background:var(--rarity-yellow);">Sold by</span><ul class="ingredients">${rows}</ul></div>`;
   }
 
+  const MAX_CHAIN_DEPTH = 6;
+
+  function buildCraftingChain(itemName, qtyNeeded, depth, seen) {
+    // Recursively expands an item's cheapest recipe into a nested tree of
+    // ingredients down to base materials (items with no recipe of their own).
+    // seen guards against a rare circular recipe reference looping forever.
+    const item = itemsByName.get(itemName);
+    const node = { name: itemName, qty: qtyNeeded, children: [] };
+
+    if (!item || !item.recipes || !item.recipes.length || depth >= MAX_CHAIN_DEPTH || seen.has(itemName)) {
+      return node;
+    }
+
+    const recipe = item.recipes[0];
+    const nextSeen = new Set(seen);
+    nextSeen.add(itemName);
+
+    for (const ing of recipe.ingredients) {
+      const perCraft = ing.qty || 1;
+      const timesToCraft = Math.ceil(qtyNeeded / (recipe.amount || 1));
+      node.children.push(buildCraftingChain(ing.name, perCraft * timesToCraft, depth + 1, nextSeen));
+    }
+    node.station = recipe.station;
+    return node;
+  }
+
+  function renderChainNode(node) {
+    const qtyLabel = node.qty > 1 ? `${node.qty}× ` : '';
+    const hasChildren = node.children && node.children.length;
+    const stationLabel = node.station && node.station !== 'By Hand' ? ` <span class="tag" style="margin-left:4px;">${escapeHtml(node.station)}</span>` : '';
+    return `
+      <li>
+        <span class="chain-icon-slot"><img src="${wikiIconUrl(node.name)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></span>
+        ${qtyLabel}${escapeHtml(node.name)}${stationLabel}
+        ${hasChildren ? `<ul class="chain-list">${node.children.map(renderChainNode).join('')}</ul>` : ''}
+      </li>`;
+  }
+
+  function renderCraftingChain(item) {
+    if (!item.recipes || !item.recipes.length) return '';
+    const tree = buildCraftingChain(item.name, item.recipes[0].amount || 1, 0, new Set());
+    if (!tree.children.length) return '';
+    return `
+      <details class="chain-details">
+        <summary>Full crafting chain (down to base materials)</summary>
+        <ul class="chain-list chain-root">${renderChainNode(tree)}</ul>
+      </details>`;
+  }
+
   function escapeHtml(str) {
     return String(str).replace(/[&<>"']/g, c => ({
       '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -138,6 +194,8 @@
         ? acquisitionParts.join('')
         : '<div class="recipe-detail">No known crafting recipe, drop, or shop source on record (may be a starter item, found in the world, or from a rotating vendor like the Traveling Merchant).</div>';
 
+      const chainHtml = renderCraftingChain(item);
+
       return `
         <div class="result-item">
           <div class="row">
@@ -149,6 +207,7 @@
           </div>
           ${item.tooltip ? `<div class="recipe-detail" style="border-top:none;padding-top:0;">${escapeHtml(item.tooltip)}</div>` : ''}
           ${acquisitionHtml}
+          ${chainHtml}
         </div>`;
     }).join('');
   }
@@ -173,6 +232,7 @@
     .then(data => {
       items = data;
       index = buildIndex(items);
+      itemsByName = buildNameMap(items);
       meta.textContent = `${items.length.toLocaleString()} items loaded. Start typing to search.`;
     })
     .catch(err => {
