@@ -19,6 +19,10 @@
   // Which nodes are expanded, keyed by path string (same item can appear
   // twice in a tree with independent expand states).
   const expanded = new Set();
+  // Back/forward history of root items, so re-rooting via the Magic Mirror
+  // button can be undone instead of being a one-way trip.
+  const rootHistory = [];
+  let rootFuture = [];
 
   function escapeHtml(str) {
     return String(str).replace(/[&<>"']/g, c => ({
@@ -63,14 +67,33 @@
     });
   }
 
-  function setRoot(name) {
+  function setRoot(name, opts) {
+    opts = opts || {};
     if (!itemsByName.has(name)) return;
+    if (currentRootName && currentRootName !== name && !opts.skipHistory) {
+      rootHistory.push(currentRootName);
+      rootFuture = []; // navigating fresh invalidates any redo history
+    }
     currentRootName = name;
     expanded.clear();
     expanded.add('0');
     input.value = name;
     suggestions.innerHTML = '';
     renderTree();
+  }
+
+  function goBack() {
+    if (!rootHistory.length) return;
+    const prev = rootHistory.pop();
+    rootFuture.push(currentRootName);
+    setRoot(prev, { skipHistory: true });
+  }
+
+  function goForward() {
+    if (!rootFuture.length) return;
+    const next = rootFuture.pop();
+    rootHistory.push(currentRootName);
+    setRoot(next, { skipHistory: true });
   }
 
   // --- Tree data model -------------------------------------------------
@@ -227,9 +250,11 @@
           <span class="tag">${allNodes.length} node${allNodes.length === 1 ? '' : 's'} shown</span>
         </div>
         <div class="tree-controls">
+          <button id="backRootBtn" class="filter-btn" ${rootHistory.length ? '' : 'disabled'} title="Go back to the previous root item">&larr; Back</button>
+          <button id="forwardRootBtn" class="filter-btn" ${rootFuture.length ? '' : 'disabled'} title="Redo the re-root you just undid">Forward &rarr;</button>
           <button id="expandAllBtn" class="filter-btn">Expand all</button>
           <button id="collapseAllBtn" class="filter-btn">Collapse all</button>
-          <span class="tree-hint">Click a node to reveal how it's obtained. Click <img class="inline-icon sm" src="https://terraria.wiki.gg/images/Magic_Mirror.png" alt="" loading="lazy" onerror="this.style.display='none'"> to re-center the tree on that item.</span>
+          <span class="tree-hint">Click a node to reveal how it's obtained. Click <img class="inline-icon sm" src="https://terraria.wiki.gg/images/Magic_Mirror.png" alt="" loading="lazy" onerror="this.style.display='none'"> to re-center the tree on that item (use Back to undo).</span>
         </div>
         <div class="tree-canvas-scroll">
           <div class="tree-canvas" style="width:${totalWidth}px; height:${totalHeight}px;">
@@ -272,6 +297,10 @@
         setRoot(btn.dataset.reroot);
       });
     });
+    const backBtn = document.getElementById('backRootBtn');
+    const forwardBtn = document.getElementById('forwardRootBtn');
+    if (backBtn) backBtn.addEventListener('click', goBack);
+    if (forwardBtn) forwardBtn.addEventListener('click', goForward);
     const expandAllBtn = document.getElementById('expandAllBtn');
     const collapseAllBtn = document.getElementById('collapseAllBtn');
     if (expandAllBtn) expandAllBtn.addEventListener('click', () => {
