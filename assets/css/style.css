@@ -263,6 +263,30 @@ main {
   image-rendering: pixelated;
 }
 
+/* Inline item-icon glyphs, used in place of emoji on buttons/headings/nav */
+.inline-icon {
+  display: inline-block;
+  vertical-align: -6px;
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  margin-right: 4px;
+}
+
+.inline-icon.sm {
+  width: 16px;
+  height: 16px;
+  vertical-align: -3px;
+  margin-right: 2px;
+}
+
+.brand .inline-icon {
+  width: 28px;
+  height: 28px;
+  vertical-align: -8px;
+}
+
 .result-item .name-wrap {
   display: flex;
   align-items: center;
@@ -836,6 +860,13 @@ footer {
 
 .tnode-root-btn:hover {
   border-color: var(--rarity-yellow);
+}
+
+.tnode-root-btn .inline-icon {
+  width: 13px;
+  height: 13px;
+  margin: 0;
+  vertical-align: -2px;
 }
 
 /* Boss Drops */

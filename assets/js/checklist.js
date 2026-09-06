@@ -120,10 +120,10 @@
         <h2>${escapeHtml(stage.title)}</h2>
         <p>${escapeHtml(stage.summary)}</p>
         <div class="checklist-grid">
-          ${renderSection('🐉 Bosses', stage.bosses, 'bosses', checkedMap, true, true)}
-          ${renderSection('🧑‍🤝‍🧑 NPCs to unlock', stage.npcs, 'npcs', checkedMap, false, true)}
-          ${renderSection('💰 Money &amp; Economy', stage.money, 'money', checkedMap, false, false)}
-          ${renderSection('⭐ Optional', stage.optional, 'optional', checkedMap, false, false)}
+          ${renderSection('<img class="inline-icon" src="https://terraria.wiki.gg/images/Skeletron_Hand.png" alt="" loading="lazy" onerror="this.style.display=\'none\'"> Bosses', stage.bosses, 'bosses', checkedMap, true, true)}
+          ${renderSection('<img class="inline-icon" src="https://terraria.wiki.gg/images/Guide.png" alt="" loading="lazy" onerror="this.style.display=\'none\'"> NPCs to unlock', stage.npcs, 'npcs', checkedMap, false, true)}
+          ${renderSection('<img class="inline-icon" src="https://terraria.wiki.gg/images/Platinum_Coin.png" alt="" loading="lazy" onerror="this.style.display=\'none\'"> Money &amp; Economy', stage.money, 'money', checkedMap, false, false)}
+          ${renderSection('<img class="inline-icon" src="https://terraria.wiki.gg/images/Star_in_a_Bottle.png" alt="" loading="lazy" onerror="this.style.display=\'none\'"> Optional', stage.optional, 'optional', checkedMap, false, false)}
         </div>
       </section>
     `;

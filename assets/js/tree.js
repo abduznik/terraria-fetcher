@@ -170,7 +170,7 @@
           <div class="tnode-name">${qtyLabel}${escapeHtml(node.name)}</div>
           ${sub}
         </div>
-        <button class="tnode-root-btn" data-reroot="${escapeHtml(node.name)}" title="View as root">⤴</button>
+        <button class="tnode-root-btn" data-reroot="${escapeHtml(node.name)}" title="View as root"><img class="inline-icon sm" src="https://terraria.wiki.gg/images/Magic_Mirror.png" alt="" loading="lazy" onerror="this.style.display='none'"></button>
       </div>`;
   }
 
@@ -229,7 +229,7 @@
         <div class="tree-controls">
           <button id="expandAllBtn" class="filter-btn">Expand all</button>
           <button id="collapseAllBtn" class="filter-btn">Collapse all</button>
-          <span class="tree-hint">Click a node to reveal how it's obtained. Click ⤴ to re-center the tree on that item.</span>
+          <span class="tree-hint">Click a node to reveal how it's obtained. Click <img class="inline-icon sm" src="https://terraria.wiki.gg/images/Magic_Mirror.png" alt="" loading="lazy" onerror="this.style.display='none'"> to re-center the tree on that item.</span>
         </div>
         <div class="tree-canvas-scroll">
           <div class="tree-canvas" style="width:${totalWidth}px; height:${totalHeight}px;">

@@ -156,7 +156,7 @@
       <details class="chain-details">
         <summary>Full crafting chain (down to base materials)</summary>
         <ul class="chain-list chain-root">${renderChainNode(tree)}</ul>
-        <a href="tree.html?item=${encodeURIComponent(item.name)}" class="tree-reroot-btn" style="display:inline-block;margin-top:8px;">🌳 open interactive tree</a>
+        <a href="tree.html?item=${encodeURIComponent(item.name)}" class="tree-reroot-btn" style="display:inline-block;margin-top:8px;"><img class="inline-icon sm" src="https://terraria.wiki.gg/images/Living_Wood_Wand.png" alt="" loading="lazy" onerror="this.style.display='none'"> open interactive tree</a>
       </details>`;
   }
 
