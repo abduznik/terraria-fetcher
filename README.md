@@ -2,16 +2,21 @@
 
 **Live site: https://abduznik.github.io/terraria-fetcher/**
 
-A static, offline-first Terraria item and recipe database with instant search, an
-interactive crafting-tree visualizer, a boss and enemy drop lookup, a side-by-side item
-comparison tool, curated class build guides (Melee, Ranged, Mage, Summoner, Rogue) for
-every progression stage, and a full progression checklist — all hosted on GitHub Pages
-and built client-side from a single static dataset, with no backend and no external
-API calls at runtime.
+A static Terraria item and recipe database with instant search, an interactive
+crafting-tree visualizer, a boss and enemy drop lookup, a side-by-side item comparison
+tool, curated class build guides (Melee, Ranged, Mage, Summoner, Rogue) for every
+progression stage, and a full progression checklist — all hosted on GitHub Pages and
+built client-side from a single static dataset, with no backend and no live API calls
+at runtime.
+
+The dataset itself doesn't require a network round trip once loaded, but the hosted
+site still needs an internet connection to load the page and its hotlinked item icons
+in the first place. A fully offline, self-contained distribution is planned as a Docker
+image — see [ROADMAP.md](ROADMAP.md).
 
 ## Features
 
-- **Item & recipe search** — instant, fuzzy, offline search across the full Terraria item database, including crafting stations, ingredients, drop sources, and NPC shop listings
+- **Item & recipe search** — instant, fuzzy search across the full Terraria item database, including crafting stations, ingredients, drop sources, and NPC shop listings; no backend, no live API calls once the page and dataset are loaded
 - **Interactive crafting tree** — a visual node/branch diagram of any item's recipe chain, expandable down to base materials, with click-to-re-root navigation and back/forward history
 - **Boss & enemy drop lookup** — reverse-search any boss or enemy to see its full loot table with drop rates and game-mode breakdowns
 - **Item comparison** — compare up to four weapons, armor pieces, or accessories side by side on damage, defense, rarity, and value
@@ -32,8 +37,9 @@ API calls at runtime.
 
 ## Refreshing the item database
 
-The dataset is **not** fetched live at page-load time — it's pre-built and committed so the
-site works instantly and fully offline. To refresh it:
+The dataset is **not** fetched live at page-load time — it's pre-built and committed so
+searches and lookups run instantly against a local file with no API round trip. To
+refresh it:
 
 1. Go to the repo's **Actions** tab
 2. Run the **Fetch Terraria Data** workflow manually (`workflow_dispatch`)
@@ -56,3 +62,11 @@ Then visit `http://localhost:8000`.
 Item, recipe, and NPC data is sourced from the [Official Terraria Wiki](https://terraria.wiki.gg),
 whose content is licensed under CC BY-NC-SA. This project is a fan-made tool and is not affiliated
 with Re-Logic.
+
+## Roadmap, changelog, and contributing
+
+- [ROADMAP.md](ROADMAP.md) — where the project is headed, including the planned fully
+  offline Docker distribution
+- [CHANGELOG.md](CHANGELOG.md) — notable changes by version
+- [CONTRIBUTING.md](CONTRIBUTING.md) — how to work on this repo locally, code style, and
+  what to check before opening a pull request
