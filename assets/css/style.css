@@ -244,7 +244,11 @@ main {
   flex-wrap: wrap;
 }
 
-.result-item .icon-slot {
+/* Base icon-slot: any wood/metal slot box that frames an item sprite.
+   Scoped rules below can override size, but every slot always centers and
+   clips its image so oversized sprites (e.g. Zenith's 56x56 diagonal art)
+   never bleed outside the box no matter which page uses it inline. */
+.icon-slot {
   width: 56px;
   height: 56px;
   flex: 0 0 auto;
@@ -254,12 +258,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
 }
 
-.result-item .icon-slot img {
-  max-width: 46px;
-  max-height: 46px;
+.icon-slot img {
+  max-width: 82%;
+  max-height: 82%;
   image-rendering: pixelated;
 }
 
