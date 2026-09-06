@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abduznik.github.io/terraria-fetcher/sitemap.xml

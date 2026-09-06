@@ -1,9 +1,22 @@
 # Terraria Fetcher
 
-A static, offline-first Terraria item/recipe fetcher plus curated class build guides
-(Melee, Ranged, Mage, Summoner, Rogue) for every progression stage, hosted on GitHub Pages.
-Also includes an interactive crafting-tree explorer, a boss/enemy drop browser, and a
-side-by-side item comparison tool — all built client-side from the same static dataset.
+**Live site: https://abduznik.github.io/terraria-fetcher/**
+
+A static, offline-first Terraria item and recipe database with instant search, an
+interactive crafting-tree visualizer, a boss and enemy drop lookup, a side-by-side item
+comparison tool, curated class build guides (Melee, Ranged, Mage, Summoner, Rogue) for
+every progression stage, and a full progression checklist — all hosted on GitHub Pages
+and built client-side from a single static dataset, with no backend and no external
+API calls at runtime.
+
+## Features
+
+- **Item & recipe search** — instant, fuzzy, offline search across the full Terraria item database, including crafting stations, ingredients, drop sources, and NPC shop listings
+- **Interactive crafting tree** — a visual node/branch diagram of any item's recipe chain, expandable down to base materials, with click-to-re-root navigation and back/forward history
+- **Boss & enemy drop lookup** — reverse-search any boss or enemy to see its full loot table with drop rates and game-mode breakdowns
+- **Item comparison** — compare up to four weapons, armor pieces, or accessories side by side on damage, defense, rarity, and value
+- **Class build guides** — complete weapon, armor, and accessory loadouts for Melee, Ranged, Mage, Summoner, and Rogue across every boss progression stage
+- **Progression checklist** — bosses, NPCs, money goals, and optional content per stage, with progress saved locally in the browser
 
 ## Structure
 

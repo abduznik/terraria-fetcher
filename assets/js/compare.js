@@ -117,7 +117,7 @@
                 <th>
                   <span class="icon-slot"><img src="${wikiIconUrl(item.name)}" alt="" loading="lazy" onerror="this.parentElement.style.visibility='hidden'"></span>
                   <div class="compare-name">${escapeHtml(item.name)}</div>
-                  <button class="tree-reroot-btn" data-remove="${escapeHtml(item.name)}">✕ remove</button>
+                  <button class="tree-reroot-btn" data-remove="${escapeHtml(item.name)}">Remove</button>
                 </th>`).join('')}
             </tr>
           </thead>
