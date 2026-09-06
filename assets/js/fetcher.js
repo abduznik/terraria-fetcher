@@ -156,6 +156,7 @@
       <details class="chain-details">
         <summary>Full crafting chain (down to base materials)</summary>
         <ul class="chain-list chain-root">${renderChainNode(tree)}</ul>
+        <a href="tree.html?item=${encodeURIComponent(item.name)}" class="tree-reroot-btn" style="display:inline-block;margin-top:8px;">🌳 open interactive tree</a>
       </details>`;
   }
 

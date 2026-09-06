@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Item Comparison - Terraria Fetcher</title>
+<meta name="description" content="Compare Terraria weapons, armor, and accessories side by side: damage, defense, rarity, and sell value.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <div class="brand">⚔️ Terraria Fetcher</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="fetcher.html">Item &amp; Recipe Fetcher</a>
+      <a href="tree.html">Crafting Tree</a>
+      <a href="bosses.html">Boss Drops</a>
+      <a href="compare.html" class="active">Compare</a>
+      <a href="builds/index.html">Builds</a>
+      <a href="checklist/index.html">Checklist</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>Item Comparison</h1>
+  <p style="margin-top:-8px;">Add up to 4 items to compare stats side by side &mdash; handy for picking between similar weapons or armor pieces.</p>
+  <div class="search-box">
+    <input type="text" id="compareSearchInput" placeholder="Search an item to add, e.g. 'Night's Edge', 'Muramasa'...">
+  </div>
+  <div id="compareSuggestions"></div>
+  <div class="search-meta" id="compareMeta">Loading item database…</div>
+  <div id="compareTable"></div>
+</main>
+<footer>
+  Data sourced from public Terraria game data. Not affiliated with Re-Logic.
+</footer>
+<script src="assets/js/compare.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boss &amp; Enemy Drops - Terraria Fetcher</title>
+<meta name="description" content="Look up every item dropped by a Terraria boss or enemy, built from the same offline item database.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <div class="brand">⚔️ Terraria Fetcher</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="fetcher.html">Item &amp; Recipe Fetcher</a>
+      <a href="tree.html">Crafting Tree</a>
+      <a href="bosses.html" class="active">Boss Drops</a>
+      <a href="compare.html">Compare</a>
+      <a href="builds/index.html">Builds</a>
+      <a href="checklist/index.html">Checklist</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>Boss &amp; Enemy Drops</h1>
+  <p style="margin-top:-8px;">Search a boss or enemy name to see everything it drops &mdash; the reverse of the recipe fetcher. Built from the same offline dataset, no extra download.</p>
+  <div class="search-box">
+    <input type="text" id="bossSearchInput" placeholder="Search a boss or enemy, e.g. 'Skeletron', 'Eye of Cthulhu', 'Plantera'..." autofocus>
+  </div>
+  <div class="search-meta" id="bossMeta">Loading item database…</div>
+  <div id="bossResults"></div>
+</main>
+<footer>
+  Data sourced from public Terraria game data. Not affiliated with Re-Logic.
+</footer>
+<script src="assets/js/bosses.js"></script>
+</body>
+</html>

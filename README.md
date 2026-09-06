@@ -2,10 +2,12 @@
 
 A static, offline-first Terraria item/recipe fetcher plus curated class build guides
 (Melee, Ranged, Mage, Summoner, Rogue) for every progression stage, hosted on GitHub Pages.
+Also includes an interactive crafting-tree explorer, a boss/enemy drop browser, and a
+side-by-side item comparison tool — all built client-side from the same static dataset.
 
 ## Structure
 
-- `index.html`, `fetcher.html`, `builds/index.html`, `checklist/index.html` — the site pages (plain HTML/CSS/JS, no build step)
+- `index.html`, `fetcher.html`, `tree.html`, `bosses.html`, `compare.html`, `builds/index.html`, `checklist/index.html` — the site pages (plain HTML/CSS/JS, no build step)
 - `assets/` — CSS and client-side JS
 - `data/items.json`, `data/npcs.json`, `data/meta.json` — generated item/recipe/NPC database
 - `builds/builds.json` — hand-curated build guide content, grouped by class + stage

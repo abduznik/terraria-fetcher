@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Crafting Tree - Terraria Fetcher</title>
+<meta name="description" content="Explore huge Terraria crafting trees interactively, node by node, down to base materials.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <div class="brand">⚔️ Terraria Fetcher</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="fetcher.html">Item &amp; Recipe Fetcher</a>
+      <a href="tree.html" class="active">Crafting Tree</a>
+      <a href="bosses.html">Boss Drops</a>
+      <a href="compare.html">Compare</a>
+      <a href="builds/index.html">Builds</a>
+      <a href="checklist/index.html">Checklist</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <h1>Interactive Crafting Tree</h1>
+  <p style="margin-top:-8px;">Search an item to see its full crafting tree. Click any node to expand/collapse its own ingredients, or jump to it as the new root.</p>
+  <div class="search-box">
+    <input type="text" id="treeSearchInput" placeholder="Search an item, e.g. 'Zenith', 'Terra Blade', 'Adamantite Bar'..." autofocus>
+  </div>
+  <div class="search-meta" id="treeMeta">Loading item database…</div>
+  <div id="treeSuggestions"></div>
+  <div id="treeRoot"></div>
+</main>
+<footer>
+  Data sourced from public Terraria game data. Not affiliated with Re-Logic.
+</footer>
+<script src="assets/js/tree.js"></script>
+</body>
+</html>
