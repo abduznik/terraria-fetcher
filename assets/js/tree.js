@@ -1,17 +1,23 @@
-// Interactive Crafting Tree - click-to-expand recipe tree, with the ability
-// to re-root the whole view on any ingredient (great for huge trees like
-// endgame swords/accessories where the static list view gets unwieldy).
+// Interactive Crafting Tree - an actual visual node/branch diagram.
+// Root sits at the top; clicking a node's "obtain" button expands its own
+// recipe as connected child nodes below it, drawn with SVG lines so you can
+// see the whole crafting graph branch out visually, not just an indented list.
 (function () {
   const input = document.getElementById('treeSearchInput');
   const meta = document.getElementById('treeMeta');
   const suggestions = document.getElementById('treeSuggestions');
   const treeRoot = document.getElementById('treeRoot');
 
+  const NODE_W = 150;
+  const NODE_H = 78;
+  const H_GAP = 24;   // horizontal gap between sibling nodes
+  const V_GAP = 70;   // vertical gap between levels
+
   let items = [];
   let itemsByName = new Map();
   let currentRootName = null;
-  // Which nodes are expanded, keyed by a path string so the same item
-  // appearing twice in a tree can have independent expand states.
+  // Which nodes are expanded, keyed by path string (same item can appear
+  // twice in a tree with independent expand states).
   const expanded = new Set();
 
   function escapeHtml(str) {
@@ -61,62 +67,130 @@
     if (!itemsByName.has(name)) return;
     currentRootName = name;
     expanded.clear();
-    expanded.add('0'); // auto-expand the root node
+    expanded.add('0');
     input.value = name;
     suggestions.innerHTML = '';
     renderTree();
   }
 
-  function countDescendants(name, seen) {
-    const item = itemsByName.get(name);
-    if (!item || !item.recipes || !item.recipes.length || seen.has(name)) return 0;
-    const nextSeen = new Set(seen);
-    nextSeen.add(name);
-    const recipe = item.recipes[0];
-    let count = recipe.ingredients.length;
-    for (const ing of recipe.ingredients) {
-      count += countDescendants(ing.name, nextSeen);
+  // --- Tree data model -------------------------------------------------
+  // Build a plain node tree { name, qty, path, station, hasRecipe, isOpen,
+  // acquireLabel, children: [] } that we then lay out with x/y coordinates.
+
+  function acquireSummary(item) {
+    if (!item) return 'Unknown item';
+    if (item.recipes && item.recipes.length) return null; // handled via expand
+    if (item.sources && item.sources.length) {
+      const s = item.sources[0];
+      return `Drops from ${s.from}${item.sources.length > 1 ? ` (+${item.sources.length - 1} more)` : ''}`;
     }
-    return count;
+    if (item.shops && item.shops.length) {
+      const s = item.shops[0];
+      return `Sold by ${s.npc}`;
+    }
+    return 'No known source on record';
   }
 
-  function renderNode(name, qty, path, station, seen) {
+  function buildNode(name, qty, path, station, seen) {
     const item = itemsByName.get(name);
-    const hasRecipe = item && item.recipes && item.recipes.length && !seen.has(name);
+    const hasRecipe = !!(item && item.recipes && item.recipes.length && !seen.has(name));
     const isOpen = expanded.has(path);
-    const qtyLabel = qty > 1 ? `${qty}× ` : '';
-    const stationTag = station && station !== 'By Hand'
-      ? `<span class="tag" style="margin-left:6px;">${escapeHtml(station)}</span>` : '';
-
-    let childrenHtml = '';
+    const node = {
+      name, qty, path, station,
+      hasRecipe,
+      isOpen,
+      acquireLabel: acquireSummary(item),
+      recipeStation: hasRecipe ? item.recipes[0].station : null,
+      children: []
+    };
     if (hasRecipe && isOpen) {
       const recipe = item.recipes[0];
       const nextSeen = new Set(seen);
       nextSeen.add(name);
-      childrenHtml = '<ul class="tree-children">' + recipe.ingredients.map((ing, idx) => {
-        const perCraft = ing.qty || 1;
-        const timesToCraft = Math.ceil(qty / (recipe.amount || 1));
-        return renderNode(ing.name, perCraft * timesToCraft, `${path}.${idx}`, null, nextSeen);
-      }).join('') + '</ul>';
+      const timesToCraft = Math.ceil(qty / (recipe.amount || 1));
+      node.children = recipe.ingredients.map((ing, idx) =>
+        buildNode(ing.name, (ing.qty || 1) * timesToCraft, `${path}.${idx}`, null, nextSeen));
+    }
+    return node;
+  }
+
+  // --- Layout: classic tidy-tree via subtree width accumulation --------
+
+  function layout(node, depth, xCursor) {
+    node.depth = depth;
+    if (!node.children.length) {
+      node.x = xCursor.value;
+      node.width = NODE_W;
+      xCursor.value += NODE_W + H_GAP;
+      return node.width;
+    }
+    let childrenWidth = 0;
+    for (const child of node.children) {
+      childrenWidth += layout(child, depth + 1, xCursor);
+    }
+    childrenWidth -= H_GAP; // last sibling's trailing gap doesn't count
+    const firstChild = node.children[0];
+    const lastChild = node.children[node.children.length - 1];
+    const center = (firstChild.x + lastChild.x + NODE_W) / 2;
+    node.x = center - NODE_W / 2;
+    node.width = Math.max(NODE_W, childrenWidth);
+    return node.width;
+  }
+
+  function collectBounds(node, bounds) {
+    bounds.maxX = Math.max(bounds.maxX, node.x + NODE_W);
+    bounds.minX = Math.min(bounds.minX, node.x);
+    bounds.maxDepth = Math.max(bounds.maxDepth, node.depth);
+    node.children.forEach(c => collectBounds(c, bounds));
+  }
+
+  // --- Rendering ---------------------------------------------------------
+
+  function nodeHtml(node) {
+    const y = node.depth * (NODE_H + V_GAP);
+    const qtyLabel = node.qty > 1 ? `${node.qty}× ` : '';
+    const canExpand = node.hasRecipe;
+    const stationTag = node.recipeStation && node.recipeStation !== 'By Hand' ? escapeHtml(node.recipeStation) : (canExpand ? 'By Hand' : '');
+
+    let sub;
+    if (canExpand) {
+      sub = node.isOpen
+        ? `<span class="tnode-sub tnode-station">${stationTag}</span>`
+        : `<span class="tnode-sub tnode-hint">click to craft &darr;</span>`;
+    } else {
+      sub = `<span class="tnode-sub tnode-source">${escapeHtml(node.acquireLabel || '')}</span>`;
     }
 
-    const toggleIcon = hasRecipe ? (isOpen ? '▾' : '▸') : '·';
-    const descendantCount = hasRecipe ? countDescendants(name, seen) : 0;
-    const sizeTag = descendantCount > 8
-      ? `<span class="tag" style="margin-left:6px;background:var(--rarity-orange);">${descendantCount} ingredients</span>` : '';
-
     return `
-      <li class="tree-node" data-path="${path}">
-        <div class="tree-row ${hasRecipe ? 'expandable' : ''}" data-name="${escapeHtml(name)}" data-path="${path}">
-          <span class="tree-toggle">${toggleIcon}</span>
-          <span class="chain-icon-slot"><img src="${wikiIconUrl(name)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></span>
-          <span class="tree-label">${qtyLabel}${escapeHtml(name)}</span>
-          ${stationTag}
-          ${sizeTag}
-          <button class="tree-reroot-btn" data-reroot="${escapeHtml(name)}" title="Make this the root item">⤴ view as root</button>
+      <div class="tnode ${canExpand ? 'expandable' : 'leaf'} ${node.isOpen ? 'open' : ''}"
+           style="left:${node.x}px; top:${y}px; width:${NODE_W}px; height:${NODE_H}px;"
+           data-path="${node.path}" data-name="${escapeHtml(node.name)}">
+        <div class="tnode-icon"><img src="${wikiIconUrl(node.name)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></div>
+        <div class="tnode-body">
+          <div class="tnode-name">${qtyLabel}${escapeHtml(node.name)}</div>
+          ${sub}
         </div>
-        ${childrenHtml}
-      </li>`;
+        <button class="tnode-root-btn" data-reroot="${escapeHtml(node.name)}" title="View as root">⤴</button>
+      </div>`;
+  }
+
+  function connectorSvg(node, svgParts) {
+    if (node.children.length) {
+      const parentY = node.depth * (NODE_H + V_GAP) + NODE_H;
+      const parentX = node.x + NODE_W / 2;
+      for (const child of node.children) {
+        const childY = child.depth * (NODE_H + V_GAP);
+        const childX = child.x + NODE_W / 2;
+        const midY = (parentY + childY) / 2;
+        svgParts.push(`<path d="M ${parentX} ${parentY} C ${parentX} ${midY}, ${childX} ${midY}, ${childX} ${childY}" class="tree-edge" />`);
+      }
+      node.children.forEach(c => connectorSvg(c, svgParts));
+    }
+  }
+
+  function flattenNodes(node, out) {
+    out.push(node);
+    node.children.forEach(c => flattenNodes(c, out));
   }
 
   function renderTree() {
@@ -124,21 +198,25 @@
     const item = itemsByName.get(currentRootName);
     if (!item) { treeRoot.innerHTML = '<div class="empty">Item not found.</div>'; return; }
 
-    if (!item.recipes || !item.recipes.length) {
-      treeRoot.innerHTML = `
-        <div class="result-item">
-          <div class="row">
-            <div class="name-wrap">
-              <span class="icon-slot"><img src="${wikiIconUrl(item.name)}" alt="" loading="lazy" onerror="this.parentElement.style.visibility='hidden'"></span>
-              <span class="name">${escapeHtml(item.name)}</span>
-            </div>
-          </div>
-          <div class="recipe-detail">This item has no known crafting recipe &mdash; it's a base material, drop, or shop item. Try another item, or check the <a href="bosses.html">Boss Drops</a> page to see what drops it.</div>
-        </div>`;
-      return;
-    }
+    const initialQty = (item.recipes && item.recipes.length) ? (item.recipes[0].amount || 1) : 1;
+    const tree = buildNode(item.name, initialQty, '0', null, new Set());
+    layout(tree, 0, { value: 0 });
 
-    const recipe = item.recipes[0];
+    const bounds = { minX: 0, maxX: NODE_W, maxDepth: 0 };
+    collectBounds(tree, bounds);
+
+    // Shift everything so minX = 0
+    const shiftX = -bounds.minX;
+    const allNodes = [];
+    flattenNodes(tree, allNodes);
+    allNodes.forEach(n => { n.x += shiftX; });
+
+    const totalWidth = bounds.maxX - bounds.minX + 40;
+    const totalHeight = (bounds.maxDepth + 1) * (NODE_H + V_GAP);
+
+    const svgParts = [];
+    connectorSvg(tree, svgParts);
+
     treeRoot.innerHTML = `
       <div class="result-item">
         <div class="row">
@@ -146,40 +224,49 @@
             <span class="icon-slot"><img src="${wikiIconUrl(item.name)}" alt="" loading="lazy" onerror="this.parentElement.style.visibility='hidden'"></span>
             <span class="name">${escapeHtml(item.name)}</span>
           </div>
-          ${recipe.station ? `<span class="badge-station">${escapeHtml(recipe.station)}</span>` : ''}
+          <span class="tag">${allNodes.length} node${allNodes.length === 1 ? '' : 's'} shown</span>
         </div>
         <div class="tree-controls">
           <button id="expandAllBtn" class="filter-btn">Expand all</button>
           <button id="collapseAllBtn" class="filter-btn">Collapse all</button>
+          <span class="tree-hint">Click a node to reveal how it's obtained. Click ⤴ to re-center the tree on that item.</span>
         </div>
-        <ul class="chain-list chain-root tree-list">
-          ${renderNode(item.name, recipe.amount || 1, '0', null, new Set())}
-        </ul>
+        <div class="tree-canvas-scroll">
+          <div class="tree-canvas" style="width:${totalWidth}px; height:${totalHeight}px;">
+            <svg class="tree-svg" width="${totalWidth}" height="${totalHeight}">${svgParts.join('')}</svg>
+            ${allNodes.map(nodeHtml).join('')}
+          </div>
+        </div>
       </div>`;
 
-    wireTreeEvents();
+    wireTreeEvents(tree);
   }
 
-  function collectAllPaths(name, path, seen, out) {
-    out.add(path);
-    const item = itemsByName.get(name);
-    if (!item || !item.recipes || !item.recipes.length || seen.has(name)) return;
-    const nextSeen = new Set(seen);
-    nextSeen.add(name);
-    const recipe = item.recipes[0];
-    recipe.ingredients.forEach((ing, idx) => collectAllPaths(ing.name, `${path}.${idx}`, nextSeen, out));
+  function collectAllPathsForRoot(name) {
+    // Walk the *possible* tree (ignoring current expand state) to gather every path.
+    function walk(nm, path, seen, out) {
+      out.add(path);
+      const it = itemsByName.get(nm);
+      if (!it || !it.recipes || !it.recipes.length || seen.has(nm)) return;
+      const nextSeen = new Set(seen);
+      nextSeen.add(nm);
+      it.recipes[0].ingredients.forEach((ing, idx) => walk(ing.name, `${path}.${idx}`, nextSeen, out));
+    }
+    const out = new Set();
+    walk(name, '0', new Set(), out);
+    return out;
   }
 
   function wireTreeEvents() {
-    treeRoot.querySelectorAll('.tree-row.expandable .tree-toggle, .tree-row.expandable .tree-label, .tree-row.expandable .chain-icon-slot').forEach(el => {
+    treeRoot.querySelectorAll('.tnode.expandable').forEach(el => {
       el.addEventListener('click', (e) => {
-        const row = e.currentTarget.closest('.tree-row');
-        const path = row.dataset.path;
+        if (e.target.closest('.tnode-root-btn')) return;
+        const path = el.dataset.path;
         if (expanded.has(path)) expanded.delete(path); else expanded.add(path);
         renderTree();
       });
     });
-    treeRoot.querySelectorAll('.tree-reroot-btn').forEach(btn => {
+    treeRoot.querySelectorAll('.tnode-root-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
         setRoot(btn.dataset.reroot);
@@ -188,8 +275,7 @@
     const expandAllBtn = document.getElementById('expandAllBtn');
     const collapseAllBtn = document.getElementById('collapseAllBtn');
     if (expandAllBtn) expandAllBtn.addEventListener('click', () => {
-      const all = new Set();
-      collectAllPaths(currentRootName, '0', new Set(), all);
+      const all = collectAllPathsForRoot(currentRootName);
       all.forEach(p => expanded.add(p));
       renderTree();
     });
@@ -201,8 +287,7 @@
   }
 
   input.addEventListener('input', () => {
-    const matches = findMatches(input.value);
-    renderSuggestions(matches);
+    renderSuggestions(findMatches(input.value));
   });
 
   document.addEventListener('click', (e) => {
@@ -216,7 +301,7 @@
     })
     .then(data => {
       items = data;
-      for (const item of items) itemsByName.set(item.name, item);
+      for (const it of items) itemsByName.set(it.name, it);
       meta.textContent = `${items.length.toLocaleString()} items loaded. Search for an item to view its crafting tree.`;
 
       const params = new URLSearchParams(location.search);
