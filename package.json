@@ -1,0 +1,25 @@
+{
+  "name": "terraria-fetcher",
+  "version": "1.0.0",
+  "description": "Terraria crafting/build reference site",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/icon-slot-overflow.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abduznik/terraria-fetcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/abduznik/terraria-fetcher/issues"
+  },
+  "homepage": "https://github.com/abduznik/terraria-fetcher#readme",
+  "private": "true",
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}
