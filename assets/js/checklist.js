@@ -147,7 +147,10 @@
   });
 
   fetch('checklist.json')
-    .then(r => r.json())
+    .then(r => {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
     .then(data => {
       stages = data;
       activeStage = stages[0] && stages[0].id;
