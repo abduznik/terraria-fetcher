@@ -1,306 +1,3434 @@
 [
   {
-    "id": "melee-prehardmode",
+    "id": "melee-prehardmode-bis",
     "class": "melee",
     "stage": "prehardmode",
+    "variant": "bis",
     "title": "Pre-Hardmode Melee",
     "summary": "High defense, close-range damage. Beat Skeletron and the Wall of Flesh with heavy hitters and strong armor.",
     "weapons": [
-      { "icon": "Muramasa", "label": "Muramasa — fast early-game sword (found in Gold Chests / Golden Lock Boxes)" },
-      { "icon": "Night's Edge", "label": "Night's Edge — combine Muramasa, Fiery Greatsword, Blade of Grass, and Light's Bane/Blood Butcherer at a Demon/Crimson Altar" },
-      { "icon": "Starfury", "label": "Starfury — Sky Crate drop, strong AoE ranged-melee hybrid, good vs Skeletron" }
+      {
+        "icon": "Muramasa",
+        "label": "Muramasa — fast early-game sword (found in Gold Chests / Golden Lock Boxes)"
+      },
+      {
+        "icon": "Night's Edge",
+        "label": "Night's Edge — combine Muramasa, Fiery Greatsword, Blade of Grass, and Light's Bane/Blood Butcherer at a Demon/Crimson Altar"
+      },
+      {
+        "icon": "Starfury",
+        "label": "Starfury — Sky Crate drop, strong AoE ranged-melee hybrid, good vs Skeletron"
+      }
     ],
     "armor": [
-      { "icon": "Molten Helmet", "label": "Molten Helmet" },
-      { "icon": "Molten Breastplate", "label": "Molten Breastplate" },
-      { "icon": "Molten Greaves", "label": "Molten Greaves" }
+      {
+        "icon": "Molten Helmet",
+        "label": "Molten Helmet"
+      },
+      {
+        "icon": "Molten Breastplate",
+        "label": "Molten Breastplate"
+      },
+      {
+        "icon": "Molten Greaves",
+        "label": "Molten Greaves"
+      }
     ],
     "accessories": [
-      { "icon": "Obsidian Shield", "label": "Obsidian Shield — no knockback + fire immunity" },
-      { "icon": "Cloud in a Bottle", "label": "Cloud in a Bottle — extra jump" },
-      { "icon": "Hermes Boots", "label": "Hermes Boots — movement speed" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" },
-      { "icon": "Feral Claws", "label": "Feral Claws — melee speed and knockback" },
-      { "icon": "Philosopher's Stone", "label": "Philosopher's Stone — faster potion cooldown" },
-      { "icon": "Shield of Cthulhu", "label": "Shield of Cthulhu (Crimson alt to Obsidian Shield) — dash + no knockback, if farmed" }
+      {
+        "icon": "Obsidian Shield",
+        "label": "Obsidian Shield — no knockback + fire immunity"
+      },
+      {
+        "icon": "Cloud in a Bottle",
+        "label": "Cloud in a Bottle — extra jump"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots — movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      },
+      {
+        "icon": "Feral Claws",
+        "label": "Feral Claws — melee speed and knockback"
+      },
+      {
+        "icon": "Philosopher's Stone",
+        "label": "Philosopher's Stone — faster potion cooldown"
+      },
+      {
+        "icon": "Shield of Cthulhu",
+        "label": "Shield of Cthulhu (Crimson alt to Obsidian Shield) — dash + no knockback, if farmed"
+      }
     ],
     "notes": "Full loadout: Molten Armor set + Night's Edge (or Starfury for the Skeletron fight) + the 7 accessories above. Craft Molten Armor at a Hellforge from Hellstone Bars + Obsidian. Farm Hellstone using an Obsidian Skin Potion or Obsidian Skull/Horseshoe combo so lava doesn't kill you. Use Ironskin and Regeneration potions for the Wall of Flesh."
   },
   {
-    "id": "ranged-prehardmode",
+    "id": "ranged-prehardmode-bis",
     "class": "ranged",
     "stage": "prehardmode",
+    "variant": "bis",
     "title": "Pre-Hardmode Ranged",
     "summary": "Strong single-target and crowd control from range; ammo economy matters early.",
     "weapons": [
-      { "icon": "Minishark", "label": "Minishark — cheap, high fire-rate clear weapon (Arms Dealer)" },
-      { "icon": "The Bee's Knees", "label": "The Bee's Knees — Queen Bee drop, strong bow upgrade" },
-      { "icon": "Star Cannon", "label": "Star Cannon — Sky Crate drop, top-tier pre-Hardmode boss weapon" }
+      {
+        "icon": "Minishark",
+        "label": "Minishark — cheap, high fire-rate clear weapon (Arms Dealer)"
+      },
+      {
+        "icon": "The Bee's Knees",
+        "label": "The Bee's Knees — Queen Bee drop, strong bow upgrade"
+      },
+      {
+        "icon": "Star Cannon",
+        "label": "Star Cannon — Sky Crate drop, top-tier pre-Hardmode boss weapon"
+      }
     ],
     "armor": [
-      { "icon": "Necro Helmet", "label": "Necro Helmet" },
-      { "icon": "Necro Breastplate", "label": "Necro Breastplate" },
-      { "icon": "Necro Greaves", "label": "Necro Greaves" }
+      {
+        "icon": "Necro Helmet",
+        "label": "Necro Helmet"
+      },
+      {
+        "icon": "Necro Breastplate",
+        "label": "Necro Breastplate"
+      },
+      {
+        "icon": "Necro Greaves",
+        "label": "Necro Greaves"
+      }
     ],
     "accessories": [
-      { "icon": "Obsidian Shield", "label": "Obsidian Shield — no knockback + fire immunity" },
-      { "icon": "Cloud in a Bottle", "label": "Cloud in a Bottle — extra jump" },
-      { "icon": "Hermes Boots", "label": "Hermes Boots — movement speed" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" },
-      { "icon": "Magic Quiver", "label": "Magic Quiver — arrow damage/velocity, chance to not consume arrows" },
-      { "icon": "Philosopher's Stone", "label": "Philosopher's Stone — faster potion cooldown" }
+      {
+        "icon": "Obsidian Shield",
+        "label": "Obsidian Shield — no knockback + fire immunity"
+      },
+      {
+        "icon": "Cloud in a Bottle",
+        "label": "Cloud in a Bottle — extra jump"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots — movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — arrow damage/velocity, chance to not consume arrows"
+      },
+      {
+        "icon": "Philosopher's Stone",
+        "label": "Philosopher's Stone — faster potion cooldown"
+      }
     ],
     "notes": "Full loadout: Necro Armor set + Star Cannon (Sky Crate farming) or Minishark for general clearing, plus the 6 accessories above. Necro Armor pieces come from Skeletron (Headgear) and Shadow Orbs/Crimson Hearts (Breastplate, Greaves). Stock Musket Balls or Meteor Shots and keep max distance during the Wall of Flesh fight."
   },
   {
-    "id": "mage-prehardmode",
+    "id": "mage-prehardmode-bis",
     "class": "mage",
     "stage": "prehardmode",
+    "variant": "bis",
     "title": "Pre-Hardmode Mage",
     "summary": "Highest burst potential pre-hardmode but mana-hungry; strongest against Wall of Flesh with Space Gun spam.",
     "weapons": [
-      { "icon": "Water Bolt", "label": "Water Bolt — cheap mana, strong early dps (found underground)" },
-      { "icon": "Space Gun", "label": "Space Gun — infinite ammo, no mana cost with Meteor set bonus" },
-      { "icon": "Flamelash", "label": "Flamelash — Underworld drop, strong hallway damage vs Wall of Flesh" }
+      {
+        "icon": "Water Bolt",
+        "label": "Water Bolt — cheap mana, strong early dps (found underground)"
+      },
+      {
+        "icon": "Space Gun",
+        "label": "Space Gun — infinite ammo, no mana cost with Meteor set bonus"
+      },
+      {
+        "icon": "Flamelash",
+        "label": "Flamelash — Underworld drop, strong hallway damage vs Wall of Flesh"
+      }
     ],
     "armor": [
-      { "icon": "Meteor Helmet", "label": "Meteor Helmet" },
-      { "icon": "Meteor Suit", "label": "Meteor Suit" },
-      { "icon": "Meteor Leggings", "label": "Meteor Leggings" }
+      {
+        "icon": "Meteor Helmet",
+        "label": "Meteor Helmet"
+      },
+      {
+        "icon": "Meteor Suit",
+        "label": "Meteor Suit"
+      },
+      {
+        "icon": "Meteor Leggings",
+        "label": "Meteor Leggings"
+      }
     ],
     "accessories": [
-      { "icon": "Obsidian Shield", "label": "Obsidian Shield — no knockback + fire immunity" },
-      { "icon": "Cloud in a Bottle", "label": "Cloud in a Bottle — extra jump" },
-      { "icon": "Hermes Boots", "label": "Hermes Boots — movement speed" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" },
-      { "icon": "Mana Flower", "label": "Mana Flower — auto-drinks mana potions, +magic damage" },
-      { "icon": "Nazar", "label": "Nazar — cures Confused debuff, small stat stepping stone toward Celestial Shell" }
+      {
+        "icon": "Obsidian Shield",
+        "label": "Obsidian Shield — no knockback + fire immunity"
+      },
+      {
+        "icon": "Cloud in a Bottle",
+        "label": "Cloud in a Bottle — extra jump"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots — movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Nazar",
+        "label": "Nazar — cures Confused debuff, small stat stepping stone toward Celestial Shell"
+      }
     ],
     "notes": "Full loadout: Meteor Armor set + Space Gun as your primary (the set bonus reduces its mana cost to 0, making it free infinite damage), plus the 6 accessories above. Craft Meteor Armor from Meteorite Bars after a Meteorite crash lands. Stock mana potions as backup for Water Bolt/Flamelash bursts."
   },
   {
-    "id": "summoner-prehardmode",
+    "id": "summoner-prehardmode-bis",
     "class": "summoner",
     "stage": "prehardmode",
+    "variant": "bis",
     "title": "Pre-Hardmode Summoner",
     "summary": "Weakest pre-hardmode class but still viable with careful positioning; hybridize with another weapon type.",
     "weapons": [
-      { "icon": "Slime Staff", "label": "Slime Staff — reliable early summon (Slime drop)" },
-      { "icon": "Optic Staff", "label": "Optic Staff — Queen Bee drop, strongest pre-Hardmode summon" },
-      { "icon": "Minishark", "label": "Minishark — secondary damage source while your summon works (Arms Dealer)" }
+      {
+        "icon": "Slime Staff",
+        "label": "Slime Staff — reliable early summon (Slime drop)"
+      },
+      {
+        "icon": "Optic Staff",
+        "label": "Optic Staff — Queen Bee drop, strongest pre-Hardmode summon"
+      },
+      {
+        "icon": "Minishark",
+        "label": "Minishark — secondary damage source while your summon works (Arms Dealer)"
+      }
     ],
     "armor": [
-      { "icon": "Bee Headgear", "label": "Bee Headgear" },
-      { "icon": "Bee Breastplate", "label": "Bee Breastplate" },
-      { "icon": "Bee Greaves", "label": "Bee Greaves" }
+      {
+        "icon": "Bee Headgear",
+        "label": "Bee Headgear"
+      },
+      {
+        "icon": "Bee Breastplate",
+        "label": "Bee Breastplate"
+      },
+      {
+        "icon": "Bee Greaves",
+        "label": "Bee Greaves"
+      }
     ],
     "accessories": [
-      { "icon": "Obsidian Shield", "label": "Obsidian Shield — no knockback + fire immunity" },
-      { "icon": "Cloud in a Bottle", "label": "Cloud in a Bottle — extra jump" },
-      { "icon": "Hermes Boots", "label": "Hermes Boots — movement speed" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" },
-      { "icon": "Philosopher's Stone", "label": "Philosopher's Stone — faster potion cooldown" }
+      {
+        "icon": "Obsidian Shield",
+        "label": "Obsidian Shield — no knockback + fire immunity"
+      },
+      {
+        "icon": "Cloud in a Bottle",
+        "label": "Cloud in a Bottle — extra jump"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots — movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      },
+      {
+        "icon": "Philosopher's Stone",
+        "label": "Philosopher's Stone — faster potion cooldown"
+      }
     ],
     "notes": "Full loadout: Bee Armor set + Optic Staff as your main summon, plus the 5 accessories above. Bee Armor and Optic Staff both come from Queen Bee — farm the Bee biome before Skeletron. Summoner is genuinely weak pre-Hardmode; lean on Minishark or another secondary weapon for damage and keep moving during the Wall of Flesh fight since summons don't need line of sight."
   },
   {
-    "id": "melee-hardmode-early",
+    "id": "melee-hardmode-early-bis",
     "class": "melee",
     "stage": "hardmode-early",
+    "variant": "bis",
     "title": "Early Hardmode Melee",
     "summary": "Push through Cobalt → Mythril → Adamantite/Titanium ore tiers to gear up for your first Mechanical Boss.",
     "weapons": [
-      { "icon": "Cobalt Sword", "label": "Cobalt Sword — first Hardmode melee weapon tier" },
-      { "icon": "Excalibur", "label": "Excalibur — Hallowed Bar sword, strong pre-Mech-Boss upgrade" },
-      { "icon": "Adamantite Sword", "label": "Adamantite Sword (or Titanium Sword) — goal weapon before your first Mechanical Boss attempt" }
+      {
+        "icon": "Cobalt Sword",
+        "label": "Cobalt Sword — first Hardmode melee weapon tier"
+      },
+      {
+        "icon": "Excalibur",
+        "label": "Excalibur — Hallowed Bar sword, strong pre-Mech-Boss upgrade"
+      },
+      {
+        "icon": "Adamantite Sword",
+        "label": "Adamantite Sword (or Titanium Sword) — goal weapon before your first Mechanical Boss attempt"
+      }
     ],
     "armor": [
-      { "icon": "Adamantite Helmet", "label": "Adamantite Helmet (or Titanium Helmet)" },
-      { "icon": "Adamantite Breastplate", "label": "Adamantite Breastplate (or Titanium Breastplate)" },
-      { "icon": "Adamantite Leggings", "label": "Adamantite Leggings (or Titanium Leggings)" }
+      {
+        "icon": "Adamantite Helmet",
+        "label": "Adamantite Helmet (or Titanium Helmet)"
+      },
+      {
+        "icon": "Adamantite Breastplate",
+        "label": "Adamantite Breastplate (or Titanium Breastplate)"
+      },
+      {
+        "icon": "Adamantite Leggings",
+        "label": "Adamantite Leggings (or Titanium Leggings)"
+      }
     ],
     "accessories": [
-      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
-      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" },
-      { "icon": "Warrior Emblem", "label": "Warrior Emblem — flat melee damage boost" },
-      { "icon": "Titan Glove", "label": "Titan Glove — melee knockback" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Warrior Emblem",
+        "label": "Warrior Emblem — flat melee damage boost"
+      },
+      {
+        "icon": "Titan Glove",
+        "label": "Titan Glove — melee knockback"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
     ],
     "notes": "Full loadout: Adamantite Armor (or Titanium, whichever ore your world generated) + Adamantite/Titanium Sword, plus the 5 accessories above. This is the practical gear ceiling before fighting your first Mechanical Boss — Cobalt/Palladium and Mythril/Orichalcum are just stepping stones through this tier, so don't over-invest time in them. Craft the Ankh Shield from the full Ankh Charm before your Mech Boss attempt. Stick to one metal type per armor tier since set bonuses require a full matching set."
   },
   {
-    "id": "ranged-hardmode-early",
+    "id": "ranged-hardmode-early-bis",
     "class": "ranged",
     "stage": "hardmode-early",
+    "variant": "bis",
     "title": "Early Hardmode Ranged",
     "summary": "Push through Cobalt → Mythril → Adamantite/Titanium ore tiers to gear up for your first Mechanical Boss.",
     "weapons": [
-      { "icon": "Cobalt Repeater", "label": "Cobalt Repeater — first Hardmode bow-tier weapon" },
-      { "icon": "Shotgun", "label": "Shotgun — strong short-range burst (Golden Lock Box)" },
-      { "icon": "Adamantite Repeater", "label": "Adamantite Repeater (or Titanium Repeater) — goal weapon before your first Mechanical Boss attempt" }
+      {
+        "icon": "Cobalt Repeater",
+        "label": "Cobalt Repeater — first Hardmode bow-tier weapon"
+      },
+      {
+        "icon": "Shotgun",
+        "label": "Shotgun — strong short-range burst (Golden Lock Box)"
+      },
+      {
+        "icon": "Adamantite Repeater",
+        "label": "Adamantite Repeater (or Titanium Repeater) — goal weapon before your first Mechanical Boss attempt"
+      }
     ],
     "armor": [
-      { "icon": "Adamantite Headgear", "label": "Adamantite Headgear (or Titanium Headgear) — ranged-focused helmet piece" },
-      { "icon": "Adamantite Breastplate", "label": "Adamantite Breastplate (or Titanium Breastplate)" },
-      { "icon": "Adamantite Leggings", "label": "Adamantite Leggings (or Titanium Leggings)" }
+      {
+        "icon": "Adamantite Headgear",
+        "label": "Adamantite Headgear (or Titanium Headgear) — ranged-focused helmet piece"
+      },
+      {
+        "icon": "Adamantite Breastplate",
+        "label": "Adamantite Breastplate (or Titanium Breastplate)"
+      },
+      {
+        "icon": "Adamantite Leggings",
+        "label": "Adamantite Leggings (or Titanium Leggings)"
+      }
     ],
     "accessories": [
-      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
-      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" },
-      { "icon": "Ranger Emblem", "label": "Ranger Emblem — flat ranged damage boost" },
-      { "icon": "Magic Quiver", "label": "Magic Quiver — arrow damage/velocity, ammo conservation" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Ranger Emblem",
+        "label": "Ranger Emblem — flat ranged damage boost"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — arrow damage/velocity, ammo conservation"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
     ],
     "notes": "Full loadout: Adamantite Armor (or Titanium) with the ranged Headgear piece + Adamantite/Titanium Repeater, plus the 5 accessories above. Ranged scales cleanly through Hardmode ore tiers — keep upgrading repeaters and buy any craftable guns as soon as you can afford them, then push all the way to Adamantite/Titanium before your first Mech Boss."
   },
   {
-    "id": "mage-hardmode-early",
+    "id": "mage-hardmode-early-bis",
     "class": "mage",
     "stage": "hardmode-early",
+    "variant": "bis",
     "title": "Early Hardmode Mage",
     "summary": "Push through Cobalt → Mythril → Adamantite/Titanium ore tiers to gear up for your first Mechanical Boss; Golden Shower is a standout weapon.",
     "weapons": [
-      { "icon": "Golden Shower", "label": "Golden Shower — strong DoT weapon with a defense-reducing debuff, your main goal weapon for this stage" },
-      { "icon": "Crystal Storm", "label": "Crystal Storm — Cobalt-tier magic weapon" },
-      { "icon": "Rainbow Rod", "label": "Rainbow Rod — Corruption alternative to Golden Shower" }
+      {
+        "icon": "Golden Shower",
+        "label": "Golden Shower — strong DoT weapon with a defense-reducing debuff, your main goal weapon for this stage"
+      },
+      {
+        "icon": "Crystal Storm",
+        "label": "Crystal Storm — Cobalt-tier magic weapon"
+      },
+      {
+        "icon": "Rainbow Rod",
+        "label": "Rainbow Rod — Corruption alternative to Golden Shower"
+      }
     ],
     "armor": [
-      { "icon": "Adamantite Headgear", "label": "Adamantite Headgear (or Titanium Headgear) — magic-focused hat piece" },
-      { "icon": "Adamantite Breastplate", "label": "Adamantite Breastplate (or Titanium Breastplate)" },
-      { "icon": "Adamantite Leggings", "label": "Adamantite Leggings (or Titanium Leggings)" }
+      {
+        "icon": "Adamantite Headgear",
+        "label": "Adamantite Headgear (or Titanium Headgear) — magic-focused hat piece"
+      },
+      {
+        "icon": "Adamantite Breastplate",
+        "label": "Adamantite Breastplate (or Titanium Breastplate)"
+      },
+      {
+        "icon": "Adamantite Leggings",
+        "label": "Adamantite Leggings (or Titanium Leggings)"
+      }
     ],
     "accessories": [
-      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
-      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" },
-      { "icon": "Sorcerer Emblem", "label": "Sorcerer Emblem — flat magic damage boost" },
-      { "icon": "Mana Flower", "label": "Mana Flower — auto-drinks mana potions, +magic damage" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Sorcerer Emblem",
+        "label": "Sorcerer Emblem — flat magic damage boost"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
     ],
     "notes": "Full loadout: Adamantite Armor (or Titanium) with the magic Headgear piece + Golden Shower as your main weapon, plus the 5 accessories above. Golden Shower's defense-reduction debuff makes Mechanical Boss fights noticeably easier for your whole team, not just you. Push all the way to Adamantite/Titanium gear before your first Mech Boss attempt."
   },
   {
-    "id": "summoner-hardmode-early",
+    "id": "summoner-hardmode-early-bis",
     "class": "summoner",
     "stage": "hardmode-early",
+    "variant": "bis",
     "title": "Early Hardmode Summoner",
     "summary": "Summoner comes online hard in Hardmode — Spider Armor and Spider Staff are a huge power spike.",
     "weapons": [
-      { "icon": "Spider Staff", "label": "Spider Staff — massive pre-Plantera summon upgrade (Spider biome)" },
-      { "icon": "Optic Staff", "label": "Optic Staff — carries until Spider Staff is farmed" },
-      { "icon": "Adamantite Repeater", "label": "Adamantite Repeater (or Titanium Repeater) — secondary damage source" }
+      {
+        "icon": "Spider Staff",
+        "label": "Spider Staff — massive pre-Plantera summon upgrade (Spider biome)"
+      },
+      {
+        "icon": "Optic Staff",
+        "label": "Optic Staff — carries until Spider Staff is farmed"
+      },
+      {
+        "icon": "Adamantite Repeater",
+        "label": "Adamantite Repeater (or Titanium Repeater) — secondary damage source"
+      }
     ],
     "armor": [
-      { "icon": "Spider Mask", "label": "Spider Mask" },
-      { "icon": "Spider Breastplate", "label": "Spider Breastplate" },
-      { "icon": "Spider Greaves", "label": "Spider Greaves" }
+      {
+        "icon": "Spider Mask",
+        "label": "Spider Mask"
+      },
+      {
+        "icon": "Spider Breastplate",
+        "label": "Spider Breastplate"
+      },
+      {
+        "icon": "Spider Greaves",
+        "label": "Spider Greaves"
+      }
     ],
     "accessories": [
-      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
-      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" },
-      { "icon": "Summoner Emblem", "label": "Summoner Emblem — flat summon damage boost" },
-      { "icon": "Necromantic Scroll", "label": "Necromantic Scroll — extra summon damage" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Summoner Emblem",
+        "label": "Summoner Emblem — flat summon damage boost"
+      },
+      {
+        "icon": "Necromantic Scroll",
+        "label": "Necromantic Scroll — extra summon damage"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
     ],
     "notes": "Full loadout: Spider Armor set + Spider Staff, plus the 5 accessories above. Spider Armor and Spider Staff both drop in the underground Corruption/Crimson Spider biome — this combo is considered one of the strongest single power spikes in the entire game for summoners, so prioritize farming it as soon as Hardmode starts."
   },
   {
-    "id": "melee-post-mech-plantera",
+    "id": "melee-post-mech-plantera-bis",
     "class": "melee",
     "stage": "post-mech-plantera",
+    "variant": "bis",
     "title": "Post-Mechanical Bosses → Plantera Melee",
     "summary": "Hallowed gear and yoyos carry into Plantera.",
     "weapons": [
-      { "icon": "True Excalibur", "label": "True Excalibur — Excalibur + Broken Hero Sword combined at a Mythril/Orichalcum Anvil" },
-      { "icon": "Amarok", "label": "Amarok — strong pre-Plantera yoyo (Ice biome)" },
-      { "icon": "Flairon", "label": "Flairon — post-Plantera goal weapon (Dungeon + Plantera loop farming)" }
+      {
+        "icon": "True Excalibur",
+        "label": "True Excalibur — Excalibur + Broken Hero Sword combined at a Mythril/Orichalcum Anvil"
+      },
+      {
+        "icon": "Amarok",
+        "label": "Amarok — strong pre-Plantera yoyo (Ice biome)"
+      },
+      {
+        "icon": "Flairon",
+        "label": "Flairon — post-Plantera goal weapon (Dungeon + Plantera loop farming)"
+      }
     ],
     "armor": [
-      { "icon": "Hallowed Helmet", "label": "Hallowed Helmet" },
-      { "icon": "Hallowed Plate Mail", "label": "Hallowed Plate Mail" },
-      { "icon": "Hallowed Greaves", "label": "Hallowed Greaves" }
+      {
+        "icon": "Hallowed Helmet",
+        "label": "Hallowed Helmet"
+      },
+      {
+        "icon": "Hallowed Plate Mail",
+        "label": "Hallowed Plate Mail"
+      },
+      {
+        "icon": "Hallowed Greaves",
+        "label": "Hallowed Greaves"
+      }
     ],
     "accessories": [
-      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
-      { "icon": "Fire Gauntlet", "label": "Fire Gauntlet — melee speed, knockback, and extra fire damage" },
-      { "icon": "Warrior Emblem", "label": "Warrior Emblem — flat melee damage boost" },
-      { "icon": "Yoyo Bag", "label": "Yoyo Bag — extends yoyo range, only useful if using a yoyo" },
-      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" }
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Fire Gauntlet",
+        "label": "Fire Gauntlet — melee speed, knockback, and extra fire damage"
+      },
+      {
+        "icon": "Warrior Emblem",
+        "label": "Warrior Emblem — flat melee damage boost"
+      },
+      {
+        "icon": "Yoyo Bag",
+        "label": "Yoyo Bag — extends yoyo range, only useful if using a yoyo"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
     ],
     "notes": "Full loadout: Hallowed Armor set + True Excalibur, plus the 5 accessories above. Fight Plantera in the Jungle for Chlorophyte access, then farm Turtle Armor from the Jungle's Turtles once Chlorophyte ore is available as your follow-up armor set."
   },
   {
-    "id": "ranged-post-mech-plantera",
+    "id": "ranged-post-mech-plantera-bis",
     "class": "ranged",
     "stage": "post-mech-plantera",
+    "variant": "bis",
     "title": "Post-Mechanical Bosses → Plantera Ranged",
     "summary": "Hallowed gear and Hardmode guns carry into Plantera.",
     "weapons": [
-      { "icon": "Uzi", "label": "Uzi — strong Hallowed-tier automatic weapon" },
-      { "icon": "Tactical Shotgun", "label": "Tactical Shotgun — Mechanical Boss drop, top pre-Plantera shotgun" },
-      { "icon": "Sniper Rifle", "label": "Sniper Rifle — high single-target dps, good vs Plantera" }
+      {
+        "icon": "Uzi",
+        "label": "Uzi — strong Hallowed-tier automatic weapon"
+      },
+      {
+        "icon": "Tactical Shotgun",
+        "label": "Tactical Shotgun — Mechanical Boss drop, top pre-Plantera shotgun"
+      },
+      {
+        "icon": "Sniper Rifle",
+        "label": "Sniper Rifle — high single-target dps, good vs Plantera"
+      }
     ],
     "armor": [
-      { "icon": "Hallowed Headgear", "label": "Hallowed Headgear — ranged-focused helmet piece" },
-      { "icon": "Hallowed Plate Mail", "label": "Hallowed Plate Mail" },
-      { "icon": "Hallowed Greaves", "label": "Hallowed Greaves" }
+      {
+        "icon": "Hallowed Headgear",
+        "label": "Hallowed Headgear — ranged-focused helmet piece"
+      },
+      {
+        "icon": "Hallowed Plate Mail",
+        "label": "Hallowed Plate Mail"
+      },
+      {
+        "icon": "Hallowed Greaves",
+        "label": "Hallowed Greaves"
+      }
     ],
     "accessories": [
-      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
-      { "icon": "Ranger Emblem", "label": "Ranger Emblem — flat ranged damage boost" },
-      { "icon": "Magic Quiver", "label": "Magic Quiver — arrow damage/velocity, ammo conservation" },
-      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Ranger Emblem",
+        "label": "Ranger Emblem — flat ranged damage boost"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — arrow damage/velocity, ammo conservation"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
     ],
     "notes": "Full loadout: Hallowed Armor (ranged Headgear) + Sniper Rifle or Tactical Shotgun, plus the 5 accessories above. Sniper Rifle's high single-shot damage handles Plantera's bulb and tanky phases well; keep Tactical Shotgun or Uzi for general clearing. Chlorophyte gear becomes your follow-up after Plantera drops Chlorophyte ore access."
   },
   {
-    "id": "mage-post-mech-plantera",
+    "id": "mage-post-mech-plantera-bis",
     "class": "mage",
     "stage": "post-mech-plantera",
+    "variant": "bis",
     "title": "Post-Mechanical Bosses → Plantera Mage",
     "summary": "Hallowed gear and strong AoE/DoT spells carry into Plantera.",
     "weapons": [
-      { "icon": "Bat Scepter", "label": "Bat Scepter — strong summon-hybrid magic weapon" },
-      { "icon": "Rainbow Rod", "label": "Rainbow Rod — long-range piercing projectile, good vs Plantera" },
-      { "icon": "Nimbus Rod", "label": "Nimbus Rod — passive AoE raincloud, strong crowd control" }
+      {
+        "icon": "Bat Scepter",
+        "label": "Bat Scepter — strong summon-hybrid magic weapon"
+      },
+      {
+        "icon": "Rainbow Rod",
+        "label": "Rainbow Rod — long-range piercing projectile, good vs Plantera"
+      },
+      {
+        "icon": "Nimbus Rod",
+        "label": "Nimbus Rod — passive AoE raincloud, strong crowd control"
+      }
     ],
     "armor": [
-      { "icon": "Hallowed Headgear", "label": "Hallowed Headgear — magic-focused hat piece" },
-      { "icon": "Hallowed Plate Mail", "label": "Hallowed Plate Mail" },
-      { "icon": "Hallowed Greaves", "label": "Hallowed Greaves" }
+      {
+        "icon": "Hallowed Headgear",
+        "label": "Hallowed Headgear — magic-focused hat piece"
+      },
+      {
+        "icon": "Hallowed Plate Mail",
+        "label": "Hallowed Plate Mail"
+      },
+      {
+        "icon": "Hallowed Greaves",
+        "label": "Hallowed Greaves"
+      }
     ],
     "accessories": [
-      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
-      { "icon": "Sorcerer Emblem", "label": "Sorcerer Emblem — flat magic damage boost" },
-      { "icon": "Mana Flower", "label": "Mana Flower — auto-drinks mana potions, +magic damage" },
-      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Sorcerer Emblem",
+        "label": "Sorcerer Emblem — flat magic damage boost"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
     ],
     "notes": "Full loadout: Hallowed Armor (magic Headgear) + Rainbow Rod as your main damage dealer, plus the 5 accessories above. Nimbus Rod is excellent for passive damage during the Plantera chase phase since it doesn't require aiming. Chlorophyte gear becomes your follow-up after Plantera drops Chlorophyte ore access."
   },
   {
-    "id": "summoner-post-mech-plantera",
+    "id": "summoner-post-mech-plantera-bis",
     "class": "summoner",
     "stage": "post-mech-plantera",
+    "variant": "bis",
     "title": "Post-Mechanical Bosses → Plantera Summoner",
     "summary": "Hallowed gear and stronger minions carry into Plantera.",
     "weapons": [
-      { "icon": "Blade Staff", "label": "Blade Staff — strong pre-Plantera summon (Hallowed biome)" },
-      { "icon": "Sanguine Staff", "label": "Sanguine Staff — Crimson alternative to Blade Staff" },
-      { "icon": "Pygmy Staff", "label": "Pygmy Staff — post-Plantera goal summon" }
+      {
+        "icon": "Blade Staff",
+        "label": "Blade Staff — strong pre-Plantera summon (Hallowed biome)"
+      },
+      {
+        "icon": "Sanguine Staff",
+        "label": "Sanguine Staff — Crimson alternative to Blade Staff"
+      },
+      {
+        "icon": "Pygmy Staff",
+        "label": "Pygmy Staff — post-Plantera goal summon"
+      }
     ],
     "armor": [
-      { "icon": "Hallowed Headgear", "label": "Hallowed Headgear" },
-      { "icon": "Hallowed Plate Mail", "label": "Hallowed Plate Mail" },
-      { "icon": "Hallowed Greaves", "label": "Hallowed Greaves" }
+      {
+        "icon": "Hallowed Headgear",
+        "label": "Hallowed Headgear"
+      },
+      {
+        "icon": "Hallowed Plate Mail",
+        "label": "Hallowed Plate Mail"
+      },
+      {
+        "icon": "Hallowed Greaves",
+        "label": "Hallowed Greaves"
+      }
     ],
     "accessories": [
-      { "icon": "Ankh Shield", "label": "Ankh Shield — immunity to nearly every debuff + no knockback" },
-      { "icon": "Summoner Emblem", "label": "Summoner Emblem — flat summon damage boost" },
-      { "icon": "Necromantic Scroll", "label": "Necromantic Scroll — extra summon damage" },
-      { "icon": "Frostspark Boots", "label": "Frostspark Boots — movement speed + flight" },
-      { "icon": "Band of Regeneration", "label": "Band of Regeneration — passive healing" }
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Summoner Emblem",
+        "label": "Summoner Emblem — flat summon damage boost"
+      },
+      {
+        "icon": "Necromantic Scroll",
+        "label": "Necromantic Scroll — extra summon damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
     ],
     "notes": "Full loadout: Hallowed Armor set + Blade Staff (or Sanguine Staff), plus the 5 accessories above. Spider Armor is still viable here if you haven't upgraded past it — Hallowed Armor's boost is smaller for summoners than for other classes, so don't feel pressured to rush the swap. Pygmy Staff and Spooky Armor become your follow-up goal after Plantera."
+  },
+  {
+    "id": "rogue-prehardmode-bis",
+    "class": "rogue",
+    "stage": "prehardmode",
+    "variant": "bis",
+    "title": "Pre-Hardmode Rogue",
+    "summary": "Thrown weapons carry pre-Hardmode; no dedicated Rogue armor set exists yet, so borrow from other classes for defense.",
+    "weapons": [
+      {
+        "icon": "Throwing Knife",
+        "label": "Throwing Knife — cheap, spammable early clear (Merchant)"
+      },
+      {
+        "icon": "Flaming Arrow",
+        "label": "Flaming Arrow (thrown as darts pre-1.4.4 style) — swap to Frost/Ichor Arrows as thrown ammo if using an Arrow launcher"
+      },
+      {
+        "icon": "Bone Javelin",
+        "label": "Bone Javelin — Dungeon farm, strong armor-piercing early thrown weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Necro Helmet",
+        "label": "Necro Helmet — borrowed from Ranged, boosts general damage/crit"
+      },
+      {
+        "icon": "Necro Breastplate",
+        "label": "Necro Breastplate"
+      },
+      {
+        "icon": "Necro Greaves",
+        "label": "Necro Greaves"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Obsidian Shield",
+        "label": "Obsidian Shield — no knockback + fire immunity"
+      },
+      {
+        "icon": "Cloud in a Bottle",
+        "label": "Cloud in a Bottle — extra jump"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots — movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      },
+      {
+        "icon": "Philosopher's Stone",
+        "label": "Philosopher's Stone — faster potion cooldown"
+      }
+    ],
+    "notes": "Rogue as a formal class with its own stealth mechanic was added in 1.4.4; pre-Hardmode it plays like a thrown-weapon hybrid since dedicated Rogue armor doesn't exist until Hardmode. Borrow Necro Armor for the general damage/crit bonus and lean on Throwing Knives and Bone Javelins for damage. Craft Bone Javelins in bulk from Bones farmed in the Dungeon."
+  },
+  {
+    "id": "rogue-hardmode-early-bis",
+    "class": "rogue",
+    "stage": "hardmode-early",
+    "variant": "bis",
+    "title": "Early Hardmode Rogue",
+    "summary": "The first real Rogue armor set — Stalker's Quiver bonus rewards headshots and stealth strikes.",
+    "weapons": [
+      {
+        "icon": "Frost Daggerfish",
+        "label": "Frost Daggerfish — strong early Hardmode thrown weapon (Ice biome fishing)"
+      },
+      {
+        "icon": "Ichor Trident",
+        "label": "Ichor Trident — applies Ichor debuff to lower enemy defense"
+      },
+      {
+        "icon": "Flask of Venom",
+        "label": "Flask of Venom — coats weapons for bonus Venom damage-over-time"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stalker's Helm",
+        "label": "Stalker's Helm"
+      },
+      {
+        "icon": "Stalker's Breastplate",
+        "label": "Stalker's Breastplate"
+      },
+      {
+        "icon": "Stalker's Leggings",
+        "label": "Stalker's Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Shark Tooth Necklace",
+        "label": "Shark Tooth Necklace — flat rogue/melee-adjacent damage boost"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Stalker's Armor set + Frost Daggerfish or Ichor Trident, plus the accessories above. Stalker's set bonus rewards standing still to build stealth before striking, so play more patiently than Melee. Coat weapons with a venom/ichor flask before big fights for extra sustained damage."
+  },
+  {
+    "id": "rogue-post-mech-plantera-bis",
+    "class": "rogue",
+    "stage": "post-mech-plantera",
+    "variant": "bis",
+    "title": "Post-Mechanical Bosses → Plantera Rogue",
+    "summary": "Thrown explosives and Hallowed-tier gear push Rogue's burst damage into Plantera range.",
+    "weapons": [
+      {
+        "icon": "Bouncing Shield",
+        "label": "Bouncing Shield — Hardmode dungeon drop, strong piercing thrown weapon"
+      },
+      {
+        "icon": "Flask of Cursed Flames",
+        "label": "Flask of Cursed Flames — coats weapons for bonus Cursed Flame damage-over-time"
+      },
+      {
+        "icon": "Flairon",
+        "label": "Flairon (thrown-adjacent hybrid via bubbles) — strong post-Plantera goal weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stalker's Helm",
+        "label": "Stalker's Helm (carries until Spectre-tier alternatives)"
+      },
+      {
+        "icon": "Stalker's Breastplate",
+        "label": "Stalker's Breastplate"
+      },
+      {
+        "icon": "Stalker's Leggings",
+        "label": "Stalker's Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Shark Tooth Necklace",
+        "label": "Shark Tooth Necklace — flat damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Stalker's Armor + Bouncing Shield or a cursed-flame-coated thrown weapon, plus the accessories above. Rogue's itemization thins out here — you'll likely still be in Stalker's Armor while other classes are already in Hallowed/Turtle gear, so lean on stealth-strike burst timing against Plantera's bulb rather than raw sustained dps."
+  },
+  {
+    "id": "melee-post-plantera-golem-bis",
+    "class": "melee",
+    "stage": "post-plantera-golem",
+    "variant": "bis",
+    "title": "Post-Plantera → Golem Melee",
+    "summary": "Chlorophyte and Shroomite-adjacent melee weapons, plus Turtle Armor's counter-damage tank set, carry through the Dungeon and Golem.",
+    "weapons": [
+      {
+        "icon": "Terra Blade",
+        "label": "Terra Blade — combine True Excalibur + True Night's Edge, top-tier pre-Golem sword"
+      },
+      {
+        "icon": "Death Sickle",
+        "label": "Death Sickle — Mourning Wood drop (Pumpkin Moon), strong piercing projectile sword"
+      },
+      {
+        "icon": "Flairon",
+        "label": "Flairon — if not already farmed, top-tier flail from the Dungeon/Plantera loop"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Turtle Helmet",
+        "label": "Turtle Helmet"
+      },
+      {
+        "icon": "Turtle Shell",
+        "label": "Turtle Shell"
+      },
+      {
+        "icon": "Turtle Leggings",
+        "label": "Turtle Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Fire Gauntlet",
+        "label": "Fire Gauntlet — melee speed, knockback, and extra fire damage"
+      },
+      {
+        "icon": "Warrior Emblem",
+        "label": "Warrior Emblem — flat melee damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Charm of Myths",
+        "label": "Charm of Myths — faster potion cooldown + healing potion boost"
+      }
+    ],
+    "notes": "Full loadout: Turtle Armor set (Chlorophyte-based, huge defense + damage reflection) + Terra Blade, plus the 5 accessories above. Farm Chlorophyte Ore in the Jungle post-Plantera, then craft Turtle Armor at a Mythril/Orichalcum Anvil. Terra Blade requires both True Excalibur and True Night's Edge — the latter needs a Broken Hero Sword drop from Plantera's Bulb."
+  },
+  {
+    "id": "ranged-post-plantera-golem-bis",
+    "class": "ranged",
+    "stage": "post-plantera-golem",
+    "variant": "bis",
+    "title": "Post-Plantera → Golem Ranged",
+    "summary": "Shroomite Armor and Chlorophyte-based guns are the biggest ranged power spike in the game so far.",
+    "weapons": [
+      {
+        "icon": "Chlorophyte Shotbow",
+        "label": "Chlorophyte Shotbow — homing multi-arrow bow, top-tier pre-Golem ranged weapon"
+      },
+      {
+        "icon": "Venus Magnum",
+        "label": "Venus Magnum — Mourning Wood drop (Pumpkin Moon), strong pistol"
+      },
+      {
+        "icon": "Chain Gun",
+        "label": "Chain Gun — Dungeon post-Plantera drop, high dps automatic weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Shroomite Headgear",
+        "label": "Shroomite Headgear (Sniper/Ranger/Gunner variant to taste)"
+      },
+      {
+        "icon": "Shroomite Breastplate",
+        "label": "Shroomite Breastplate"
+      },
+      {
+        "icon": "Shroomite Leggings",
+        "label": "Shroomite Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Ranger Emblem",
+        "label": "Ranger Emblem — flat ranged damage boost"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — arrow damage/velocity, ammo conservation"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Charm of Myths",
+        "label": "Charm of Myths — faster potion cooldown + healing potion boost"
+      }
+    ],
+    "notes": "Full loadout: Shroomite Armor (from Glowing Mushroom biome + Chlorophyte Bars) + Chlorophyte Shotbow, plus the 5 accessories above. Shroomite's set bonus grants huge damage while standing still, so alternate with a mobility accessory swap for boss phases that require dodging. This is widely considered ranged's strongest relative power spike."
+  },
+  {
+    "id": "mage-post-plantera-golem-bis",
+    "class": "mage",
+    "stage": "post-plantera-golem",
+    "variant": "bis",
+    "title": "Post-Plantera → Golem Mage",
+    "summary": "Spectre Armor's healing-focused set bonus and strong AoE spells carry mage through the Dungeon and Golem.",
+    "weapons": [
+      {
+        "icon": "Crystal Serpent",
+        "label": "Crystal Serpent — Hallow fishing crate, piercing bouncing projectile"
+      },
+      {
+        "icon": "Golden Shower",
+        "label": "Golden Shower — still relevant for its defense-debuff utility"
+      },
+      {
+        "icon": "Laser Rifle",
+        "label": "Laser Rifle — Dungeon post-Plantera drop, powerful focused beam"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Spectre Hood",
+        "label": "Spectre Hood — healing set bonus variant"
+      },
+      {
+        "icon": "Spectre Robe",
+        "label": "Spectre Robe"
+      },
+      {
+        "icon": "Spectre Pants",
+        "label": "Spectre Pants"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Sorcerer Emblem",
+        "label": "Sorcerer Emblem — flat magic damage boost"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Charm of Myths",
+        "label": "Charm of Myths — faster potion cooldown + healing potion boost"
+      }
+    ],
+    "notes": "Full loadout: Spectre Armor (Hood variant for hybrid damage + healing) + Laser Rifle or Crystal Serpent, plus the 5 accessories above. Craft Spectre gear from Spectre Bars (Hallow Ectoplasm + Souls of Light) at an Ancient Manipulator. Swap to the Mask variant if you want pure damage over the sustain from Hood."
+  },
+  {
+    "id": "summoner-post-plantera-golem-bis",
+    "class": "summoner",
+    "stage": "post-plantera-golem",
+    "variant": "bis",
+    "title": "Post-Plantera → Golem Summoner",
+    "summary": "Spooky Armor plus Pygmy Staff/Optic Staff double-summon is the go-to setup through the Dungeon and Golem.",
+    "weapons": [
+      {
+        "icon": "Pygmy Staff",
+        "label": "Pygmy Staff — Plantera drop, strong minion"
+      },
+      {
+        "icon": "Optic Staff",
+        "label": "Optic Staff — paired for extra minion slots/damage variety"
+      },
+      {
+        "icon": "Xeno Staff",
+        "label": "Xeno Staff (if farmed early via Martian event) — UFO minion upgrade"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Spooky Helmet",
+        "label": "Spooky Helmet"
+      },
+      {
+        "icon": "Spooky Breastplate",
+        "label": "Spooky Breastplate"
+      },
+      {
+        "icon": "Spooky Leggings",
+        "label": "Spooky Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Summoner Emblem",
+        "label": "Summoner Emblem — flat summon damage boost"
+      },
+      {
+        "icon": "Necromantic Scroll",
+        "label": "Necromantic Scroll — extra summon damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Charm of Myths",
+        "label": "Charm of Myths — faster potion cooldown + healing potion boost"
+      }
+    ],
+    "notes": "Full loadout: Spooky Armor set + Pygmy Staff, plus the 5 accessories above. Spooky Armor's set bonus boosts minion damage further the longer you avoid taking hits — keep distance and let minions do the work. Craft Spooky Armor from Ectoplasm farmed in the Dungeon post-Plantera."
+  },
+  {
+    "id": "rogue-post-plantera-golem-bis",
+    "class": "rogue",
+    "stage": "post-plantera-golem",
+    "variant": "bis",
+    "title": "Post-Plantera → Golem Rogue",
+    "summary": "Thrown weapon variety expands with Dungeon and biome-chest drops through Golem.",
+    "weapons": [
+      {
+        "icon": "Bouncing Shield",
+        "label": "Bouncing Shield — strong piercing thrown weapon"
+      },
+      {
+        "icon": "Flask of Ichor",
+        "label": "Flask of Ichor — coats weapons, lowers enemy defense"
+      },
+      {
+        "icon": "The Rotted Fork",
+        "label": "The Rotted Fork — Corruption world-evil thrown weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stalker's Helm",
+        "label": "Stalker's Helm"
+      },
+      {
+        "icon": "Stalker's Breastplate",
+        "label": "Stalker's Breastplate"
+      },
+      {
+        "icon": "Stalker's Leggings",
+        "label": "Stalker's Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Shark Tooth Necklace",
+        "label": "Shark Tooth Necklace — flat damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Charm of Myths",
+        "label": "Charm of Myths — faster potion cooldown + healing potion boost"
+      }
+    ],
+    "notes": "Full loadout: Stalker's Armor + Bouncing Shield, plus the accessories above. Rogue still lacks a dedicated armor upgrade at this stage in most playthroughs — stack damage-over-time flasks (Ichor, Venom, Cursed Flame) to make up for the gap in raw weapon tiers, and prioritize Shark Tooth Necklace for the flat boost."
+  },
+  {
+    "id": "melee-post-golem-bis",
+    "class": "melee",
+    "stage": "post-golem",
+    "variant": "bis",
+    "title": "Post-Golem → Moon Lord Melee",
+    "summary": "Solar Flare Armor and Zenith-tier swords prepare melee for the Lunar Events and Moon Lord.",
+    "weapons": [
+      {
+        "icon": "Terra Blade",
+        "label": "Terra Blade — still viable, upgrade path toward Meowmere/Star Wrath"
+      },
+      {
+        "icon": "Meowmere",
+        "label": "Meowmere — Pumpkin Moon wave 15 drop, top-tier meme sword with real damage"
+      },
+      {
+        "icon": "Star Wrath",
+        "label": "Star Wrath — Frost Moon wave 15 drop, strong falling-star sword"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Solar Flare Helmet",
+        "label": "Solar Flare Helmet"
+      },
+      {
+        "icon": "Solar Flare Breastplate",
+        "label": "Solar Flare Breastplate"
+      },
+      {
+        "icon": "Solar Flare Leggings",
+        "label": "Solar Flare Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Fire Gauntlet",
+        "label": "Fire Gauntlet — melee speed, knockback, and extra fire damage"
+      },
+      {
+        "icon": "Destroyer Emblem",
+        "label": "Destroyer Emblem — flat damage boost, upgrade to Avenger Emblem later"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Charm of Myths",
+        "label": "Charm of Myths — faster potion cooldown + healing potion boost"
+      }
+    ],
+    "notes": "Full loadout: Solar Flare Armor (from Fragments dropped by the Celestial Pillars) + Meowmere or Star Wrath, plus the 5 accessories above. Solar Flare has the highest base defense of any pre-Moon Lord set and its set bonus rewards aggressive melee play. Farm the Pumpkin/Frost Moon events for the best pre-Moon-Lord weapon drops before attempting the Lunar Events."
+  },
+  {
+    "id": "ranged-post-golem-bis",
+    "class": "ranged",
+    "stage": "post-golem",
+    "variant": "bis",
+    "title": "Post-Golem → Moon Lord Ranged",
+    "summary": "Shroomite Armor holds strong; Celestial Event drops like the Phantasm push ranged toward Moon Lord readiness.",
+    "weapons": [
+      {
+        "icon": "Phantasm",
+        "label": "Phantasm — Frost Moon wave 15 drop, top-tier multi-arrow bow"
+      },
+      {
+        "icon": "S.D.M.G.",
+        "label": "S.D.M.G. — Pumpkin Moon wave 15 drop, extremely high dps automatic weapon"
+      },
+      {
+        "icon": "Chlorophyte Shotbow",
+        "label": "Chlorophyte Shotbow — still viable if event weapons aren't farmed yet"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Shroomite Headgear",
+        "label": "Shroomite Headgear"
+      },
+      {
+        "icon": "Shroomite Breastplate",
+        "label": "Shroomite Breastplate"
+      },
+      {
+        "icon": "Shroomite Leggings",
+        "label": "Shroomite Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Destroyer Emblem",
+        "label": "Destroyer Emblem — flat damage boost"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — arrow damage/velocity, ammo conservation"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Charm of Myths",
+        "label": "Charm of Myths — faster potion cooldown + healing potion boost"
+      }
+    ],
+    "notes": "Full loadout: Shroomite Armor + S.D.M.G. or Phantasm, plus the 5 accessories above. Both goal weapons come from the Pumpkin Moon and Frost Moon events — farm these before the Lunar Events since Moon Lord's phases favor exactly this kind of sustained high dps."
+  },
+  {
+    "id": "mage-post-golem-bis",
+    "class": "mage",
+    "stage": "post-golem",
+    "variant": "bis",
+    "title": "Post-Golem → Moon Lord Mage",
+    "summary": "Nebula Armor's damage/mana-focused set bonus and Last Prism-tier weapons push mage toward Moon Lord.",
+    "weapons": [
+      {
+        "icon": "Razorblade Typhoon",
+        "label": "Razorblade Typhoon — Pumpkin Moon wave 15 drop, boomerang-style magic weapon"
+      },
+      {
+        "icon": "Blizzard Staff",
+        "label": "Blizzard Staff — Frost Moon wave 15 drop, strong homing summon-hybrid"
+      },
+      {
+        "icon": "Laser Machinegun",
+        "label": "Laser Machinegun — Frost Moon drop, rapid-fire beam weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Nebula Helmet",
+        "label": "Nebula Helmet"
+      },
+      {
+        "icon": "Nebula Armor Body",
+        "label": "Nebula Armor Body"
+      },
+      {
+        "icon": "Nebula Armor Pants",
+        "label": "Nebula Armor Pants"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Sorcerer Emblem",
+        "label": "Sorcerer Emblem — flat magic damage boost"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Charm of Myths",
+        "label": "Charm of Myths — faster potion cooldown + healing potion boost"
+      }
+    ],
+    "notes": "Full loadout: Nebula Armor (from Fragments dropped by the Celestial Pillars) + Razorblade Typhoon or Blizzard Staff, plus the 5 accessories above. Nebula's set bonus passively buffs all stats the longer you fight, making it strong for sustained boss fights like Moon Lord's long phases."
+  },
+  {
+    "id": "summoner-post-golem-bis",
+    "class": "summoner",
+    "stage": "post-golem",
+    "variant": "bis",
+    "title": "Post-Golem → Moon Lord Summoner",
+    "summary": "Stardust Armor's minion-spawning set bonus is a massive summoner power spike heading into Moon Lord.",
+    "weapons": [
+      {
+        "icon": "Stardust Dragon Staff",
+        "label": "Stardust Dragon Staff — Martian Madness drop, top-tier piercing dragon minion"
+      },
+      {
+        "icon": "Xeno Staff",
+        "label": "Xeno Staff — Martian Madness drop, strong UFO minion"
+      },
+      {
+        "icon": "Deadly Sphere Staff",
+        "label": "Deadly Sphere Staff — Pumpkin Moon wave 15 drop"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stardust Helmet",
+        "label": "Stardust Helmet"
+      },
+      {
+        "icon": "Stardust Armor Body",
+        "label": "Stardust Armor Body"
+      },
+      {
+        "icon": "Stardust Leggings",
+        "label": "Stardust Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Summoner Emblem",
+        "label": "Summoner Emblem — flat summon damage boost"
+      },
+      {
+        "icon": "Necromantic Scroll",
+        "label": "Necromantic Scroll — extra summon damage"
+      },
+      {
+        "icon": "Papyrus Scarab",
+        "label": "Papyrus Scarab — extra minion slot and summon damage"
+      },
+      {
+        "icon": "Charm of Myths",
+        "label": "Charm of Myths — faster potion cooldown + healing potion boost"
+      }
+    ],
+    "notes": "Full loadout: Stardust Armor (its set bonus spawns an extra Stardust Cell minion automatically) + Stardust Dragon Staff, plus the 5 accessories above. Farm the Martian Madness event (triggered randomly in space after Golem) for the Dragon Staff and Xeno Staff before attempting Moon Lord."
+  },
+  {
+    "id": "rogue-post-golem-bis",
+    "class": "rogue",
+    "stage": "post-golem",
+    "variant": "bis",
+    "title": "Post-Golem → Moon Lord Rogue",
+    "summary": "Celestial Event drops finally give Rogue real endgame-tier thrown weapons ahead of Moon Lord.",
+    "weapons": [
+      {
+        "icon": "Chain Knife",
+        "label": "Chain Knife — Pumpkin Moon drop, retrievable high-damage thrown weapon"
+      },
+      {
+        "icon": "Flying Dragon",
+        "label": "Flying Dragon — Frost Moon wave 15 drop, strong melee-adjacent thrown sword projectile"
+      },
+      {
+        "icon": "The Eventide",
+        "label": "The Eventide — Martian Madness drop, splitting boomerang-style thrown weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stalker's Helm",
+        "label": "Stalker's Helm"
+      },
+      {
+        "icon": "Stalker's Breastplate",
+        "label": "Stalker's Breastplate"
+      },
+      {
+        "icon": "Stalker's Leggings",
+        "label": "Stalker's Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Shark Tooth Necklace",
+        "label": "Shark Tooth Necklace — flat damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Charm of Myths",
+        "label": "Charm of Myths — faster potion cooldown + healing potion boost"
+      }
+    ],
+    "notes": "Full loadout: Stalker's Armor + Chain Knife or The Eventide, plus the accessories above. Farm the Pumpkin Moon, Frost Moon, and Martian Madness events for thrown-weapon drops — this is the stage where Rogue finally catches up to other classes in raw weapon power, even without a Solar/Nebula/Stardust-tier armor equivalent."
+  },
+  {
+    "id": "melee-post-moonlord-bis",
+    "class": "melee",
+    "stage": "post-moonlord",
+    "variant": "bis",
+    "title": "Post-Moon Lord Melee",
+    "summary": "Endgame content: Zenith is the ultimate melee weapon, paired with the strongest post-ML armor and full damage-stacking accessories.",
+    "weapons": [
+      {
+        "icon": "Zenith",
+        "label": "Zenith — combine 12 endgame swords at an Ancient Manipulator, the final melee weapon"
+      },
+      {
+        "icon": "Terrarian",
+        "label": "Terrarian — Empress of Light drop, top-tier yoyo alternative"
+      },
+      {
+        "icon": "Influx Waver",
+        "label": "Influx Waver — Duke Fishron drop, strong piercing sword projectile"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Solar Flare Helmet",
+        "label": "Solar Flare Helmet (or Fire Gauntlet variant loadouts, boss-dependent)"
+      },
+      {
+        "icon": "Solar Flare Breastplate",
+        "label": "Solar Flare Breastplate"
+      },
+      {
+        "icon": "Solar Flare Leggings",
+        "label": "Solar Flare Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Avenger Emblem",
+        "label": "Avenger Emblem — flat damage boost, upgraded from Destroyer Emblem"
+      },
+      {
+        "icon": "Fire Gauntlet",
+        "label": "Fire Gauntlet — melee speed, knockback, and extra fire damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Celestial Shell",
+        "label": "Celestial Shell — combined day/night stat buffs + regen"
+      }
+    ],
+    "notes": "Full loadout: Solar Flare Armor + Zenith, plus the 5 accessories above. Zenith requires 12 different swords collected across the entire game (Terra Blade, Enchanted Sword, Starfury, Meowmere, Influx Waver, Seedler, True Excalibur, Star Wrath, The Horseman's Blade, Volcano, Beam Sword/Copper Shortsword, and Christmas Tree Sword), so this build is the natural finale after farming Duke Fishron, Empress of Light, and the Old One's Army event."
+  },
+  {
+    "id": "ranged-post-moonlord-bis",
+    "class": "ranged",
+    "stage": "post-moonlord",
+    "variant": "bis",
+    "title": "Post-Moon Lord Ranged",
+    "summary": "Endgame ranged weapons from Duke Fishron and Empress of Light headline the strongest gun/bow loadout in the game.",
+    "weapons": [
+      {
+        "icon": "Tsunami",
+        "label": "Tsunami — Duke Fishron drop, top-tier arrow-spam bow"
+      },
+      {
+        "icon": "Vortex Beater",
+        "label": "Vortex Beater — hybrid grenade launcher/rifle, huge post-ML dps"
+      },
+      {
+        "icon": "Celebration Mk2",
+        "label": "Celebration Mk2 — Empress of Light drop, powerful firework launcher"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Shroomite Headgear",
+        "label": "Shroomite Headgear (still best-in-slot for pure ranged dps)"
+      },
+      {
+        "icon": "Shroomite Breastplate",
+        "label": "Shroomite Breastplate"
+      },
+      {
+        "icon": "Shroomite Leggings",
+        "label": "Shroomite Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Avenger Emblem",
+        "label": "Avenger Emblem — flat damage boost"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — arrow damage/velocity, ammo conservation"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Celestial Shell",
+        "label": "Celestial Shell — combined day/night stat buffs + regen"
+      }
+    ],
+    "notes": "Full loadout: Shroomite Armor + Tsunami or Vortex Beater, plus the 5 accessories above. Farm Duke Fishron (fishing with Truffle Worm bait during a Blood Moon or via Fishron Wings-triggering conditions) and Empress of Light (Hallow, night, high mobility fight) for the best endgame weapon drops."
+  },
+  {
+    "id": "mage-post-moonlord-bis",
+    "class": "mage",
+    "stage": "post-moonlord",
+    "variant": "bis",
+    "title": "Post-Moon Lord Mage",
+    "summary": "The Last Prism is widely considered the single highest dps weapon in the game, capping off the mage progression.",
+    "weapons": [
+      {
+        "icon": "Last Prism",
+        "label": "Last Prism — Moon Lord drop, the single highest-dps weapon in vanilla Terraria"
+      },
+      {
+        "icon": "Nebula Blaze",
+        "label": "Nebula Blaze — Empress of Light drop, strong homing magic missiles"
+      },
+      {
+        "icon": "Sagittarius",
+        "label": "Sagittarius — Duke Fishron drop, magic bow hybrid"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Nebula Helmet",
+        "label": "Nebula Helmet"
+      },
+      {
+        "icon": "Nebula Armor Body",
+        "label": "Nebula Armor Body"
+      },
+      {
+        "icon": "Nebula Armor Pants",
+        "label": "Nebula Armor Pants"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Avenger Emblem",
+        "label": "Avenger Emblem — flat damage boost"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Celestial Shell",
+        "label": "Celestial Shell — combined day/night stat buffs + regen"
+      }
+    ],
+    "notes": "Full loadout: Nebula Armor + Last Prism, plus the 5 accessories above. The Last Prism's beam requires standing still and facing the target, so pair it with Nebula's tanky sustain and high mana regen. Note Last Prism has a very low drop rate from Moon Lord — expect to farm multiple kills."
+  },
+  {
+    "id": "summoner-post-moonlord-bis",
+    "class": "summoner",
+    "stage": "post-moonlord",
+    "variant": "bis",
+    "title": "Post-Moon Lord Summoner",
+    "summary": "Stardust Armor plus the Stardust Dragon Staff and Empress-tier whips is the strongest summoner loadout in the game.",
+    "weapons": [
+      {
+        "icon": "Stardust Dragon Staff",
+        "label": "Stardust Dragon Staff — still the best minion post-ML"
+      },
+      {
+        "icon": "Durendal",
+        "label": "Durendal — Empress of Light drop, top-tier summon whip"
+      },
+      {
+        "icon": "Kaleidoscope",
+        "label": "Kaleidoscope — Empress of Light drop, strong summon whip alternative"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stardust Helmet",
+        "label": "Stardust Helmet"
+      },
+      {
+        "icon": "Stardust Armor Body",
+        "label": "Stardust Armor Body"
+      },
+      {
+        "icon": "Stardust Leggings",
+        "label": "Stardust Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Avenger Emblem",
+        "label": "Avenger Emblem — flat damage boost"
+      },
+      {
+        "icon": "Papyrus Scarab",
+        "label": "Papyrus Scarab — extra minion slot and summon damage"
+      },
+      {
+        "icon": "Necromantic Scroll",
+        "label": "Necromantic Scroll — extra summon damage"
+      },
+      {
+        "icon": "Celestial Shell",
+        "label": "Celestial Shell — combined day/night stat buffs + regen"
+      }
+    ],
+    "notes": "Full loadout: Stardust Armor + Stardust Dragon Staff + a summon whip (Durendal/Kaleidoscope) to direct minion focus fire, plus the 5 accessories above. Whips became core to endgame summoner play since they boost and redirect minion damage without taking a weapon slot away from your dragon."
+  },
+  {
+    "id": "rogue-post-moonlord-bis",
+    "class": "rogue",
+    "stage": "post-moonlord",
+    "variant": "bis",
+    "title": "Post-Moon Lord Rogue",
+    "summary": "Endgame thrown weapons from Duke Fishron and Empress of Light finally give Rogue a true best-in-slot loadout.",
+    "weapons": [
+      {
+        "icon": "The Devil's Finger",
+        "label": "The Devil's Finger — Empress of Light drop, homing bat-projectile thrown weapon"
+      },
+      {
+        "icon": "Shrimpy Truffle",
+        "label": "Shrimpy Truffle — Duke Fishron drop, bouncing high-damage thrown weapon"
+      },
+      {
+        "icon": "Flying Dragon",
+        "label": "Flying Dragon — still relevant, strong melee-adjacent thrown sword"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stalker's Helm",
+        "label": "Stalker's Helm (no post-ML rogue-specific set exists; this remains best-in-slot)"
+      },
+      {
+        "icon": "Stalker's Breastplate",
+        "label": "Stalker's Breastplate"
+      },
+      {
+        "icon": "Stalker's Leggings",
+        "label": "Stalker's Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Avenger Emblem",
+        "label": "Avenger Emblem — flat damage boost"
+      },
+      {
+        "icon": "Shark Tooth Necklace",
+        "label": "Shark Tooth Necklace — flat damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Celestial Shell",
+        "label": "Celestial Shell — combined day/night stat buffs + regen"
+      }
+    ],
+    "notes": "Full loadout: Stalker's Armor + Shrimpy Truffle or The Devil's Finger, plus the 5 accessories above. Rogue never gets a dedicated post-Moon-Lord armor set in vanilla, so Stalker's Armor with stacked flat-damage accessories (Avenger Emblem, Shark Tooth Necklace) remains the practical ceiling for the class."
+  },
+  {
+    "id": "melee-prehardmode-accessible",
+    "class": "melee",
+    "stage": "prehardmode",
+    "variant": "accessible",
+    "title": "Pre-Hardmode Melee",
+    "summary": "Cheap, craftable gear that clears the pre-Hardmode bosses without any farming detours.",
+    "weapons": [
+      {
+        "icon": "Copper Shortsword",
+        "label": "Copper Shortsword (or any starting sword) — upgrade to Fiery Greatsword once you have a Demon/Crimson Altar"
+      },
+      {
+        "icon": "Fiery Greatsword",
+        "label": "Fiery Greatsword — craft from a Demon/Crimson Altar drop, big early upgrade"
+      },
+      {
+        "icon": "War Axe of the Night",
+        "label": "War Axe of the Night — Eye of Cthulhu drop, reliable guaranteed-ish boss weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Shadow Helmet",
+        "label": "Shadow Helmet (Corruption) or Crimson Helmet (Crimson)"
+      },
+      {
+        "icon": "Shadow Scalemail",
+        "label": "Shadow Scalemail (or Crimson Scalemail)"
+      },
+      {
+        "icon": "Shadow Greaves",
+        "label": "Shadow Greaves (or Crimson Greaves)"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Obsidian Shield",
+        "label": "Obsidian Shield — craft from Obsidian + Shackle, no knockback + fire immunity"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots — buy from the Traveling Merchant, movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — craft from Star, Band of Starpower is a cheap intermediate"
+      },
+      {
+        "icon": "Cloud in a Bottle",
+        "label": "Cloud in a Bottle — chest/enemy drop, extra jump"
+      },
+      {
+        "icon": "Climbing Claws",
+        "label": "Climbing Claws — craft from Shoe Spikes + Tiger Climbing Gear, wall-cling mobility"
+      }
+    ],
+    "notes": "Full loadout: Shadow/Crimson Armor (craftable from Shadow Scales or Tissue Samples, both reliable evil-biome drops) + Fiery Greatsword or the Eye of Cthulhu's own War Axe of the Night, plus the accessories above. Everything here comes from crafting or guaranteed-ish boss/event drops — no Golden Chest or Lock Box farming required. Buy Hermes Boots from the Traveling Merchant when he's in town."
+  },
+  {
+    "id": "ranged-prehardmode-accessible",
+    "class": "ranged",
+    "stage": "prehardmode",
+    "variant": "accessible",
+    "title": "Pre-Hardmode Ranged",
+    "summary": "A cheap Arms Dealer loadout that carries all the way to the Wall of Flesh with basic ammo.",
+    "weapons": [
+      {
+        "icon": "Musket",
+        "label": "Musket — cheap NPC-sold gun (Arms Dealer)"
+      },
+      {
+        "icon": "Minishark",
+        "label": "Minishark — cheap, high fire-rate clear weapon (Arms Dealer)"
+      },
+      {
+        "icon": "The Undertaker",
+        "label": "The Undertaker — Skeletron drop, solid guaranteed-ish revolver upgrade"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Jungle Hat",
+        "label": "Jungle Hat (or Necro Helmet if Skeletron is down already)"
+      },
+      {
+        "icon": "Jungle Shirt",
+        "label": "Jungle Shirt — craft from Jungle Spores/Stingers, no farming needed"
+      },
+      {
+        "icon": "Jungle Pants",
+        "label": "Jungle Pants"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Obsidian Shield",
+        "label": "Obsidian Shield — craft from Obsidian + Shackle, no knockback + fire immunity"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots — buy from the Traveling Merchant, movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — craft from a Star drop, passive healing"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver (if Bee biome already cleared) or skip for a Cloud in a Bottle"
+      },
+      {
+        "icon": "Cloud in a Bottle",
+        "label": "Cloud in a Bottle — chest/enemy drop, extra jump"
+      }
+    ],
+    "notes": "Full loadout: Jungle Armor (all craftable from common Underground Jungle drops) + Minishark or Musket with Musket Balls, plus the accessories above. Everything is buyable from Arms Dealer or craftable — no Sky Crate fishing required. Stock up on Musket Balls (cheap from the Merchant) before the Wall of Flesh."
+  },
+  {
+    "id": "mage-prehardmode-accessible",
+    "class": "mage",
+    "stage": "prehardmode",
+    "variant": "accessible",
+    "title": "Pre-Hardmode Mage",
+    "summary": "Simple crafted-and-bought spells that beat the pre-Hardmode bosses without event or crate farming.",
+    "weapons": [
+      {
+        "icon": "Water Bolt",
+        "label": "Water Bolt — found underground, cheap mana, strong early dps"
+      },
+      {
+        "icon": "Aqua Scepter",
+        "label": "Aqua Scepter — Golden Chest/underground find, solid crowd control"
+      },
+      {
+        "icon": "Demon Scythe",
+        "label": "Demon Scythe (Corruption) or Vilethorn (either biome) — cheap piercing chest drop"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Jungle Rose",
+        "label": "Jungle Rose"
+      },
+      {
+        "icon": "Wizard Hat",
+        "label": "Wizard Hat — bought from the Wizard NPC"
+      },
+      {
+        "icon": "Silver Breastplate",
+        "label": "Silver Breastplate (or Tin) — cheap smithed early armor"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Obsidian Shield",
+        "label": "Obsidian Shield — craft from Obsidian + Shackle, no knockback + fire immunity"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots — buy from the Traveling Merchant, movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — craft from a Star drop, passive healing"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — craft from Mana Regeneration Band + Nature's Gift, auto-drinks mana potions"
+      },
+      {
+        "icon": "Cloud in a Bottle",
+        "label": "Cloud in a Bottle — chest/enemy drop, extra jump"
+      }
+    ],
+    "notes": "This is a budget mage loadout for players who haven't found a Meteorite yet — Water Bolt and Demon Scythe/Vilethorn are cheap to obtain from underground chests, and armor pieces are simple smithed gear plus the Wizard's hat. Craft plenty of Mana Potions from Bottled Water + Daybloom and lean on Water Bolt's low mana cost against the Wall of Flesh."
+  },
+  {
+    "id": "summoner-prehardmode-accessible",
+    "class": "summoner",
+    "stage": "prehardmode",
+    "variant": "accessible",
+    "title": "Pre-Hardmode Summoner",
+    "summary": "The cheapest possible summon loadout — craft the Slime Staff and hybridize with a bought gun.",
+    "weapons": [
+      {
+        "icon": "Slime Staff",
+        "label": "Slime Staff — reliable early summon, drops commonly from Slimes"
+      },
+      {
+        "icon": "Flinx Staff",
+        "label": "Flinx Staff — craft from Flinx Fur, cheap Snow biome alternative"
+      },
+      {
+        "icon": "Minishark",
+        "label": "Minishark — secondary damage source while your summon works (Arms Dealer)"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Ancient Cobalt Helmet",
+        "label": "Ancient Cobalt Helmet (Dungeon find, summon bonus) or plain Silver/Tin Armor for defense"
+      },
+      {
+        "icon": "Silver Chainmail",
+        "label": "Silver Chainmail (or Tin)"
+      },
+      {
+        "icon": "Silver Greaves",
+        "label": "Silver Greaves (or Tin)"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Obsidian Shield",
+        "label": "Obsidian Shield — craft from Obsidian + Shackle, no knockback + fire immunity"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots — buy from the Traveling Merchant, movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — craft from a Star drop, passive healing"
+      },
+      {
+        "icon": "Cloud in a Bottle",
+        "label": "Cloud in a Bottle — chest/enemy drop, extra jump"
+      }
+    ],
+    "notes": "Summoner is weak everywhere pre-Hardmode, but this setup avoids the Queen Bee farm entirely: Slime Staff drops commonly from ordinary Slimes and Flinx Staff is a cheap craft from Flinx Fur in the Snow biome. Lean on Minishark for extra damage and keep your distance during the Wall of Flesh fight since summons don't need line of sight."
+  },
+  {
+    "id": "rogue-prehardmode-accessible",
+    "class": "rogue",
+    "stage": "prehardmode",
+    "variant": "accessible",
+    "title": "Pre-Hardmode Rogue",
+    "summary": "Cheap thrown weapons and bought armor get you through pre-Hardmode without Dungeon farming.",
+    "weapons": [
+      {
+        "icon": "Throwing Knife",
+        "label": "Throwing Knife — cheap, spammable early clear (Merchant)"
+      },
+      {
+        "icon": "Grenade",
+        "label": "Grenade — cheap NPC-sold explosive, strong burst damage"
+      },
+      {
+        "icon": "Shuriken",
+        "label": "Shuriken — extremely cheap, spammable, found underground"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Silver Helmet",
+        "label": "Silver Helmet (or Tin) — simple smithed armor for early defense"
+      },
+      {
+        "icon": "Silver Chainmail",
+        "label": "Silver Chainmail (or Tin)"
+      },
+      {
+        "icon": "Silver Greaves",
+        "label": "Silver Greaves (or Tin)"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Obsidian Shield",
+        "label": "Obsidian Shield — craft from Obsidian + Shackle, no knockback + fire immunity"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots — buy from the Traveling Merchant, movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — craft from a Star drop, passive healing"
+      },
+      {
+        "icon": "Cloud in a Bottle",
+        "label": "Cloud in a Bottle — chest/enemy drop, extra jump"
+      }
+    ],
+    "notes": "Rogue's formal class mechanics start in Hardmode, so pre-Hardmode is just about cheap thrown damage — Grenades and Shurikens are dirt cheap and don't require any farming. Wear whatever ore armor your world's early mining nets you, and lean on Throwing Knives (Merchant-sold) as your bread-and-butter clear weapon."
+  },
+  {
+    "id": "melee-hardmode-early-accessible",
+    "class": "melee",
+    "stage": "hardmode-early",
+    "variant": "accessible",
+    "title": "Early Hardmode Melee",
+    "summary": "Straightforward ore progression — just mine your way from Cobalt to Adamantite/Titanium.",
+    "weapons": [
+      {
+        "icon": "Cobalt Sword",
+        "label": "Cobalt Sword — first Hardmode melee weapon tier"
+      },
+      {
+        "icon": "Mythril Halberd",
+        "label": "Mythril Halberd (or Orichalcum) — solid mid-tier polearm upgrade"
+      },
+      {
+        "icon": "Adamantite Sword",
+        "label": "Adamantite Sword (or Titanium Sword) — goal weapon before your first Mechanical Boss attempt"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Adamantite Helmet",
+        "label": "Adamantite Helmet (or Titanium Helmet)"
+      },
+      {
+        "icon": "Adamantite Breastplate",
+        "label": "Adamantite Breastplate (or Titanium Breastplate)"
+      },
+      {
+        "icon": "Adamantite Leggings",
+        "label": "Adamantite Leggings (or Titanium Leggings)"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Cobalt Shield",
+        "label": "Cobalt Shield — craft from a Cobalt/Palladium biome find, no knockback"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots (or craft Rocket Boots) — movement speed"
+      },
+      {
+        "icon": "Titan Glove",
+        "label": "Titan Glove — Hardmode enemy drop, melee knockback"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Adamantite Armor (or Titanium, whichever your world generated) + Adamantite/Titanium Sword, plus the accessories above. This whole tier is just mining and smithing at an Adamantite/Titanium Forge — no boss-drop RNG or event farming needed. Craft each ore tier's armor and weapons as you go rather than skipping straight ahead."
+  },
+  {
+    "id": "ranged-hardmode-early-accessible",
+    "class": "ranged",
+    "stage": "hardmode-early",
+    "variant": "accessible",
+    "title": "Early Hardmode Ranged",
+    "summary": "Ore-tier repeaters and armor take you straight to your first Mechanical Boss with pure mining, no farming.",
+    "weapons": [
+      {
+        "icon": "Cobalt Repeater",
+        "label": "Cobalt Repeater — first Hardmode bow-tier weapon"
+      },
+      {
+        "icon": "Mythril Repeater",
+        "label": "Mythril Repeater (or Orichalcum) — solid mid-tier upgrade"
+      },
+      {
+        "icon": "Adamantite Repeater",
+        "label": "Adamantite Repeater (or Titanium Repeater) — goal weapon before your first Mechanical Boss attempt"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Adamantite Headgear",
+        "label": "Adamantite Headgear (or Titanium Headgear) — ranged-focused helmet piece"
+      },
+      {
+        "icon": "Adamantite Breastplate",
+        "label": "Adamantite Breastplate (or Titanium Breastplate)"
+      },
+      {
+        "icon": "Adamantite Leggings",
+        "label": "Adamantite Leggings (or Titanium Leggings)"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Cobalt Shield",
+        "label": "Cobalt Shield — craft from a Cobalt/Palladium biome find, no knockback"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots (or craft Rocket Boots) — movement speed"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — Hallow chest find, arrow damage/velocity and ammo conservation"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Adamantite Armor (or Titanium) with the ranged Headgear piece + Adamantite/Titanium Repeater, plus the accessories above. Repeaters and ammo (Wooden/Flaming Arrows) are cheap and craftable, so this whole stage is just steady mining and smithing progress through each ore tier before your first Mech Boss."
+  },
+  {
+    "id": "mage-hardmode-early-accessible",
+    "class": "mage",
+    "stage": "hardmode-early",
+    "variant": "accessible",
+    "title": "Early Hardmode Mage",
+    "summary": "Ore-tier magic weapons and armor, no biome-chest farming needed to reach your first Mechanical Boss.",
+    "weapons": [
+      {
+        "icon": "Crystal Storm",
+        "label": "Crystal Storm — Cobalt-tier magic weapon, craftable from Souls of Light/Night"
+      },
+      {
+        "icon": "Golden Shower",
+        "label": "Golden Shower — craft from Vile Powder/Crimson equivalent, cheap and strong defense-reducing DoT"
+      },
+      {
+        "icon": "Meteor Staff",
+        "label": "Meteor Staff (leftover from pre-Hardmode) or Adamantite-tier weapon once smithed"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Adamantite Headgear",
+        "label": "Adamantite Headgear (or Titanium Headgear) — magic-focused hat piece"
+      },
+      {
+        "icon": "Adamantite Breastplate",
+        "label": "Adamantite Breastplate (or Titanium Breastplate)"
+      },
+      {
+        "icon": "Adamantite Leggings",
+        "label": "Adamantite Leggings (or Titanium Leggings)"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Cobalt Shield",
+        "label": "Cobalt Shield — craft from a Cobalt/Palladium biome find, no knockback"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots (or craft Rocket Boots) — movement speed"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Adamantite Armor (or Titanium) with the magic Headgear piece + Golden Shower, plus the accessories above. Golden Shower is cheap to craft in bulk from Vile/Vicious Powder and its defense-reduction debuff makes the Mechanical Boss fight noticeably easier. No event or chest farming needed at this stage — just mine through the ore tiers."
+  },
+  {
+    "id": "summoner-hardmode-early-accessible",
+    "class": "summoner",
+    "stage": "hardmode-early",
+    "variant": "accessible",
+    "title": "Early Hardmode Summoner",
+    "summary": "Spider Armor and Spider Staff are both a straightforward biome farm, not RNG-event-gated, making them fully accessible.",
+    "weapons": [
+      {
+        "icon": "Spider Staff",
+        "label": "Spider Staff — massive pre-Plantera summon upgrade (Spider biome drop)"
+      },
+      {
+        "icon": "Optic Staff",
+        "label": "Optic Staff — carries until Spider Staff is farmed"
+      },
+      {
+        "icon": "Adamantite Repeater",
+        "label": "Adamantite Repeater (or Titanium Repeater) — secondary damage source"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Spider Mask",
+        "label": "Spider Mask"
+      },
+      {
+        "icon": "Spider Breastplate",
+        "label": "Spider Breastplate"
+      },
+      {
+        "icon": "Spider Greaves",
+        "label": "Spider Greaves"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Cobalt Shield",
+        "label": "Cobalt Shield — craft from a Cobalt/Palladium biome find, no knockback"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots (or craft Rocket Boots) — movement speed"
+      },
+      {
+        "icon": "Necromantic Scroll",
+        "label": "Necromantic Scroll — Hardmode enemy drop, extra summon damage"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Spider Armor set + Spider Staff, plus the accessories above. Both drop from ordinary enemies in the underground Corruption/Crimson Spider biome — no event grinding needed, just explore the biome and fight normal spider enemies until pieces drop. This remains one of the best value-per-effort spikes in the whole game."
+  },
+  {
+    "id": "rogue-hardmode-early-accessible",
+    "class": "rogue",
+    "stage": "hardmode-early",
+    "variant": "accessible",
+    "title": "Early Hardmode Rogue",
+    "summary": "Stalker's Armor from ordinary Hardmode enemies plus cheap thrown weapons cover this stage with no event farming.",
+    "weapons": [
+      {
+        "icon": "Throwing Knife",
+        "label": "Throwing Knife — still spammable and cheap, upgrade ammo count as needed"
+      },
+      {
+        "icon": "Bone Javelin",
+        "label": "Bone Javelin — bulk-craftable from Bones, strong armor-piercing thrown weapon"
+      },
+      {
+        "icon": "Flask of Poison",
+        "label": "Flask of Poison — craft from Poison Elemental drops, coats weapons for bonus DoT"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stalker's Helm",
+        "label": "Stalker's Helm"
+      },
+      {
+        "icon": "Stalker's Breastplate",
+        "label": "Stalker's Breastplate"
+      },
+      {
+        "icon": "Stalker's Leggings",
+        "label": "Stalker's Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Cobalt Shield",
+        "label": "Cobalt Shield — craft from a Cobalt/Palladium biome find, no knockback"
+      },
+      {
+        "icon": "Hermes Boots",
+        "label": "Hermes Boots (or craft Rocket Boots) — movement speed"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — craft from Ice Skates + Rocket Boots, movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Stalker's Armor set (drops from ordinary Hardmode jungle/underground enemies, no special farm needed) + Bone Javelins or Throwing Knives, plus the accessories above. Stalker's set bonus rewards standing still to build stealth, so play patiently and stack thrown damage before big pulls."
+  },
+  {
+    "id": "melee-post-mech-plantera-accessible",
+    "class": "melee",
+    "stage": "post-mech-plantera",
+    "variant": "accessible",
+    "title": "Post-Mechanical Bosses to Plantera Melee",
+    "summary": "Hallowed gear plus a straightforward crafted sword clears Plantera without any farming loop.",
+    "weapons": [
+      {
+        "icon": "Excalibur",
+        "label": "Excalibur — craft from Hallowed Bars, strong pre-Plantera sword"
+      },
+      {
+        "icon": "True Excalibur",
+        "label": "True Excalibur — combine Excalibur + Broken Hero Sword (The Destroyer drop) at an Anvil"
+      },
+      {
+        "icon": "Chain Guillotines",
+        "label": "Chain Guillotines — The Destroyer drop, strong retrievable flail"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Hallowed Helmet",
+        "label": "Hallowed Helmet"
+      },
+      {
+        "icon": "Hallowed Plate Mail",
+        "label": "Hallowed Plate Mail"
+      },
+      {
+        "icon": "Hallowed Greaves",
+        "label": "Hallowed Greaves"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Cobalt Shield",
+        "label": "Cobalt Shield (or Ankh Shield if the pieces have dropped naturally) — no knockback"
+      },
+      {
+        "icon": "Warrior Emblem",
+        "label": "Warrior Emblem — Wall of Flesh drop, flat melee damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — craft from Ice Skates + Rocket Boots, movement speed + flight"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Hallowed Armor set (craftable from Hallowed Bars once you've beaten 2+ Mechanical Bosses) + True Excalibur, plus the accessories above. Everything needed comes from Mechanical Boss drops and crafting — no Dungeon/Plantera loot loop farming required before taking on Plantera in the Jungle."
+  },
+  {
+    "id": "ranged-post-mech-plantera-accessible",
+    "class": "ranged",
+    "stage": "post-mech-plantera",
+    "variant": "accessible",
+    "title": "Post-Mechanical Bosses to Plantera Ranged",
+    "summary": "Hallowed Armor and a Mechanical Boss drop gun make for a clean, farm-free Plantera loadout.",
+    "weapons": [
+      {
+        "icon": "Marrow",
+        "label": "Marrow — Skeletron Prime drop, strong solid-shot bow"
+      },
+      {
+        "icon": "Toxikarp",
+        "label": "Toxikarp — The Twins drop, poison dart gun with good early Hardmode dps"
+      },
+      {
+        "icon": "Rocket Launcher",
+        "label": "Rocket Launcher — The Destroyer drop, powerful AoE explosive launcher"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Hallowed Headgear",
+        "label": "Hallowed Headgear — ranged-focused helmet piece"
+      },
+      {
+        "icon": "Hallowed Plate Mail",
+        "label": "Hallowed Plate Mail"
+      },
+      {
+        "icon": "Hallowed Greaves",
+        "label": "Hallowed Greaves"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Cobalt Shield",
+        "label": "Cobalt Shield — no knockback"
+      },
+      {
+        "icon": "Ranger Emblem",
+        "label": "Ranger Emblem — Wall of Flesh drop, flat ranged damage boost"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — arrow damage/velocity, ammo conservation"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — craft from Ice Skates + Rocket Boots, movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Hallowed Armor (ranged Headgear) + Rocket Launcher or Marrow, plus the accessories above. All three weapon options are guaranteed-ish Mechanical Boss drops, so simply beating the three Mech Bosses in any order fully gears you up for Plantera without any extra farming."
+  },
+  {
+    "id": "mage-post-mech-plantera-accessible",
+    "class": "mage",
+    "stage": "post-mech-plantera",
+    "variant": "accessible",
+    "title": "Post-Mechanical Bosses to Plantera Mage",
+    "summary": "Hallowed Armor plus a Mechanical Boss drop staff is all you need heading into Plantera.",
+    "weapons": [
+      {
+        "icon": "Golden Shower",
+        "label": "Golden Shower — still relevant for its cheap defense-reducing debuff"
+      },
+      {
+        "icon": "Crystal Vile Shard",
+        "label": "Crystal Vile Shard — Skeletron Prime drop, strong piercing bouncing bolt"
+      },
+      {
+        "icon": "Nimbus Rod",
+        "label": "Nimbus Rod — Underground Hallow chest find, passive AoE raincloud"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Hallowed Headgear",
+        "label": "Hallowed Headgear — magic-focused hat piece"
+      },
+      {
+        "icon": "Hallowed Plate Mail",
+        "label": "Hallowed Plate Mail"
+      },
+      {
+        "icon": "Hallowed Greaves",
+        "label": "Hallowed Greaves"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Cobalt Shield",
+        "label": "Cobalt Shield — no knockback"
+      },
+      {
+        "icon": "Sorcerer Emblem",
+        "label": "Sorcerer Emblem — Wall of Flesh drop, flat magic damage boost"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — craft from Ice Skates + Rocket Boots, movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Hallowed Armor (magic Headgear) + Crystal Vile Shard or Golden Shower, plus the accessories above. Both weapons are cheap crafts or guaranteed-ish Mech Boss drops — Nimbus Rod adds free passive damage during Plantera's chase phase without needing precise aim."
+  },
+  {
+    "id": "summoner-post-mech-plantera-accessible",
+    "class": "summoner",
+    "stage": "post-mech-plantera",
+    "variant": "accessible",
+    "title": "Post-Mechanical Bosses to Plantera Summoner",
+    "summary": "Spider Armor still carries here, paired with a craftable Hallowed staff, with no extra farming detours.",
+    "weapons": [
+      {
+        "icon": "Blade Staff",
+        "label": "Blade Staff — craft from Hallowed Bars, strong pre-Plantera summon"
+      },
+      {
+        "icon": "Optic Staff",
+        "label": "Optic Staff — still viable if Blade Staff isn't crafted yet"
+      },
+      {
+        "icon": "Adamantite Repeater",
+        "label": "Adamantite Repeater (or Titanium Repeater) — secondary damage source"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Spider Mask",
+        "label": "Spider Mask (carried over — summoner's Hallowed boost is small, so this remains strong)"
+      },
+      {
+        "icon": "Spider Breastplate",
+        "label": "Spider Breastplate"
+      },
+      {
+        "icon": "Spider Greaves",
+        "label": "Spider Greaves"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Cobalt Shield",
+        "label": "Cobalt Shield — no knockback"
+      },
+      {
+        "icon": "Summoner Emblem",
+        "label": "Summoner Emblem — Wall of Flesh drop, flat summon damage boost"
+      },
+      {
+        "icon": "Necromantic Scroll",
+        "label": "Necromantic Scroll — extra summon damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — craft from Ice Skates + Rocket Boots, movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Spider Armor (still great for summoner since the Hallowed upgrade barely helps this class) + Blade Staff, plus the accessories above. Blade Staff is a simple Hallowed Bar craft — no need to wait for or farm anything special before challenging Plantera."
+  },
+  {
+    "id": "rogue-post-mech-plantera-accessible",
+    "class": "rogue",
+    "stage": "post-mech-plantera",
+    "variant": "accessible",
+    "title": "Post-Mechanical Bosses to Plantera Rogue",
+    "summary": "Stalker's Armor plus cheap crafted thrown weapons and flasks handle Plantera without extra farming.",
+    "weapons": [
+      {
+        "icon": "Bone Javelin",
+        "label": "Bone Javelin — bulk-craftable from Bones, still solid"
+      },
+      {
+        "icon": "Flask of Ichor",
+        "label": "Flask of Ichor — craft from Ichor, lowers enemy defense"
+      },
+      {
+        "icon": "Bananarang",
+        "label": "Bananarang — Hardmode jungle grass drop, decent boomerang-style thrown weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stalker's Helm",
+        "label": "Stalker's Helm"
+      },
+      {
+        "icon": "Stalker's Breastplate",
+        "label": "Stalker's Breastplate"
+      },
+      {
+        "icon": "Stalker's Leggings",
+        "label": "Stalker's Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Cobalt Shield",
+        "label": "Cobalt Shield — no knockback"
+      },
+      {
+        "icon": "Shark Tooth Necklace",
+        "label": "Shark Tooth Necklace — Angler quest reward, flat damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — craft from Ice Skates + Rocket Boots, movement speed + flight"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Stalker's Armor + Bone Javelins coated with a cheap Ichor flask, plus the accessories above. Rogue's itemization is thin here regardless of variant, so this build leans on flat-damage accessories and inexpensive debuff flasks to punch above its weight against Plantera's bulb."
+  },
+  {
+    "id": "melee-post-plantera-golem-accessible",
+    "class": "melee",
+    "stage": "post-plantera-golem",
+    "variant": "accessible",
+    "title": "Post-Plantera to Golem Melee",
+    "summary": "Turtle Armor is a natural crafting step after Plantera, paired with the guaranteed-ish Terra Blade.",
+    "weapons": [
+      {
+        "icon": "Terra Blade",
+        "label": "Terra Blade — combine True Excalibur + True Night's Edge, top-tier pre-Golem sword"
+      },
+      {
+        "icon": "North Pole",
+        "label": "North Pole (seasonal) or Chlorophyte Partisan — craftable Chlorophyte-tier alternative"
+      },
+      {
+        "icon": "Chlorophyte Partisan",
+        "label": "Chlorophyte Partisan — craft from Chlorophyte Bars, reliable piercing spear"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Turtle Helmet",
+        "label": "Turtle Helmet"
+      },
+      {
+        "icon": "Turtle Shell",
+        "label": "Turtle Shell"
+      },
+      {
+        "icon": "Turtle Leggings",
+        "label": "Turtle Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — craft the Ankh Charm from common Hardmode accessory drops, no knockback + debuff immunity"
+      },
+      {
+        "icon": "Warrior Emblem",
+        "label": "Warrior Emblem — flat melee damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Turtle Armor (craft from Chlorophyte Bars farmed in the Jungle post-Plantera) + Terra Blade or the fully craftable Chlorophyte Partisan, plus the accessories above. Chlorophyte Partisan is a great fallback if you don't want to farm Plantera's Bulb again for a Broken Hero Sword — it's craftable purely from ore."
+  },
+  {
+    "id": "ranged-post-plantera-golem-accessible",
+    "class": "ranged",
+    "stage": "post-plantera-golem",
+    "variant": "accessible",
+    "title": "Post-Plantera to Golem Ranged",
+    "summary": "Shroomite Armor and a purely craftable Chlorophyte gun skip any post-Plantera Dungeon farming.",
+    "weapons": [
+      {
+        "icon": "Chlorophyte Shotbow",
+        "label": "Chlorophyte Shotbow — homing multi-arrow bow, craftable from Chlorophyte Bars"
+      },
+      {
+        "icon": "Piranha Gun",
+        "label": "Piranha Gun — craft from Rockfish (Truffle Worm bait fishing), strong ranged option"
+      },
+      {
+        "icon": "Uzi",
+        "label": "Uzi — craftable from Hallowed Bars, strong automatic weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Shroomite Headgear",
+        "label": "Shroomite Headgear (Sniper/Ranger/Gunner variant to taste)"
+      },
+      {
+        "icon": "Shroomite Breastplate",
+        "label": "Shroomite Breastplate"
+      },
+      {
+        "icon": "Shroomite Leggings",
+        "label": "Shroomite Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — craft the Ankh Charm from common Hardmode accessory drops, no knockback + debuff immunity"
+      },
+      {
+        "icon": "Ranger Emblem",
+        "label": "Ranger Emblem — flat ranged damage boost"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — arrow damage/velocity, ammo conservation"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Shroomite Armor (Glowing Mushroom biome + Chlorophyte Bars, both simple farms) + Chlorophyte Shotbow, plus the accessories above. Both the armor and the main weapon are pure crafts once you have Chlorophyte Ore — no Dungeon post-Plantera drop RNG required for this variant."
+  },
+  {
+    "id": "mage-post-plantera-golem-accessible",
+    "class": "mage",
+    "stage": "post-plantera-golem",
+    "variant": "accessible",
+    "title": "Post-Plantera to Golem Mage",
+    "summary": "Spectre Armor's healing set bonus plus a craftable Chlorophyte staff make Golem manageable with minimal farming.",
+    "weapons": [
+      {
+        "icon": "Staff of Earth",
+        "label": "Staff of Earth — craft from Chlorophyte Bars, strong rock-golem summon-hybrid"
+      },
+      {
+        "icon": "Crystal Serpent",
+        "label": "Crystal Serpent — Hallow fishing crate, piercing bouncing projectile"
+      },
+      {
+        "icon": "Golden Shower",
+        "label": "Golden Shower — still relevant for its defense-debuff utility"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Spectre Hood",
+        "label": "Spectre Hood — healing set bonus variant"
+      },
+      {
+        "icon": "Spectre Robe",
+        "label": "Spectre Robe"
+      },
+      {
+        "icon": "Spectre Pants",
+        "label": "Spectre Pants"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — craft the Ankh Charm from common Hardmode accessory drops, no knockback + debuff immunity"
+      },
+      {
+        "icon": "Sorcerer Emblem",
+        "label": "Sorcerer Emblem — flat magic damage boost"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Spectre Armor (Hood variant, craft from Spectre Bars at an Ancient Manipulator) + Staff of Earth, plus the accessories above. Staff of Earth is a straightforward Chlorophyte Bar craft with strong single-target damage, no Dungeon farming needed to gear up for Golem."
+  },
+  {
+    "id": "summoner-post-plantera-golem-accessible",
+    "class": "summoner",
+    "stage": "post-plantera-golem",
+    "variant": "accessible",
+    "title": "Post-Plantera to Golem Summoner",
+    "summary": "Spooky Armor plus Plantera's own Pygmy Staff drop is all you need for Golem, no Martian Madness required.",
+    "weapons": [
+      {
+        "icon": "Pygmy Staff",
+        "label": "Pygmy Staff — Plantera drop, strong minion"
+      },
+      {
+        "icon": "Optic Staff",
+        "label": "Optic Staff — paired for extra minion variety"
+      },
+      {
+        "icon": "Chlorophyte Partisan",
+        "label": "Chlorophyte Partisan — craftable secondary damage source"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Spooky Helmet",
+        "label": "Spooky Helmet"
+      },
+      {
+        "icon": "Spooky Breastplate",
+        "label": "Spooky Breastplate"
+      },
+      {
+        "icon": "Spooky Leggings",
+        "label": "Spooky Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — craft the Ankh Charm from common Hardmode accessory drops, no knockback + debuff immunity"
+      },
+      {
+        "icon": "Summoner Emblem",
+        "label": "Summoner Emblem — flat summon damage boost"
+      },
+      {
+        "icon": "Necromantic Scroll",
+        "label": "Necromantic Scroll — extra summon damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Spooky Armor (craft from Ectoplasm, a guaranteed Dungeon post-Plantera enemy drop) + Pygmy Staff, plus the accessories above. Pygmy Staff drops directly from Plantera herself, so simply beating her hands you the main weapon upgrade for this stage with zero extra farming."
+  },
+  {
+    "id": "rogue-post-plantera-golem-accessible",
+    "class": "rogue",
+    "stage": "post-plantera-golem",
+    "variant": "accessible",
+    "title": "Post-Plantera to Golem Rogue",
+    "summary": "Stalker's Armor with cheap crafted flasks and thrown weapons carries through Golem without chest farming.",
+    "weapons": [
+      {
+        "icon": "Bone Javelin",
+        "label": "Bone Javelin — bulk-craftable from Bones, still solid damage"
+      },
+      {
+        "icon": "Flask of Ichor",
+        "label": "Flask of Ichor — craft from Ichor, lowers enemy defense"
+      },
+      {
+        "icon": "Bananarang",
+        "label": "Bananarang — Hardmode jungle grass drop, decent boomerang-style thrown weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stalker's Helm",
+        "label": "Stalker's Helm"
+      },
+      {
+        "icon": "Stalker's Breastplate",
+        "label": "Stalker's Breastplate"
+      },
+      {
+        "icon": "Stalker's Leggings",
+        "label": "Stalker's Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — craft the Ankh Charm from common Hardmode accessory drops, no knockback + debuff immunity"
+      },
+      {
+        "icon": "Shark Tooth Necklace",
+        "label": "Shark Tooth Necklace — Angler quest reward, flat damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Stalker's Armor + Bone Javelins coated in a cheap Ichor flask, plus the accessories above. Rogue still lacks a dedicated armor upgrade here in vanilla, so this build sticks to inexpensive crafted thrown weapons and flat-damage accessories rather than chasing rare biome-chest drops."
+  },
+  {
+    "id": "melee-post-golem-accessible",
+    "class": "melee",
+    "stage": "post-golem",
+    "variant": "accessible",
+    "title": "Post-Golem to Moon Lord Melee",
+    "summary": "Solar Flare Armor plus Golem's own drops prepare melee for Moon Lord without event wave-15 grinding.",
+    "weapons": [
+      {
+        "icon": "Terra Blade",
+        "label": "Terra Blade — still viable and fully craftable ahead of Moon Lord"
+      },
+      {
+        "icon": "Golem Fist",
+        "label": "Golem Fist — Golem drop, strong close-range punching glove"
+      },
+      {
+        "icon": "Possessed Hatchet",
+        "label": "Possessed Hatchet — Golem drop, solid piercing sword-like projectile"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Solar Flare Helmet",
+        "label": "Solar Flare Helmet"
+      },
+      {
+        "icon": "Solar Flare Breastplate",
+        "label": "Solar Flare Breastplate"
+      },
+      {
+        "icon": "Solar Flare Leggings",
+        "label": "Solar Flare Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Fire Gauntlet",
+        "label": "Fire Gauntlet — craftable, melee speed, knockback, and extra fire damage"
+      },
+      {
+        "icon": "Destroyer Emblem",
+        "label": "Destroyer Emblem — The Destroyer drop, flat damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Solar Flare Armor (from Fragments guaranteed off the Celestial Pillars during the Lunar Events) + Terra Blade or Golem Fist, plus the accessories above. This skips Pumpkin/Frost Moon wave-15 farming entirely — Golem's own guaranteed drops and the Lunar Event fragments are enough to take on Moon Lord."
+  },
+  {
+    "id": "ranged-post-golem-accessible",
+    "class": "ranged",
+    "stage": "post-golem",
+    "variant": "accessible",
+    "title": "Post-Golem to Moon Lord Ranged",
+    "summary": "Shroomite Armor plus a Golem drop gun reaches Moon Lord readiness without farming event waves.",
+    "weapons": [
+      {
+        "icon": "Chlorophyte Shotbow",
+        "label": "Chlorophyte Shotbow — still strong and fully craftable"
+      },
+      {
+        "icon": "Golem Fist",
+        "label": "Golem Fist (melee-adjacent) or Clockwork Assault Rifle — Dungeon-guaranteed alternative rapid-fire gun"
+      },
+      {
+        "icon": "Clockwork Assault Rifle",
+        "label": "Clockwork Assault Rifle — Dungeon farmable, precise timed-shot rifle"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Shroomite Headgear",
+        "label": "Shroomite Headgear"
+      },
+      {
+        "icon": "Shroomite Breastplate",
+        "label": "Shroomite Breastplate"
+      },
+      {
+        "icon": "Shroomite Leggings",
+        "label": "Shroomite Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Destroyer Emblem",
+        "label": "Destroyer Emblem — The Destroyer drop, flat damage boost"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — arrow damage/velocity, ammo conservation"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Shroomite Armor + Chlorophyte Shotbow or Clockwork Assault Rifle, plus the accessories above. Both weapon options avoid Pumpkin Moon/Frost Moon wave-15 RNG — Chlorophyte Shotbow is a pure craft and Clockwork Assault Rifle has a reasonable Dungeon drop rate post-Plantera."
+  },
+  {
+    "id": "mage-post-golem-accessible",
+    "class": "mage",
+    "stage": "post-golem",
+    "variant": "accessible",
+    "title": "Post-Golem to Moon Lord Mage",
+    "summary": "Nebula Armor plus Golem/Cultist drops give mage solid Moon Lord readiness without event-wave farming.",
+    "weapons": [
+      {
+        "icon": "Heat Ray",
+        "label": "Heat Ray — Golem drop, strong continuous beam weapon"
+      },
+      {
+        "icon": "Golden Shower",
+        "label": "Golden Shower — still relevant for its cheap defense-reducing debuff"
+      },
+      {
+        "icon": "Lunar Flare",
+        "label": "Lunar Flare — Ancient Manipulator craft using Luminite Bars from the Lunar Events, strong AoE nuke"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Nebula Helmet",
+        "label": "Nebula Helmet"
+      },
+      {
+        "icon": "Nebula Armor Body",
+        "label": "Nebula Armor Body"
+      },
+      {
+        "icon": "Nebula Armor Pants",
+        "label": "Nebula Armor Pants"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Sorcerer Emblem",
+        "label": "Sorcerer Emblem — flat magic damage boost"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Nebula Armor (from Fragments guaranteed off the Celestial Pillars) + Heat Ray, plus the accessories above. Heat Ray is a reliable Golem drop, and Lunar Flare is craftable straight from Luminite Bars once the four Pillars are cleared — no need to touch Pumpkin/Frost Moon wave 15 for this loadout."
+  },
+  {
+    "id": "summoner-post-golem-accessible",
+    "class": "summoner",
+    "stage": "post-golem",
+    "variant": "accessible",
+    "title": "Post-Golem to Moon Lord Summoner",
+    "summary": "Stardust Armor's set bonus is guaranteed from Lunar Pillar fragments, paired with Golem's own strong minion drop.",
+    "weapons": [
+      {
+        "icon": "Sanguine Staff",
+        "label": "Sanguine Staff or Blade Staff — carried-over Hallowed-tier minion, still solid"
+      },
+      {
+        "icon": "Staff of Earth",
+        "label": "Staff of Earth — craftable Chlorophyte-tier hybrid, reliable damage"
+      },
+      {
+        "icon": "Pygmy Staff",
+        "label": "Pygmy Staff — Plantera drop, still a strong minion choice"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stardust Helmet",
+        "label": "Stardust Helmet"
+      },
+      {
+        "icon": "Stardust Armor Body",
+        "label": "Stardust Armor Body"
+      },
+      {
+        "icon": "Stardust Leggings",
+        "label": "Stardust Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Summoner Emblem",
+        "label": "Summoner Emblem — flat summon damage boost"
+      },
+      {
+        "icon": "Necromantic Scroll",
+        "label": "Necromantic Scroll — extra summon damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Stardust Armor (from Fragments guaranteed off the Celestial Pillars during the Lunar Events, so no Martian Madness RNG needed) + Pygmy Staff or Staff of Earth, plus the accessories above. Skip Martian Madness farming for the Dragon/Xeno Staff — this combo is still strong enough to take Moon Lord on."
+  },
+  {
+    "id": "rogue-post-golem-accessible",
+    "class": "rogue",
+    "stage": "post-golem",
+    "variant": "accessible",
+    "title": "Post-Golem to Moon Lord Rogue",
+    "summary": "Stalker's Armor plus cheap crafted thrown weapons and flasks reach Moon Lord without event wave-15 farming.",
+    "weapons": [
+      {
+        "icon": "Bone Javelin",
+        "label": "Bone Javelin — bulk-craftable from Bones, still respectable damage"
+      },
+      {
+        "icon": "Flask of Cursed Flames",
+        "label": "Flask of Cursed Flames — craft from Cursed Flames, coats weapons for bonus DoT"
+      },
+      {
+        "icon": "Bananarang",
+        "label": "Bananarang — Hardmode jungle grass drop, reliable boomerang-style thrown weapon"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stalker's Helm",
+        "label": "Stalker's Helm"
+      },
+      {
+        "icon": "Stalker's Breastplate",
+        "label": "Stalker's Breastplate"
+      },
+      {
+        "icon": "Stalker's Leggings",
+        "label": "Stalker's Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Shark Tooth Necklace",
+        "label": "Shark Tooth Necklace — Angler quest reward, flat damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      },
+      {
+        "icon": "Band of Regeneration",
+        "label": "Band of Regeneration — passive healing"
+      }
+    ],
+    "notes": "Full loadout: Stalker's Armor + Bone Javelins coated in a cheap Cursed Flames flask, plus the accessories above. Rogue's real event-drop upgrades wait until the Pumpkin/Frost Moon and Martian Madness, but this variant intentionally skips those grinds and sticks to cheap crafted thrown weapons and flat-damage accessories for Moon Lord."
+  },
+  {
+    "id": "melee-post-moonlord-accessible",
+    "class": "melee",
+    "stage": "post-moonlord",
+    "variant": "accessible",
+    "title": "Post-Moon Lord Melee",
+    "summary": "A strong endgame melee loadout that skips the 12-sword Zenith grind in favor of direct Moon Lord and Duke Fishron drops.",
+    "weapons": [
+      {
+        "icon": "Terrarian",
+        "label": "Terrarian — Empress of Light drop, top-tier yoyo"
+      },
+      {
+        "icon": "Influx Waver",
+        "label": "Influx Waver — Duke Fishron drop, strong piercing sword projectile"
+      },
+      {
+        "icon": "Star Wrath",
+        "label": "Star Wrath — Frost Moon drop, strong falling-star sword if already farmed"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Solar Flare Helmet",
+        "label": "Solar Flare Helmet"
+      },
+      {
+        "icon": "Solar Flare Breastplate",
+        "label": "Solar Flare Breastplate"
+      },
+      {
+        "icon": "Solar Flare Leggings",
+        "label": "Solar Flare Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Avenger Emblem",
+        "label": "Avenger Emblem — Moon Lord drop, flat damage boost"
+      },
+      {
+        "icon": "Fire Gauntlet",
+        "label": "Fire Gauntlet — melee speed, knockback, and extra fire damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Solar Flare Armor + Terrarian or Influx Waver, plus the accessories above. This is still true endgame content, but it avoids the multi-part Zenith craft (12 separate swords) by leaning on Duke Fishron and Empress of Light's guaranteed-ish endgame drops for a much shorter grind to a very strong weapon."
+  },
+  {
+    "id": "ranged-post-moonlord-accessible",
+    "class": "ranged",
+    "stage": "post-moonlord",
+    "variant": "accessible",
+    "title": "Post-Moon Lord Ranged",
+    "summary": "Duke Fishron's guaranteed-ish drops give ranged a strong, directly-farmable endgame loadout.",
+    "weapons": [
+      {
+        "icon": "Tsunami",
+        "label": "Tsunami — Duke Fishron drop, top-tier arrow-spam bow"
+      },
+      {
+        "icon": "Vortex Beater",
+        "label": "Vortex Beater — Moon Lord drop, hybrid grenade launcher/rifle with huge dps"
+      },
+      {
+        "icon": "Shrimpy Truffle",
+        "label": "Shrimpy Truffle (rogue-adjacent but strong) or Sniper Rifle carryover"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Shroomite Headgear",
+        "label": "Shroomite Headgear (still best-in-slot for pure ranged dps)"
+      },
+      {
+        "icon": "Shroomite Breastplate",
+        "label": "Shroomite Breastplate"
+      },
+      {
+        "icon": "Shroomite Leggings",
+        "label": "Shroomite Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Avenger Emblem",
+        "label": "Avenger Emblem — Moon Lord drop, flat damage boost"
+      },
+      {
+        "icon": "Magic Quiver",
+        "label": "Magic Quiver — arrow damage/velocity, ammo conservation"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Shroomite Armor + Tsunami or Vortex Beater, plus the accessories above. Duke Fishron's drop pool is generous and the fight is directly farmable (fish with a Truffle Worm during any time of day), so this reaches near-BiS ranged power without touching Pumpkin/Frost Moon wave-15 exclusives."
+  },
+  {
+    "id": "mage-post-moonlord-accessible",
+    "class": "mage",
+    "stage": "post-moonlord",
+    "variant": "accessible",
+    "title": "Post-Moon Lord Mage",
+    "summary": "Nebula Armor plus a Moon Lord/Empress drop weapon gives mage top-tier damage without extra farming loops.",
+    "weapons": [
+      {
+        "icon": "Nebula Blaze",
+        "label": "Nebula Blaze — Empress of Light drop, strong homing magic missiles"
+      },
+      {
+        "icon": "Lunar Flare",
+        "label": "Lunar Flare — craftable from Luminite Bars, strong AoE nuke"
+      },
+      {
+        "icon": "Last Prism",
+        "label": "Last Prism — Moon Lord drop, the single highest-dps weapon in the game if it drops"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Nebula Helmet",
+        "label": "Nebula Helmet"
+      },
+      {
+        "icon": "Nebula Armor Body",
+        "label": "Nebula Armor Body"
+      },
+      {
+        "icon": "Nebula Armor Pants",
+        "label": "Nebula Armor Pants"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Avenger Emblem",
+        "label": "Avenger Emblem — Moon Lord drop, flat damage boost"
+      },
+      {
+        "icon": "Mana Flower",
+        "label": "Mana Flower — auto-drinks mana potions, +magic damage"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Nebula Armor + Nebula Blaze or Lunar Flare, plus the accessories above. Lunar Flare is a guaranteed craft the moment you have Luminite Bars, so you don't need to rely on Last Prism's low drop chance from Moon Lord to have a strong finisher weapon."
+  },
+  {
+    "id": "summoner-post-moonlord-accessible",
+    "class": "summoner",
+    "stage": "post-moonlord",
+    "variant": "accessible",
+    "title": "Post-Moon Lord Summoner",
+    "summary": "Stardust Armor plus an Empress of Light whip gives summoner top-tier damage direction without a Martian Madness farm.",
+    "weapons": [
+      {
+        "icon": "Pygmy Staff",
+        "label": "Pygmy Staff (or Staff of Earth) — reliable carried-over minion"
+      },
+      {
+        "icon": "Durendal",
+        "label": "Durendal — Empress of Light drop, top-tier summon whip"
+      },
+      {
+        "icon": "Kaleidoscope",
+        "label": "Kaleidoscope — Empress of Light drop, strong summon whip alternative"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stardust Helmet",
+        "label": "Stardust Helmet"
+      },
+      {
+        "icon": "Stardust Armor Body",
+        "label": "Stardust Armor Body"
+      },
+      {
+        "icon": "Stardust Leggings",
+        "label": "Stardust Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Avenger Emblem",
+        "label": "Avenger Emblem — Moon Lord drop, flat damage boost"
+      },
+      {
+        "icon": "Papyrus Scarab",
+        "label": "Papyrus Scarab — Lihzahrd Temple find, extra minion slot and summon damage"
+      },
+      {
+        "icon": "Necromantic Scroll",
+        "label": "Necromantic Scroll — extra summon damage"
+      }
+    ],
+    "notes": "Full loadout: Stardust Armor + Pygmy Staff or Staff of Earth, directed by an Empress of Light whip (Durendal/Kaleidoscope), plus the accessories above. This skips the Martian Madness farm for the Stardust Dragon/Xeno Staff while still reaching very strong Moon Lord-tier summon damage."
+  },
+  {
+    "id": "rogue-post-moonlord-accessible",
+    "class": "rogue",
+    "stage": "post-moonlord",
+    "variant": "accessible",
+    "title": "Post-Moon Lord Rogue",
+    "summary": "Duke Fishron and Empress of Light give Rogue a strong, directly-farmable endgame loadout without event-wave grinding.",
+    "weapons": [
+      {
+        "icon": "Shrimpy Truffle",
+        "label": "Shrimpy Truffle — Duke Fishron drop, bouncing high-damage thrown weapon"
+      },
+      {
+        "icon": "The Devil's Finger",
+        "label": "The Devil's Finger — Empress of Light drop, homing bat-projectile thrown weapon"
+      },
+      {
+        "icon": "Flask of Cursed Flames",
+        "label": "Flask of Cursed Flames — cheap crafted DoT coating"
+      }
+    ],
+    "armor": [
+      {
+        "icon": "Stalker's Helm",
+        "label": "Stalker's Helm (no post-ML rogue-specific set exists; this remains best-in-slot)"
+      },
+      {
+        "icon": "Stalker's Breastplate",
+        "label": "Stalker's Breastplate"
+      },
+      {
+        "icon": "Stalker's Leggings",
+        "label": "Stalker's Leggings"
+      }
+    ],
+    "accessories": [
+      {
+        "icon": "Ankh Shield",
+        "label": "Ankh Shield — immunity to nearly every debuff + no knockback"
+      },
+      {
+        "icon": "Avenger Emblem",
+        "label": "Avenger Emblem — Moon Lord drop, flat damage boost"
+      },
+      {
+        "icon": "Shark Tooth Necklace",
+        "label": "Shark Tooth Necklace — Angler quest reward, flat damage boost"
+      },
+      {
+        "icon": "Frostspark Boots",
+        "label": "Frostspark Boots — movement speed + flight"
+      }
+    ],
+    "notes": "Full loadout: Stalker's Armor + Shrimpy Truffle or The Devil's Finger, plus the accessories above. Both weapons come from Duke Fishron and Empress of Light, two directly-farmable endgame bosses, so this reaches Rogue's practical damage ceiling without touching Pumpkin Moon/Frost Moon wave-15 exclusives."
   }
 ]

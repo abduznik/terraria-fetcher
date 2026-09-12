@@ -15,6 +15,10 @@
 
   let items = [];
   let itemsByName = new Map();
+  // Reverse recipe index: item name -> list of item names that use it as an
+  // ingredient in at least one recipe. Built once after items.json loads so
+  // we can navigate "up" (what is this used to craft?) as well as "down".
+  let usedInByName = new Map();
   let currentRootName = null;
   // Which nodes are expanded, keyed by path string (same item can appear
   // twice in a tree with independent expand states).
@@ -36,6 +40,19 @@
   }
 
   function normalize(str) { return (str || '').toLowerCase(); }
+
+  function buildUsedInIndex() {
+    usedInByName = new Map();
+    for (const it of items) {
+      for (const recipe of (it.recipes || [])) {
+        for (const ing of (recipe.ingredients || [])) {
+          let list = usedInByName.get(ing.name);
+          if (!list) { list = []; usedInByName.set(ing.name, list); }
+          if (!list.includes(it.name)) list.push(it.name);
+        }
+      }
+    }
+  }
 
   function findMatches(query) {
     const q = normalize(query.trim());
@@ -184,10 +201,20 @@
       sub = `<span class="tnode-sub tnode-source">${escapeHtml(node.acquireLabel || '')}</span>`;
     }
 
+    // Nodes below the root aren't the current root, so re-rooting "up" onto
+    // them via the parents panel isn't visible from here — surface a small
+    // hint when this ingredient is also used elsewhere, so it doesn't read
+    // as a dead end even when collapsed.
+    const usedElsewhere = node.depth > 0 ? (usedInByName.get(node.name) || []).length : 0;
+    const reuseBadge = usedElsewhere > 1
+      ? `<span class="tnode-reuse" title="Also used to craft ${usedElsewhere - 1} other item${usedElsewhere - 1 === 1 ? '' : 's'}">+${usedElsewhere - 1}</span>`
+      : '';
+
     return `
       <div class="tnode ${canExpand ? 'expandable' : 'leaf'} ${node.isOpen ? 'open' : ''}"
            style="left:${node.x}px; top:${y}px; width:${NODE_W}px; height:${NODE_H}px;"
            data-path="${node.path}" data-name="${escapeHtml(node.name)}">
+        ${reuseBadge}
         <div class="tnode-icon"><img src="${wikiIconUrl(node.name)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></div>
         <div class="tnode-body">
           <div class="tnode-name">${qtyLabel}${escapeHtml(node.name)}</div>
@@ -240,6 +267,8 @@
     const svgParts = [];
     connectorSvg(tree, svgParts);
 
+    const parents = (usedInByName.get(item.name) || []).slice().sort();
+
     treeRoot.innerHTML = `
       <div class="result-item">
         <div class="row">
@@ -256,6 +285,7 @@
           <button id="collapseAllBtn" class="filter-btn">Collapse all</button>
           <span class="tree-hint">Click a node to reveal how it's obtained. Click <img class="inline-icon sm" src="https://terraria.wiki.gg/images/Magic_Mirror.png" alt="" loading="lazy" onerror="this.style.display='none'"> to re-center the tree on that item (use Back to undo).</span>
         </div>
+        ${parentsPanelHtml(parents)}
         <div class="tree-canvas-scroll">
           <div class="tree-canvas" style="width:${totalWidth}px; height:${totalHeight}px;">
             <svg class="tree-svg" width="${totalWidth}" height="${totalHeight}">${svgParts.join('')}</svg>
@@ -265,6 +295,37 @@
       </div>`;
 
     wireTreeEvents(tree);
+    wireParentsPanelEvents();
+  }
+
+  // --- "Used to craft" (parents) panel ----------------------------------
+  // The node tree below only ever goes down (ingredients). This panel is
+  // the up direction: every item that lists the current root as one of its
+  // own recipe's ingredients. Clicking one re-roots the tree on it, so you
+  // can walk all the way from a base material up to an end-game item and
+  // back down again, wiki-link style.
+
+  function parentsPanelHtml(parents) {
+    if (!parents.length) {
+      return `<div class="parents-panel"><span class="tree-hint">Not used as an ingredient in any known recipe.</span></div>`;
+    }
+    return `
+      <div class="parents-panel">
+        <div class="parents-panel-label">Used to craft (${parents.length}):</div>
+        <div class="parents-panel-list">
+          ${parents.map(name => `
+            <button class="parent-chip" data-parent="${escapeHtml(name)}" title="View ${escapeHtml(name)}'s crafting tree">
+              <span class="icon-slot" style="width:26px;height:26px;"><img src="${wikiIconUrl(name)}" alt="" loading="lazy" onerror="this.parentElement.style.visibility='hidden'"></span>
+              <span>${escapeHtml(name)}</span>
+            </button>`).join('')}
+        </div>
+      </div>`;
+  }
+
+  function wireParentsPanelEvents() {
+    treeRoot.querySelectorAll('.parent-chip').forEach(btn => {
+      btn.addEventListener('click', () => setRoot(btn.dataset.parent));
+    });
   }
 
   function collectAllPathsForRoot(name) {
@@ -331,6 +392,7 @@
     .then(data => {
       items = data;
       for (const it of items) itemsByName.set(it.name, it);
+      buildUsedInIndex();
       meta.textContent = `${items.length.toLocaleString()} items loaded. Search for an item to view its crafting tree.`;
 
       const params = new URLSearchParams(location.search);

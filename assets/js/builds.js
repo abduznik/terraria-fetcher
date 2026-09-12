@@ -17,13 +17,20 @@
 
   const stageOrder = ['prehardmode', 'hardmode-early', 'post-mech-plantera', 'post-plantera-golem', 'post-golem', 'post-moonlord'];
 
+  const variantLabels = {
+    accessible: 'Accessible',
+    bis: 'Best-in-Slot'
+  };
+
   const classFilterEl = document.getElementById('classFilter');
   const stageFilterEl = document.getElementById('stageFilter');
+  const variantFilterEl = document.getElementById('variantFilter');
   const container = document.getElementById('buildsContainer');
 
   let builds = [];
   let activeClass = 'all';
   let activeStage = 'all';
+  let activeVariant = 'all';
 
   function escapeHtml(str) {
     return String(str).replace(/[&<>"']/g, c => ({
@@ -57,6 +64,21 @@
         renderBuilds();
       });
     });
+
+    if (variantFilterEl) {
+      const variantsPresent = Object.keys(variantLabels).filter(v => builds.some(b => b.variant === v));
+      const variants = variantsPresent.length ? ['all', ...variantsPresent] : [];
+      variantFilterEl.innerHTML = variants.map(v =>
+        `<button class="filter-btn ${v === activeVariant ? 'active' : ''}" data-variant="${v}">${v === 'all' ? 'All Variants' : variantLabels[v]}</button>`
+      ).join('');
+      variantFilterEl.querySelectorAll('button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeVariant = btn.dataset.variant;
+          renderFilters();
+          renderBuilds();
+        });
+      });
+    }
   }
 
   function wikiIconUrl(name) {
@@ -80,7 +102,8 @@
   function renderBuilds() {
     const filtered = builds.filter(b =>
       (activeClass === 'all' || b.class === activeClass) &&
-      (activeStage === 'all' || b.stage === activeStage)
+      (activeStage === 'all' || b.stage === activeStage) &&
+      (activeVariant === 'all' || !b.variant || b.variant === activeVariant)
     );
 
     if (!filtered.length) {
@@ -94,6 +117,7 @@
           ${escapeHtml(b.title)}
           <span class="class-chip ${b.class}">${classLabels[b.class] || b.class}</span>
           <span class="stage-chip">${stageLabels[b.stage] || b.stage}</span>
+          ${b.variant ? `<span class="variant-chip variant-${b.variant}">${variantLabels[b.variant] || b.variant}</span>` : ''}
         </h2>
         <p>${escapeHtml(b.summary)}</p>
         <div class="gear-grid">
