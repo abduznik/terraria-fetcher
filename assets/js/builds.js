@@ -91,11 +91,12 @@
     return '<ul class="gear-list">' + items.map(item => {
       const icon = item && item.icon;
       const label = item && item.label !== undefined ? item.label : item;
-      return `
-        <li class="gear-item">
+      const inner = `
           ${icon ? `<span class="icon-slot gear-icon"><img src="${wikiIconUrl(icon)}" alt="" loading="lazy" onerror="this.parentElement.style.visibility='hidden'"></span>` : ''}
-          <span>${escapeHtml(label)}</span>
-        </li>`;
+          <span>${escapeHtml(label)}</span>`;
+      return icon
+        ? `<li class="gear-item"><a class="gear-item-link" href="../fetcher.html?q=${encodeURIComponent(icon)}" title="Look up ${escapeHtml(icon)} in the Item &amp; Recipe Fetcher">${inner}</a></li>`
+        : `<li class="gear-item">${inner}</li>`;
     }).join('') + '</ul>';
   }
 

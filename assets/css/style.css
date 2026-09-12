@@ -529,10 +529,29 @@ main {
 }
 
 .gear-item {
+  margin-bottom: 8px;
+}
+
+.gear-item-link {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 8px;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 2px 4px;
+  margin: -2px -4px;
+}
+
+.gear-item-link:hover {
+  background: rgba(255, 231, 99, 0.1);
+  color: var(--rarity-yellow);
+}
+
+.gear-item:not(:has(.gear-item-link)) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .gear-icon {
