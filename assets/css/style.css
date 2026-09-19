@@ -112,6 +112,106 @@ header.site-header {
   flex-wrap: wrap;
 }
 
+.gs-box {
+  position: relative;
+  margin-left: auto;
+  flex: 0 1 260px;
+  min-width: 180px;
+}
+
+.gs-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 12px;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--parchment);
+  background: rgba(0, 0, 0, 0.25);
+  border: 2px solid var(--wood-border);
+  border-radius: 6px;
+  outline: none;
+}
+
+.gs-input::placeholder {
+  color: var(--text-dim);
+  opacity: 0.8;
+}
+
+.gs-input:focus {
+  border-color: var(--rarity-yellow);
+}
+
+.gs-results {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  /* Wider than the input so the source context ("in <build> (<variant>)")
+     stays readable — it is what distinguishes otherwise identical rows. */
+  min-width: 380px;
+  max-width: 90vw;
+  max-height: 60vh;
+  overflow-y: auto;
+  background: var(--wood-panel);
+  border: 2px solid var(--wood-border);
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+.gs-result {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 10px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--wood-border);
+}
+
+.gs-result:last-child { border-bottom: none; }
+
+.gs-result:hover,
+.gs-result:focus {
+  background: var(--wood-panel-light);
+}
+
+.gs-kind {
+  flex: none;
+  font-size: 0.66rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 2px 7px;
+  border-radius: 10px;
+  text-shadow: none;
+}
+
+.gs-kind-item { background: var(--parchment); color: var(--wood-shadow); }
+.gs-kind-build { background: var(--rarity-orange, #ff7f27); color: #3a1a0d; }
+.gs-kind-checklist { background: var(--rarity-green, #4caf50); color: #0d2a0f; }
+
+.gs-label {
+  color: var(--parchment);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.gs-sub {
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  margin-left: auto;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60%;
+}
+
+.gs-empty {
+  padding: 10px;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
 .site-header nav a {
   color: var(--text-dim);
   font-size: 1rem;
