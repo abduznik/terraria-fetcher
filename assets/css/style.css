@@ -582,6 +582,18 @@ footer {
   padding: 30px 20px;
 }
 
+.meta-badge {
+  margin-top: 8px;
+  font-size: 0.78rem;
+  color: var(--text-dim, #b8a888);
+  opacity: 0.85;
+}
+
+.meta-badge-stale {
+  color: #e2b04a;
+  opacity: 1;
+}
+
 .loading, .empty {
   color: var(--parchment);
   text-shadow: 1px 1px 0 rgba(0,0,0,0.4);

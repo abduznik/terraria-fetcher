@@ -7,7 +7,7 @@ This is meant to be run occasionally via GitHub Actions (workflow_dispatch or
 a periodic schedule), not on every page load. Output:
   data/items.json   - array of items with embedded recipes
   data/npcs.json    - array of NPCs
-  data/meta.json    - fetch timestamp + counts
+  data/meta.json    - fetch timestamp, counts, and latest known game version
 
 Cargo schema reference (terraria.wiki.gg):
   Items table:   itemid, name, type, tooltip, rare, sell, buy, damage, damagetype, defense
@@ -340,6 +340,31 @@ def normalize_npcs(npc_rows):
     return npcs
 
 
+GAME_VERSION_RE = re.compile(r"^Desktop (\d+(?:\.\d+)*)$")
+
+
+def fetch_game_version():
+    """Find the latest Desktop game version mentioned in the wiki's History
+    table (the per-item "changed in version X" table), so the site can show
+    users what version its data reflects instead of only a fetch timestamp."""
+    try:
+        rows = cargo_query_all("History", "patch", limit=500)
+    except Exception as exc:
+        print(f"WARNING: could not fetch game version: {exc}", file=sys.stderr)
+        return None
+
+    versions = []
+    for row in rows:
+        patch = strip_markup(row.get("patch") or "")
+        m = GAME_VERSION_RE.match(patch)
+        if m:
+            versions.append(tuple(int(p) for p in m.group(1).split(".")))
+
+    if not versions:
+        return None
+    return ".".join(str(p) for p in max(versions))
+
+
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -347,6 +372,7 @@ def main():
     recipe_rows = fetch_recipes()
     npc_rows = fetch_npcs()
     drop_rows = fetch_drops()
+    game_version = fetch_game_version()
 
     npc_names = sorted({strip_markup(r.get("nameraw") or r.get("Page") or "") for r in npc_rows} - {""})
     shops_by_npc = fetch_shops(npc_names)
@@ -367,6 +393,7 @@ def main():
         "fetchedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "itemCount": len(items),
         "npcCount": len(npcs),
+        "gameVersion": game_version,
         "source": "https://terraria.wiki.gg",
         "license": "Wiki content is CC BY-NC-SA. See https://terraria.wiki.gg for details.",
     }, indent=2), encoding="utf-8")
