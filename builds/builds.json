@@ -4,6 +4,8 @@
     "class": "melee",
     "stage": "prehardmode",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Pre-Hardmode Melee",
     "summary": "High defense, close-range damage. Beat Skeletron and the Wall of Flesh with heavy hitters and strong armor.",
     "weapons": [
@@ -63,6 +65,8 @@
     "class": "ranged",
     "stage": "prehardmode",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Pre-Hardmode Ranged",
     "summary": "Strong single-target and crowd control from range; ammo economy matters early.",
     "weapons": [
@@ -122,6 +126,8 @@
     "class": "mage",
     "stage": "prehardmode",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Pre-Hardmode Mage",
     "summary": "Highest burst potential pre-hardmode but mana-hungry; strongest against Wall of Flesh with Space Gun spam.",
     "weapons": [
@@ -181,6 +187,8 @@
     "class": "summoner",
     "stage": "prehardmode",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Pre-Hardmode Summoner",
     "summary": "Weakest pre-hardmode class but still viable with careful positioning; hybridize with another weapon type.",
     "weapons": [
@@ -240,6 +248,8 @@
     "class": "rogue",
     "stage": "prehardmode",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Pre-Hardmode Rogue",
     "summary": "Thrown weapons trade utility for burst damage and let you fight from odd angles pre-Hardmode.",
     "weapons": [
@@ -299,6 +309,8 @@
     "class": "melee",
     "stage": "hardmode-early",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Early Hardmode Melee",
     "summary": "Ore-tier melee gear scales fast once you unlock Cobalt/Palladium and Mythril/Orichalcum after the mechanical bosses start falling.",
     "weapons": [
@@ -358,6 +370,8 @@
     "class": "ranged",
     "stage": "hardmode-early",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Early Hardmode Ranged",
     "summary": "Repeaters and early guns give strong DPS right after the first mechanical boss falls.",
     "weapons": [
@@ -417,6 +431,8 @@
     "class": "mage",
     "stage": "hardmode-early",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Early Hardmode Mage",
     "summary": "Mage spikes hard in early Hardmode with piercing and homing spells that clear the new biomes.",
     "weapons": [
@@ -476,6 +492,8 @@
     "class": "summoner",
     "stage": "hardmode-early",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Early Hardmode Summoner",
     "summary": "Summoner comes online hard in early Hardmode with the Spider Staff and Necromantic Scroll.",
     "weapons": [
@@ -535,6 +553,8 @@
     "class": "rogue",
     "stage": "hardmode-early",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Early Hardmode Rogue",
     "summary": "Thrown weapons keep pace with ore-tier gear thanks to strong flask and javelin upgrades.",
     "weapons": [
@@ -594,6 +614,8 @@
     "class": "melee",
     "stage": "post-mech-plantera",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Mechanical Bosses → Plantera Melee",
     "summary": "Chlorophyte gear and Hallowed armor carry melee through the jungle temple and into Plantera.",
     "weapons": [
@@ -653,6 +675,8 @@
     "class": "ranged",
     "stage": "post-mech-plantera",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Mechanical Bosses → Plantera Ranged",
     "summary": "The Chlorophyte Shotbow and Hallowed armor give ranged strong sustained DPS into Plantera.",
     "weapons": [
@@ -712,6 +736,8 @@
     "class": "mage",
     "stage": "post-mech-plantera",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Mechanical Bosses → Plantera Mage",
     "summary": "Spectre/Chlorophyte-tier magic weapons plus Hallowed gear give mage huge burst before Plantera.",
     "weapons": [
@@ -771,6 +797,8 @@
     "class": "summoner",
     "stage": "post-mech-plantera",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Mechanical Bosses → Plantera Summoner",
     "summary": "Spider Staff into Optic Staff-tier hybridization carries summoner up to the Plantera fight.",
     "weapons": [
@@ -830,6 +858,8 @@
     "class": "rogue",
     "stage": "post-mech-plantera",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Mechanical Bosses → Plantera Rogue",
     "summary": "Flask-based thrown weapons scale well into the jungle temple push.",
     "weapons": [
@@ -889,6 +919,8 @@
     "class": "melee",
     "stage": "post-plantera-golem",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Plantera → Golem Melee",
     "summary": "Turtle armor and Chlorophyte-tier weapons shore up survivability heading into the Dungeon and Golem.",
     "weapons": [
@@ -948,6 +980,8 @@
     "class": "ranged",
     "stage": "post-plantera-golem",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Plantera → Golem Ranged",
     "summary": "Shroomite armor unlocks after Plantera and is a massive ranged damage spike heading into Golem.",
     "weapons": [
@@ -1007,6 +1041,8 @@
     "class": "mage",
     "stage": "post-plantera-golem",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Plantera → Golem Mage",
     "summary": "Spectre armor’s healing set bonus makes mage very safe heading into Golem while keeping strong damage output.",
     "weapons": [
@@ -1066,6 +1102,8 @@
     "class": "summoner",
     "stage": "post-plantera-golem",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Plantera → Golem Summoner",
     "summary": "Post-Plantera summons finally catch up with Tiki armor and the Optic/Pygmy Staff combo.",
     "weapons": [
@@ -1125,6 +1163,8 @@
     "class": "rogue",
     "stage": "post-plantera-golem",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Plantera → Golem Rogue",
     "summary": "Turtle armor’s tankiness plus flask/javelin thrown damage make this a durable Golem loadout.",
     "weapons": [
@@ -1184,6 +1224,8 @@
     "class": "melee",
     "stage": "post-golem",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Golem → Moon Lord Melee",
     "summary": "Beetle armor’s scaling defense/damage bonus and Solar Eruption carry melee into the Lunar Events and Moon Lord.",
     "weapons": [
@@ -1243,6 +1285,8 @@
     "class": "ranged",
     "stage": "post-golem",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Golem → Moon Lord Ranged",
     "summary": "Shroomite armor plus Celestial Pillar drops make ranged extremely strong for the Moon Lord fight.",
     "weapons": [
@@ -1302,6 +1346,8 @@
     "class": "mage",
     "stage": "post-golem",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Golem → Moon Lord Mage",
     "summary": "Solar Pillar and Lunar Event drops give mage some of the strongest pre-Moon-Lord burst damage in the game.",
     "weapons": [
@@ -1361,6 +1407,8 @@
     "class": "summoner",
     "stage": "post-golem",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Golem → Moon Lord Summoner",
     "summary": "Stardust Dragon Staff and Xeno Staff make summoner a top-tier Moon Lord class after clearing the Lunar Events.",
     "weapons": [
@@ -1420,6 +1468,8 @@
     "class": "rogue",
     "stage": "post-golem",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Golem → Moon Lord Rogue",
     "summary": "Beetle armor’s defense scaling plus strong flask damage make for a durable Moon Lord thrower loadout.",
     "weapons": [
@@ -1479,6 +1529,8 @@
     "class": "melee",
     "stage": "post-moonlord",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Moon Lord Melee",
     "summary": "Zenith represents the absolute ceiling for melee, combining nearly every strong sword in the game into one weapon.",
     "weapons": [
@@ -1538,6 +1590,8 @@
     "class": "ranged",
     "stage": "post-moonlord",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Moon Lord Ranged",
     "summary": "Vortex armor and the Phantasm/Vortex Beater give ranged the highest sustained DPS of any post-game class.",
     "weapons": [
@@ -1597,6 +1651,8 @@
     "class": "mage",
     "stage": "post-moonlord",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Moon Lord Mage",
     "summary": "Last Prism delivers the single highest DPS of any weapon in the game once you can stand still to channel it.",
     "weapons": [
@@ -1656,6 +1712,8 @@
     "class": "summoner",
     "stage": "post-moonlord",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Moon Lord Summoner",
     "summary": "Terraprisma and Stardust armor make summoner one of the strongest classes for post-Moon-Lord content.",
     "weapons": [
@@ -1715,6 +1773,8 @@
     "class": "rogue",
     "stage": "post-moonlord",
     "variant": "bis",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Moon Lord Rogue",
     "summary": "Solar Flare armor’s high defense and damage bonus pair well with the strongest flask-based thrown weapons.",
     "weapons": [
@@ -1774,6 +1834,8 @@
     "class": "melee",
     "stage": "prehardmode",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Pre-Hardmode Melee",
     "summary": "A cheap, fully craftable melee kit that clears pre-Hardmode without relying on RNG drops.",
     "weapons": [
@@ -1825,6 +1887,8 @@
     "class": "ranged",
     "stage": "prehardmode",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Pre-Hardmode Ranged",
     "summary": "A cheap ammo-efficient ranged kit built around the easily-farmed Minishark.",
     "weapons": [
@@ -1876,6 +1940,8 @@
     "class": "mage",
     "stage": "prehardmode",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Pre-Hardmode Mage",
     "summary": "A cheap, craft-first mage kit that avoids Meteorite RNG landing spots.",
     "weapons": [
@@ -1927,6 +1993,8 @@
     "class": "summoner",
     "stage": "prehardmode",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Pre-Hardmode Summoner",
     "summary": "A budget summoner kit built around the easily-crafted Slime Staff instead of Queen Bee farming.",
     "weapons": [
@@ -1978,6 +2046,8 @@
     "class": "rogue",
     "stage": "prehardmode",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Pre-Hardmode Rogue",
     "summary": "A cheap thrown-weapon kit using common enemy drops instead of rarer javelins.",
     "weapons": [
@@ -2029,6 +2099,8 @@
     "class": "melee",
     "stage": "hardmode-early",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Early Hardmode Melee",
     "summary": "A budget-friendly ore-tier melee kit using whichever ore ore your world generated, no farming required.",
     "weapons": [
@@ -2080,6 +2152,8 @@
     "class": "ranged",
     "stage": "hardmode-early",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Early Hardmode Ranged",
     "summary": "A cheap ore-tier repeater kit that skips rarer Hallowed-Bar weapons.",
     "weapons": [
@@ -2131,6 +2205,8 @@
     "class": "mage",
     "stage": "hardmode-early",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Early Hardmode Mage",
     "summary": "A budget mage kit that leans on ore-tier armor and cheap spells instead of Plantera-tier gear.",
     "weapons": [
@@ -2182,6 +2258,8 @@
     "class": "summoner",
     "stage": "hardmode-early",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Early Hardmode Summoner",
     "summary": "A budget summoner kit that keeps using the pre-Hardmode Optic Staff while gearing up.",
     "weapons": [
@@ -2233,6 +2311,8 @@
     "class": "rogue",
     "stage": "hardmode-early",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Early Hardmode Rogue",
     "summary": "A cheap thrown kit using common javelins and knives instead of rarer flasks.",
     "weapons": [
@@ -2284,6 +2364,8 @@
     "class": "melee",
     "stage": "post-mech-plantera",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Mechanical Bosses to Plantera Melee",
     "summary": "A budget melee kit relying on crafted Hallowed gear rather than Chlorophyte farming.",
     "weapons": [
@@ -2335,6 +2417,8 @@
     "class": "ranged",
     "stage": "post-mech-plantera",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Mechanical Bosses to Plantera Ranged",
     "summary": "A budget ranged kit using common Dungeon weapons instead of Chlorophyte grinding.",
     "weapons": [
@@ -2386,6 +2470,8 @@
     "class": "mage",
     "stage": "post-mech-plantera",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Mechanical Bosses to Plantera Mage",
     "summary": "A budget mage kit built entirely from crafted Hallowed gear and cheap Hallow spells.",
     "weapons": [
@@ -2437,6 +2523,8 @@
     "class": "summoner",
     "stage": "post-mech-plantera",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Mechanical Bosses to Plantera Summoner",
     "summary": "A budget summoner kit that skips the Black Recluse cave hunt.",
     "weapons": [
@@ -2488,6 +2576,8 @@
     "class": "rogue",
     "stage": "post-mech-plantera",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Mechanical Bosses to Plantera Rogue",
     "summary": "A budget thrown kit using Bone Javelins and Hallowed armor instead of flask farming.",
     "weapons": [
@@ -2539,6 +2629,8 @@
     "class": "melee",
     "stage": "post-plantera-golem",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Plantera to Golem Melee",
     "summary": "A budget melee kit using Dungeon drops instead of a long Turtle Shell farm.",
     "weapons": [
@@ -2590,6 +2682,8 @@
     "class": "ranged",
     "stage": "post-plantera-golem",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Plantera to Golem Ranged",
     "summary": "A budget ranged kit using The Undertaker instead of a full Shroomite grind.",
     "weapons": [
@@ -2641,6 +2735,8 @@
     "class": "mage",
     "stage": "post-plantera-golem",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Plantera to Golem Mage",
     "summary": "A budget mage kit that keeps Hallowed armor rather than farming Ectoplasm for Spectre gear.",
     "weapons": [
@@ -2692,6 +2788,8 @@
     "class": "summoner",
     "stage": "post-plantera-golem",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Plantera to Golem Summoner",
     "summary": "A budget summoner kit using the Optic/Spider Staff combo instead of a Jungle Temple Tiki farm.",
     "weapons": [
@@ -2743,6 +2841,8 @@
     "class": "rogue",
     "stage": "post-plantera-golem",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Plantera to Golem Rogue",
     "summary": "A budget thrown kit that keeps Hallowed armor instead of a Turtle Shell farm.",
     "weapons": [
@@ -2794,6 +2894,8 @@
     "class": "melee",
     "stage": "post-golem",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Golem to Moon Lord Melee",
     "summary": "A budget melee kit using Golem-tier weapons while skipping the Lunar Event grind for armor.",
     "weapons": [
@@ -2845,6 +2947,8 @@
     "class": "ranged",
     "stage": "post-golem",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Golem to Moon Lord Ranged",
     "summary": "A budget ranged kit keeping Shroomite gear instead of a Martian Madness S.D.M.G. farm.",
     "weapons": [
@@ -2896,6 +3000,8 @@
     "class": "mage",
     "stage": "post-golem",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Golem to Moon Lord Mage",
     "summary": "A budget mage kit keeping Spectre gear instead of farming a full Lunar Event Nebula set.",
     "weapons": [
@@ -2947,6 +3053,8 @@
     "class": "summoner",
     "stage": "post-golem",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Golem to Moon Lord Summoner",
     "summary": "A budget summoner kit keeping Tiki armor while skipping a full Lunar Event grind for Stardust gear.",
     "weapons": [
@@ -2998,6 +3106,8 @@
     "class": "rogue",
     "stage": "post-golem",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Golem to Moon Lord Rogue",
     "summary": "A budget thrown kit keeping Turtle armor instead of grinding a full Lunar Event Beetle set.",
     "weapons": [
@@ -3049,6 +3159,8 @@
     "class": "melee",
     "stage": "post-moonlord",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Moon Lord Melee",
     "summary": "A straightforward post-Moon-Lord melee kit using early Moon Lord drops without waiting for Zenith’s full recipe.",
     "weapons": [
@@ -3100,6 +3212,8 @@
     "class": "ranged",
     "stage": "post-moonlord",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Moon Lord Ranged",
     "summary": "A budget post-Moon-Lord ranged kit using Vortex Beater instead of farming multiple Phantasm drops.",
     "weapons": [
@@ -3151,6 +3265,8 @@
     "class": "mage",
     "stage": "post-moonlord",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Moon Lord Mage",
     "summary": "A budget post-Moon-Lord mage kit using Razorpine instead of waiting on a channeled Last Prism playstyle.",
     "weapons": [
@@ -3202,6 +3318,8 @@
     "class": "summoner",
     "stage": "post-moonlord",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Moon Lord Summoner",
     "summary": "A budget post-Moon-Lord summoner kit using Stardust Dragon Staff instead of an Empress of Light Terraprisma farm.",
     "weapons": [
@@ -3253,6 +3371,8 @@
     "class": "rogue",
     "stage": "post-moonlord",
     "variant": "accessible",
+    "verifiedAt": "2026-09-12",
+    "verifiedForVersion": "1.4.5.8",
     "title": "Post-Moon Lord Rogue",
     "summary": "A budget post-Moon-Lord thrown kit keeping Beetle armor instead of farming a full Solar Flare set.",
     "weapons": [

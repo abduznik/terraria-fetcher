@@ -498,6 +498,35 @@ main {
 .variant-chip.variant-accessible { background: var(--rarity-green, #4caf50); color: #0d2a0f; }
 .variant-chip.variant-bis { background: var(--rarity-orange, #ff7f27); color: #3a1a0d; }
 
+.verified-chip {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--parchment);
+  border: 1px solid var(--wood-border);
+  background: rgba(0, 0, 0, 0.18);
+  padding: 2px 9px;
+  border-radius: 12px;
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+.build-footer {
+  margin-top: 12px;
+  text-align: right;
+}
+
+.report-outdated {
+  font-size: 0.78rem;
+  color: var(--text-dim, #b8a888);
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+.report-outdated:hover,
+.report-outdated:focus {
+  color: #e2b04a;
+}
+
 .gear-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

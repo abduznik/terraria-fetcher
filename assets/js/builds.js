@@ -100,6 +100,28 @@
     }).join('') + '</ul>';
   }
 
+  const REPO_ISSUE_URL = 'https://github.com/abduznik/terraria-fetcher/issues/new';
+
+  function reportOutdatedUrl(b) {
+    const title = `Outdated build guide: ${b.title}${b.variant ? ' (' + (variantLabels[b.variant] || b.variant) + ')' : ''}`;
+    const body = [
+      `**Build id:** \`${b.id}\``,
+      `**Verified for:** ${b.verifiedForVersion || 'unknown'}${b.verifiedAt ? ' on ' + b.verifiedAt : ''}`,
+      '',
+      '**What is out of date?**',
+      '',
+      '<!-- e.g. an item was reworked, a better option exists now, or an acquisition source changed -->'
+    ].join('\n');
+    return `${REPO_ISSUE_URL}?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  }
+
+  function renderVerified(b) {
+    if (!b.verifiedForVersion && !b.verifiedAt) return '';
+    const label = b.verifiedForVersion ? `Verified for ${b.verifiedForVersion}` : 'Verified';
+    const title = b.verifiedAt ? `Checked against Terraria ${b.verifiedForVersion || ''} on ${b.verifiedAt}`.replace(/\s+/g, ' ') : '';
+    return `<span class="verified-chip" title="${escapeHtml(title)}">${escapeHtml(label)}</span>`;
+  }
+
   function renderBuilds() {
     const filtered = builds.filter(b =>
       (activeClass === 'all' || b.class === activeClass) &&
@@ -119,6 +141,7 @@
           <span class="class-chip ${b.class}">${classLabels[b.class] || b.class}</span>
           <span class="stage-chip">${stageLabels[b.stage] || b.stage}</span>
           ${b.variant ? `<span class="variant-chip variant-${b.variant}">${variantLabels[b.variant] || b.variant}</span>` : ''}
+          ${renderVerified(b)}
         </h2>
         <p>${escapeHtml(b.summary)}</p>
         <div class="gear-grid">
@@ -136,6 +159,9 @@
           </div>
         </div>
         ${b.notes ? `<div class="notes">${escapeHtml(b.notes)}</div>` : ''}
+        <div class="build-footer">
+          <a class="report-outdated" href="${reportOutdatedUrl(b)}" target="_blank" rel="noopener noreferrer">Report this build as outdated</a>
+        </div>
       </section>
     `).join('');
   }
