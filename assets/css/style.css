@@ -1020,6 +1020,75 @@ footer {
 
 @media (max-width: 600px) {
   .hero h1 { font-size: 1.7rem; }
+
+  /* Ticking items is the checklist's whole purpose, so the box itself needs
+     to be tappable rather than relying on the surrounding row. */
+  .checklist-item input[type="checkbox"] {
+    width: 26px;
+    height: 26px;
+    margin-top: 0;
+  }
+
+  .checklist-item {
+    align-items: center;
+    padding: 10px 8px;
+  }
+
+  .nu-chip {
+    padding: 9px 13px;
+  }
+
+  .nu-chip input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Stacking the slot label frees the full row width for the item name,
+     which otherwise wraps to three lines behind an 84px gutter. */
+  .nu-pick {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .nu-slot {
+    width: auto;
+    padding-top: 0;
+  }
+
+  .nu-field select {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .nu-field {
+    flex: 1 1 100%;
+  }
+
+  .report-outdated {
+    display: inline-block;
+    padding: 8px 0;
+  }
+
+  .gs-box {
+    flex: 1 1 100%;
+    margin-left: 0;
+  }
+
+  .gs-results {
+    min-width: 0;
+  }
+
+  .gs-result {
+    flex-wrap: wrap;
+    padding: 11px 10px;
+  }
+
+  .gs-sub {
+    max-width: 100%;
+    margin-left: 0;
+    flex-basis: 100%;
+    text-align: left;
+  }
 }
 
 /* Search suggestion dropdowns (Crafting Tree, Compare) */
