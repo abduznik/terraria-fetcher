@@ -10,7 +10,8 @@ a periodic schedule), not on every page load. Output:
   data/meta.json    - fetch timestamp, counts, and latest known game version
 
 Cargo schema reference (terraria.wiki.gg):
-  Items table:   itemid, name, type, tooltip, rare, sell, buy, damage, damagetype, defense
+  Items table:   itemid, name, type, tooltip, rare, sell, buy, damage, damagetype,
+                 defense, usetime, critical, knockback
   Recipes table: result, amount, station, ings (packed "name¦qty^name¦qty...")
   NPCs table:    npcid, nameraw, life, defense
   Drops table:   item, quantity, rate (per source page = _pageName, i.e. the NPC/enemy)
@@ -100,7 +101,8 @@ def fetch_items():
     fields = (
         "Items._pageName=Page,Items.itemid,Items.name,Items.type,"
         "Items.tooltip,Items.rare,Items.sell,Items.buy,Items.damage,"
-        "Items.damagetype,Items.defense"
+        "Items.damagetype,Items.defense,Items.usetime,Items.critical,"
+        "Items.knockback"
     )
     try:
         return cargo_query_all("Items", fields)
@@ -318,6 +320,9 @@ def normalize_items(item_rows, recipes_by_result, drops_by_item, sold_by_item):
             "damage": strip_markup(row.get("damage") or ""),
             "damageType": row.get("damagetype") or "",
             "defense": strip_markup(row.get("defense") or ""),
+            "useTime": strip_markup(row.get("usetime") or ""),
+            "critChance": strip_markup(row.get("critical") or ""),
+            "knockback": strip_markup(row.get("knockback") or ""),
             "recipes": recipes,
             "sources": sources,
             "shops": shops,

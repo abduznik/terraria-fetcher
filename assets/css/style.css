@@ -1408,3 +1408,60 @@ footer {
   color: var(--summoner);
   font-weight: 700;
 }
+
+.calc-panel {
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--wood-border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+
+.calc-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
+.calc-row + .calc-row {
+  margin-top: 10px;
+}
+
+.calc-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-dim);
+}
+
+.calc-field select {
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--parchment);
+  background: rgba(0, 0, 0, 0.28);
+  border: 2px solid var(--wood-border);
+  border-radius: 6px;
+  padding: 6px 10px;
+  min-width: 160px;
+}
+
+.calc-buffs {
+  gap: 16px;
+}
+
+.calc-buff {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.85rem;
+  color: var(--parchment);
+  cursor: pointer;
+}
