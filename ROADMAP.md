@@ -40,20 +40,19 @@ process instead of a manual one-off:
 
 - [#7](https://github.com/abduznik/terraria-fetcher/issues/7) Document and streamline the re-bake process for new Terraria content
 
-## v2.0 - Beat the Wiki
+## v2.0 - Beat the Wiki (complete)
 
 Scouted from recurring community complaints about the official/Fandom Terraria
 wikis (stale build advice surviving patches, decision paralysis over which
-weapon/armor to pick next, slow/cluttered search, poor mobile experience). This
-phase targets those specific gaps rather than general polish, ahead of the next
-major version bump:
+weapon/armor to pick next, slow/cluttered search, poor mobile experience, and
+a long-unfulfilled community wish for a stat/DPS calculator). All six shipped:
 
 - [x] [#9](https://github.com/abduznik/terraria-fetcher/issues/9) Show Terraria game version + data freshness on every page
-- [ ] [#10](https://github.com/abduznik/terraria-fetcher/issues/10) "What's my next upgrade?" recommender based on current gear + progress
+- [x] [#10](https://github.com/abduznik/terraria-fetcher/issues/10) "What's my next upgrade?" recommender based on current gear + progress
 - [x] [#11](https://github.com/abduznik/terraria-fetcher/issues/11) Global instant search across builds + checklist + items
 - [x] [#12](https://github.com/abduznik/terraria-fetcher/issues/12) Build-guide accuracy: verified-current flag + community correction path
-- [ ] [#13](https://github.com/abduznik/terraria-fetcher/issues/13) Mobile pass: audit and fix layout/touch-target issues site-wide
-- [ ] [#14](https://github.com/abduznik/terraria-fetcher/issues/14) Weapon DPS/stat calculator with modifiers, buffs, and accessories
+- [x] [#13](https://github.com/abduznik/terraria-fetcher/issues/13) Mobile pass: audit and fix layout/touch-target issues site-wide
+- [x] [#14](https://github.com/abduznik/terraria-fetcher/issues/14) Weapon DPS/stat calculator with modifiers, buffs, and accessories
 
 ## Later / unscheduled ideas
 

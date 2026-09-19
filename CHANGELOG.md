@@ -4,6 +4,13 @@ All notable changes to this project are documented here. Dates are UTC.
 
 ## [Unreleased]
 
+- **v2.0 "Beat the Wiki"**: six features scouted from recurring community complaints about the official/Fandom Terraria wikis, then shipped incrementally
+  - Game version + data freshness badge on every page, with a "may be outdated" warning past 6 months old (#9)
+  - Site-wide search across items, build guides, and the progression checklist, not just the item fetcher (#11)
+  - "What's my next upgrade?" recommender on the builds page: pick class/stage, tick off owned gear, get a ranked shortlist instead of a full stage list (#10)
+  - Per-build-guide "Verified for &lt;version&gt;" tag plus a pre-filled "Report this build as outdated" link (#12)
+  - Mobile touch-target audit and fixes: larger checklist checkboxes, full-width controls on narrow viewports (#13)
+  - Weapon DPS calculator on the Compare page: real per-class modifier tables (Legendary/Godly/etc.) and common buff toggles, backed by newly-fetched `useTime`/`critChance`/`knockback` data (#14)
 - SEO pass: unique meta descriptions, Open Graph and Twitter Card tags, canonical URLs, JSON-LD structured data, `sitemap.xml`, `robots.txt`, and repo topics/description
 - Replaced every decorative emoji with real Terraria item/NPC icons pulled from the wiki
 - Fixed oversized item sprites (e.g. Zenith) overflowing their icon slots in search-suggestion dropdowns
