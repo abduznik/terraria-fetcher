@@ -598,6 +598,166 @@ main {
 .variant-chip.variant-accessible { background: var(--rarity-green, #4caf50); color: #0d2a0f; }
 .variant-chip.variant-bis { background: var(--rarity-orange, #ff7f27); color: #3a1a0d; }
 
+.next-upgrade {
+  background: linear-gradient(180deg, var(--wood-panel-light), var(--wood-panel));
+  border: 3px solid var(--wood-border);
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin-bottom: 22px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+}
+
+.next-upgrade h2 {
+  margin: 0 0 6px;
+  color: var(--rarity-yellow);
+  font-size: 1.25rem;
+}
+
+.nu-intro {
+  margin: 0 0 14px;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.nu-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.nu-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-dim);
+}
+
+.nu-field select {
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--parchment);
+  background: rgba(0, 0, 0, 0.28);
+  border: 2px solid var(--wood-border);
+  border-radius: 6px;
+  padding: 6px 10px;
+  min-width: 180px;
+}
+
+.nu-owned {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 2px dashed var(--wood-border);
+}
+
+.nu-owned-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+
+.nu-owned-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.nu-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: var(--parchment);
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid var(--wood-border);
+  border-radius: 14px;
+  padding: 4px 11px;
+  cursor: pointer;
+}
+
+.nu-chip-on {
+  background: var(--rarity-green, #4caf50);
+  color: #0d2a0f;
+  text-shadow: none;
+}
+
+.nu-result {
+  margin-top: 16px;
+}
+
+.nu-picks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nu-pick {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.nu-slot {
+  flex: none;
+  width: 84px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--rarity-yellow);
+  padding-top: 8px;
+}
+
+.nu-pick-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--parchment);
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--wood-border);
+  border-radius: 6px;
+  padding: 7px 11px;
+  flex: 1;
+}
+
+.nu-pick-link:hover,
+.nu-pick-link:focus {
+  background: rgba(0, 0, 0, 0.32);
+  border-color: var(--rarity-yellow);
+}
+
+.nu-more,
+.nu-done,
+.nu-empty {
+  margin-top: 14px;
+  font-size: 0.88rem;
+  color: var(--text-dim);
+}
+
+.nu-advance {
+  font: inherit;
+  font-weight: 700;
+  color: var(--rarity-yellow);
+  background: none;
+  border: none;
+  border-bottom: 1px dotted currentColor;
+  padding: 0;
+  cursor: pointer;
+}
+
 .verified-chip {
   font-size: 0.72rem;
   font-weight: 600;

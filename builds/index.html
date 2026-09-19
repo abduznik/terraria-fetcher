@@ -49,6 +49,27 @@
   <h1>Class Builds</h1>
   <p style="color:var(--text-dim)">Curated gear progression by class and boss-progression stage. Filter below or jump straight to a section.</p>
 
+  <section class="next-upgrade" id="nextUpgrade">
+    <h2>What's my next upgrade?</h2>
+    <p class="nu-intro">Pick your class and where you are, then tick off what you already have. You'll get a short list of what to chase next instead of a full stage rundown.</p>
+    <div class="nu-controls">
+      <label class="nu-field">
+        <span>Class</span>
+        <select id="nuClass"></select>
+      </label>
+      <label class="nu-field">
+        <span>Progression</span>
+        <select id="nuStage"></select>
+      </label>
+      <label class="nu-field">
+        <span>Goal</span>
+        <select id="nuVariant"></select>
+      </label>
+    </div>
+    <div id="nuOwned" class="nu-owned" hidden></div>
+    <div id="nuResult" class="nu-result"></div>
+  </section>
+
   <div class="class-filter" id="classFilter"></div>
   <div class="stage-filter" id="stageFilter"></div>
   <div class="variant-filter" id="variantFilter"></div>
@@ -61,6 +82,7 @@
   Data sourced from public Terraria game data. Not affiliated with Re-Logic.
 </footer>
 <script src="../assets/js/builds.js"></script>
+<script src="../assets/js/next-upgrade.js"></script>
 <script src="../assets/js/global-search.js"></script>
 <script src="../assets/js/meta-badge.js"></script>
 </body>
