@@ -1856,7 +1856,7 @@
 {
 "id": "315",
 "name": "Headless Horseman",
-"life": "5000 (Desktop, Console and Mobile versions) / 10000 (Old-gen console and 3DS versions) 6500 8287",
+"life": "5000 / 6500 / 8288",
 "defense": "40"
 },
 {
@@ -2218,6 +2218,12 @@
 "name": "Lava Bat",
 "life": "160 / 320 / 480",
 "defense": "16"
+},
+{
+"id": "59",
+"name": "Lava Slime",
+"life": "25 50 › 274 › 330 75 › 411 › 495",
+"defense": "2 2 › 10 › 12"
 },
 {
 "id": "59",
@@ -2948,7 +2954,7 @@
 {
 "id": "263",
 "name": "Plantera's Hook",
-"life": "4000 / 8000 / 12000",
+"life": "4000 / 8000 / 12000 (actually invincible)",
 "defense": "24"
 },
 {
